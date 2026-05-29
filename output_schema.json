@@ -1,0 +1,344 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "HospitalResearchOutput",
+  "description": "에이전트 1회 실행 산출 JSON. 매칭(표준명)은 에이전트가 data/products.json·equipment.json·aliases.json 을 직접 보고 채운다. 후처리 정규화·fuzzy 매칭 없음.",
+  "type": "object",
+  "required": ["hospital", "doctors", "channels", "products", "equipment", "treatments", "crawl_meta", "run_meta"],
+  "properties": {
+
+    "hospital": {
+      "type": "object",
+      "required": ["identifier", "name", "address"],
+      "properties": {
+
+        "identifier": {
+          "type": "object",
+          "required": ["hospital_id_external"],
+          "properties": {
+            "hospital_id_external": {"type": "string", "description": "상위 시스템의 권위 hospitalId. UPSERT 매칭 키"},
+            "naver_place_url": {"type": ["string", "null"]},
+            "naver_place_id": {"type": ["string", "null"]}
+          }
+        },
+
+        "identity_verification": {
+          "type": "object",
+          "properties": {
+            "status": {"type": ["string", "null"], "enum": ["match", "mismatch", "partial", null]},
+            "notes": {"type": ["string", "null"]}
+          }
+        },
+
+        "name": {
+          "type": "object",
+          "required": ["official"],
+          "properties": {
+            "official": {"type": "string"},
+            "input": {"type": ["string", "null"]}
+          }
+        },
+
+        "address": {
+          "type": "object",
+          "required": ["sido", "sigungu"],
+          "properties": {
+            "sido": {"type": "string"},
+            "sigungu": {"type": "string"},
+            "eupmyeondong": {"type": ["string", "null"]},
+            "road": {"type": ["string", "null"]},
+            "detail": {"type": ["string", "null"]},
+            "latitude": {"type": ["number", "null"]},
+            "longitude": {"type": ["number", "null"]}
+          }
+        },
+
+        "contact": {
+          "type": ["object", "null"],
+          "properties": {
+            "phone": {"type": ["string", "null"]},
+            "email": {"type": ["string", "null"]},
+            "fax": {"type": ["string", "null"]}
+          }
+        },
+
+        "business": {
+          "type": ["object", "null"],
+          "properties": {
+            "specialty": {"type": ["string", "null"]},
+            "business_no": {"type": ["string", "null"]},
+            "opened_at": {"type": ["string", "null"]}
+          }
+        },
+
+        "operations": {
+          "type": ["object", "null"],
+          "properties": {
+            "business_hours": {
+              "description": "string 또는 요일별 object 둘 다 허용. 예: '월 10-20' 또는 {monday:'10-20',...}",
+              "anyOf": [{"type": "string"}, {"type": "object"}, {"type": "null"}]
+            },
+            "parking": {
+              "anyOf": [{"type": "string"}, {"type": "object"}, {"type": "null"}]
+            },
+            "accessibility": {
+              "anyOf": [{"type": "string"}, {"type": "object"}, {"type": "null"}]
+            },
+            "facilities": {
+              "description": "편의시설. array of string 권장. string 도 허용.",
+              "anyOf": [
+                {"type": "array", "items": {"type": "string"}},
+                {"type": "string"},
+                {"type": "null"}
+              ]
+            }
+          }
+        },
+
+        "branches": {
+          "type": ["object", "null"],
+          "description": "단독 vs 그룹 지점 여부. 본 지점은 sibling_branches 에서 제외.",
+          "properties": {
+            "type": {"type": ["string", "null"], "enum": ["single", "branch", "headquarters", null]},
+            "network_group": {"type": ["string", "null"]},
+            "this_branch_name": {"type": ["string", "null"]},
+            "sibling_branches": {
+              "type": ["array", "null"],
+              "items": {
+                "type": "object",
+                "required": ["name"],
+                "properties": {
+                  "name": {"type": "string"},
+                  "url": {"type": ["string", "null"]},
+                  "naver_place_id": {"type": ["string", "null"]},
+                  "address": {"type": ["string", "null"]}
+                }
+              }
+            }
+          }
+        },
+
+        "languages": {
+          "type": ["object", "null"],
+          "properties": {
+            "supported": {
+              "type": "array",
+              "description": "ISO 639-1 코드 배열. 한국어만이면 ['ko']. 미확인 시 빈 배열.",
+              "items": {"type": "string"}
+            },
+            "detection_evidence": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "method": {"type": "string", "description": "html_lang / hreflang / path_pattern / body_text / language_selector 등"},
+                  "value": {"type": ["string", "null"]}
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "doctors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name"],
+        "properties": {
+          "name": {"type": "string"},
+          "role": {"type": ["string", "null"]},
+          "representative": {"type": ["boolean", "null"], "description": "대표원장 여부"},
+          "specialty": {"type": ["string", "null"]},
+          "is_specialist": {"anyOf": [{"type": "integer", "enum": [0, 1]}, {"type": "boolean"}, {"type": "null"}]},
+          "introduction": {"description": "한 줄 소개", "anyOf": [{"type": "string"}, {"type": "array", "items": {"type": "string"}}, {"type": "null"}]},
+          "image_url": {"type": ["string", "null"]},
+          "years_at_clinic": {"type": ["integer", "null"]},
+          "license_school": {"anyOf": [{"type": "string"}, {"type": "array", "items": {"type": "string"}}, {"type": "null"}]},
+          "career": {"anyOf": [{"type": "string"}, {"type": "array", "items": {"type": "string"}}, {"type": "null"}]},
+          "society": {"anyOf": [{"type": "string"}, {"type": "array", "items": {"type": "string"}}, {"type": "null"}]},
+          "awards": {"anyOf": [{"type": "string"}, {"type": "array", "items": {"type": "string"}}, {"type": "null"}]},
+          "consultation_areas": {
+            "type": ["array", "null"],
+            "items": {"type": "string"}
+          },
+          "verification_status": {"type": "string", "enum": ["verified", "unverified", "inferred"]}
+        }
+      }
+    },
+
+    "channels": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["channel_type"],
+        "properties": {
+          "channel_type": {
+            "type": "string",
+            "enum": [
+              "naver_place", "homepage",
+              "instagram", "blog_naver", "kakao_channel", "youtube",
+              "gangnamunni", "babitalk", "yeoshin", "sungyesa",
+              "other"
+            ],
+            "description": "엄격한 enum. 변형 표기 사용 금지 (naver_blog→blog_naver, kakao→kakao_channel 등). SNS 4종(인스타·네이버블로그·카카오채널·유튜브), 광고채널 4종(강남언니·바비톡·여신티켓·성예사) 한정. 페이스북·X·스레드·틱톡은 미용 영업 신호가 약해 본 스킬 추적 범위 밖."
+          },
+          "category": {
+            "type": "string",
+            "enum": ["own", "sns", "advertising"],
+            "description": "own: 네이버플레이스·홈페이지 (2종). sns: 인스타·네이버블로그·카카오채널·유튜브 (4종). advertising: 강남언니·바비톡·여신티켓·성예사 (4종)."
+          },
+          "url": {"type": ["string", "null"]},
+          "verification_status": {"type": "string", "enum": ["verified", "unverified", "inferred"]},
+          "metadata": {
+            "type": ["object", "null"],
+            "properties": {
+              "rating": {"type": ["number", "null"]},
+              "review_visitor_count": {"type": ["integer", "null"]},
+              "review_blog_count": {"type": ["integer", "null"]},
+              "follower_count": {"type": ["integer", "null"]},
+              "post_count": {"type": ["integer", "null"]},
+              "last_post_at": {"type": ["string", "null"]},
+              "event_count": {"type": ["integer", "null"], "description": "광고채널의 활성 이벤트 시술 카드 수, 자체 채널의 이벤트 페이지 항목 수"},
+              "ad_active": {"description": "광고채널 유료 광고 활성 여부", "anyOf": [{"type": "integer", "enum": [0, 1]}, {"type": "boolean"}, {"type": "null"}]},
+              "id_in_platform": {"type": ["string", "null"], "description": "플랫폼 내 ID (강남언니 hospital_id, 인스타 handle 등)"},
+              "registered_at": {"type": ["string", "null"]},
+              "is_active": {"anyOf": [{"type": "integer", "enum": [0, 1]}, {"type": "boolean"}, {"type": "null"}]}
+            }
+          },
+          "raw_notes": {"type": ["string", "null"]}
+        }
+      }
+    },
+
+    "products": {
+      "type": "array",
+      "description": "에이전트가 data/products.json 의 product_kr·aliases.json 의 canonical_name 을 보고 matched_name_kr 을 채운다.",
+      "items": {
+        "type": "object",
+        "required": ["raw_name"],
+        "properties": {
+          "raw_name": {"type": "string", "description": "병원 표기 원문 그대로"},
+          "matched_name_kr": {"type": ["string", "null"], "description": "data/ 의 product_kr 정확 복사. 모르면 null. 추측 금지."},
+          "matched_name_en": {"type": ["string", "null"]},
+          "category": {"type": ["string", "null"]},
+          "mention_count": {"type": ["integer", "null"], "description": "본문에서 언급된 횟수 (영업 신호)"},
+          "sources": {
+            "type": "array",
+            "description": "한 SKU 가 여러 채널에서 언급되면 모두 기록",
+            "items": {
+              "type": "object",
+              "required": ["channel"],
+              "properties": {
+                "channel": {"type": "string", "description": "channels[].channel_type 값 권장"},
+                "url": {"type": ["string", "null"]},
+                "evidence": {"type": ["string", "null"], "description": "인용된 본문 일부"}
+              }
+            }
+          },
+          "verification_status": {"type": "string", "enum": ["verified", "unverified", "inferred"]}
+        }
+      }
+    },
+
+    "equipment": {
+      "type": "array",
+      "description": "에이전트가 data/equipment.json 의 name_kr·aliases.json 의 canonical_name 을 보고 matched_name_kr 을 채운다.",
+      "items": {
+        "type": "object",
+        "required": ["raw_name"],
+        "properties": {
+          "raw_name": {"type": "string"},
+          "matched_name_kr": {"type": ["string", "null"]},
+          "matched_name_en": {"type": ["string", "null"]},
+          "category": {"type": ["string", "null"]},
+          "mention_count": {"type": ["integer", "null"]},
+          "sources": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["channel"],
+              "properties": {
+                "channel": {"type": "string"},
+                "url": {"type": ["string", "null"]},
+                "evidence": {"type": ["string", "null"]}
+              }
+            }
+          },
+          "verification_status": {"type": "string", "enum": ["verified", "unverified", "inferred"]}
+        }
+      }
+    },
+
+    "treatments": {
+      "type": "array",
+      "description": "시술 정보 (시술명·가격·단위·연결된 장비/제품). 광고채널(강남언니/바비톡) 카드 + 홈페이지 비급여 수가표 + 이벤트 페이지에서 발굴.",
+      "items": {
+        "type": "object",
+        "required": ["treatment_name"],
+        "properties": {
+          "treatment_name": {"type": "string", "description": "시술명 원문"},
+          "category": {"type": ["string", "null"], "description": "리프팅·스킨부스터·톡신·필러·색소 등"},
+          "linked_equipment": {"type": ["string", "null"], "description": "이 시술이 사용하는 장비의 matched_name_kr (equipment 와 일치)"},
+          "linked_product": {"type": ["string", "null"], "description": "이 시술이 사용하는 제품의 matched_name_kr (products 와 일치)"},
+          "price": {
+            "type": ["object", "null"],
+            "properties": {
+              "text": {"type": ["string", "null"], "description": "원문 문자열. 예: '180만원', '5~30만원', '상담 후 결정'"},
+              "low": {"type": ["integer", "null"], "description": "KRW 정수"},
+              "high": {"type": ["integer", "null"]},
+              "unit": {"type": ["string", "null"], "description": "회/cc/ml/샷/부위/패키지"},
+              "currency": {"type": ["string", "null"], "description": "기본 KRW"}
+            }
+          },
+          "package": {
+            "type": ["object", "null"],
+            "properties": {
+              "sessions": {"type": ["integer", "null"]},
+              "duration_months": {"type": ["integer", "null"]},
+              "event_period": {"type": ["string", "null"], "description": "이벤트 기간. 예: '2026-05-01 ~ 2026-05-31'"}
+            }
+          },
+          "source": {
+            "type": ["object", "null"],
+            "properties": {
+              "channel": {"type": ["string", "null"]},
+              "url": {"type": ["string", "null"]}
+            }
+          },
+          "verification_status": {"type": "string", "enum": ["verified", "unverified", "inferred"]}
+        }
+      }
+    },
+
+    "crawl_meta": {
+      "type": "object",
+      "required": ["status", "sources_used"],
+      "properties": {
+        "status": {"type": "string", "enum": ["success", "partial", "failed"]},
+        "error_message": {"type": ["string", "null"]},
+        "sources_used": {"type": "array", "items": {"type": "string"}},
+        "crawl_date": {"type": ["string", "null"]},
+        "agent_version": {"type": ["string", "null"]},
+        "notes": {"type": ["array", "null"], "items": {"type": "string"}},
+        "tool_calls_approx": {"type": ["integer", "null"]}
+      }
+    },
+
+    "run_meta": {
+      "type": "object",
+      "description": "모델 호출 메타 (비용·시간·토큰). runner 가 SDK 응답에서 주입.",
+      "properties": {
+        "model": {"type": ["string", "null"]},
+        "turns": {"type": ["integer", "null"]},
+        "total_cost_usd": {"type": ["number", "null"]},
+        "input_tokens": {"type": ["integer", "null"]},
+        "output_tokens": {"type": ["integer", "null"]},
+        "cache_read_tokens": {"type": ["integer", "null"]},
+        "cache_write_tokens": {"type": ["integer", "null"]},
+        "elapsed_seconds": {"type": ["integer", "null"]},
+        "stream_error": {"type": ["string", "null"]}
+      }
+    }
+  }
+}
