@@ -1,0 +1,750 @@
+{
+  "hospital_id": "av917r",
+  "hospital_name": "플랜미의원",
+  "crawled_at": "2026-06-01T17:20:00+09:00",
+  "address": {
+    "sido": "서울",
+    "sigungu": "강남구",
+    "eupmyeondong": "역삼동",
+    "road": "선릉로 513",
+    "detail": "에이팩스타워(APEXTOWER) 7층",
+    "latitude": 37.5052789,
+    "longitude": 127.0483291
+  },
+  "homepage_url": "http://planmeclinic.com/",
+  "url_source": "WebSearch로 후보(planmeclinic.com) 확보 후 Playwright 접속. 푸터 사업자등록번호(220-09-85004)·대표(이승환)·주소(선릉로 513 역삼동 에이팩스타워 7층)가 입력 CSV와 일치함을 확인",
+  "url_confidence": "high",
+  "identity_status": "match",
+  "blog_url": "http://blog.naver.com/planmeclinic",
+  "sns_url": "https://www.instagram.com/planmeclinic/",
+  "alternative_urls": ["http://planmeclinic.com/new2014/index.html"],
+  "branches": {
+    "type": "single",
+    "network_group": null,
+    "this_branch_name": "플랜미의원",
+    "sibling_branches": []
+  },
+  "operation_info": {
+    "hospital_name": "플랜미의원",
+    "representative_name": "이승환",
+    "business_number": "220-09-85004",
+    "phone": "02-553-5535",
+    "phone_secondary": "010-2703-5535",
+    "fax": "02-553-5540",
+    "email": "planmeclinic@gmail.com",
+    "kakao_channel": "https://pf.kakao.com/_zuEBxd",
+    "operating_hours": {
+      "monday": { "open": "10:30", "close": "19:00", "break_start": null, "break_end": null },
+      "tuesday": { "open": "10:30", "close": "19:00", "break_start": null, "break_end": null },
+      "wednesday": { "open": "15:00", "close": "19:00", "break_start": null, "break_end": null },
+      "thursday": { "open": "10:30", "close": "20:30", "break_start": null, "break_end": null },
+      "friday": { "open": "10:30", "close": "19:00", "break_start": null, "break_end": null },
+      "saturday": { "open": "10:30", "close": "15:00", "break_start": null, "break_end": null },
+      "sunday": null,
+      "holiday": null
+    },
+    "parking_info": null,
+    "transport_info": "선릉역 7번 출구 도보 1분",
+    "facilities": [],
+    "operating_hours_note": "월·화·금 10:30~19:00 / 수 15:00~19:00 / 목 10:30~20:30(야간진료) / 토 10:30~15:00 / 일·공휴일 휴진. 점심시간 사이트 미표기. 카톡문의 planmec, 무료거부 080-851-2009."
+  },
+  "doctors": [
+    {
+      "name": "이승환",
+      "is_representative": true,
+      "role": "대표원장",
+      "specialty": ["피부과", "비만", "가정의학"],
+      "education": [
+        "고려대학교 의학과 졸업",
+        "고려대학교 의학석사",
+        "고려대학교 의학박사",
+        "고려대부속 안암병원 전문의"
+      ],
+      "career": [
+        "(전) 고려대학교 의과대학 교수",
+        "(전) 분당 해피닥터클리닉 원장",
+        "(현) 고려대학교 의과대학 외래교수",
+        "1999 캐나다 토론토 St. Joseph's Hospital 성형외과 연수",
+        "2008 제5전투공수비행단 비행군의관 및 의무전대장",
+        "2009 일본 동경대학교부속병원 연수",
+        "2010 미국 Harvard Medical School, Brigham and Women's Hospital 연수"
+      ],
+      "associations": [
+        "대한레이저피부모발학회 회원",
+        "대한비만학회 평생회원",
+        "대한비만체형학회 정회원",
+        "대한미용웰빙학회 정회원",
+        "대한가정의학회 정회원",
+        "비만연구의사회 정회원",
+        "대한노인병학회 정회원",
+        "한국미용성형학회 정회원"
+      ],
+      "awards": ["1994 고려대학교 크림슨 장학금(전학기 전액)", "2004 전공의 우수논문상"],
+      "profile_image_url": null,
+      "verification_status": "verified"
+    }
+  ],
+  "products": {
+    "matched_products": [
+      {
+        "product_kr": "보톡스",
+        "brand_kr": "보톡스",
+        "manufacturer_kr": "엘러간",
+        "category": "톡신",
+        "plandocs_handled": 0,
+        "plandocs_featured": 0,
+        "mention_count": 2,
+        "sources": [
+          { "channel": "homepage", "url": "http://planmeclinic.com/new2014/mn01/mn01_05_04.html", "evidence": "장비&의약품(보톡스&필러&실) '엘러간 보톡스 - 원산지 미국, C. botulinum toxin'" }
+        ],
+        "context": "장비&의약품 페이지에 '엘러간 보톡스'로 원산지·성분 명시. 카탈로그 '보톡스(엘러간)' 직접 매칭",
+        "verification_status": "verified"
+      },
+      {
+        "product_kr": "제오민",
+        "brand_kr": "제오민",
+        "manufacturer_kr": "멀츠",
+        "category": "톡신",
+        "plandocs_handled": 0,
+        "plandocs_featured": 0,
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "http://planmeclinic.com/new2014/mn01/mn01_05_04.html", "evidence": "'제오민 - 원산지 독일, C. botulinum toxin'" }
+        ],
+        "context": "직접 매칭(독일 멀츠)",
+        "verification_status": "verified"
+      },
+      {
+        "product_kr": "보툴렉스",
+        "brand_kr": "보툴렉스",
+        "manufacturer_kr": "휴젤",
+        "category": "톡신",
+        "plandocs_handled": 1,
+        "plandocs_featured": 1,
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "http://planmeclinic.com/new2014/mn01/mn01_05_04.html", "evidence": "'보툴렉스 - 원산지 한국, C. botulinum toxin'" }
+        ],
+        "context": "직접 매칭(한국 휴젤)",
+        "verification_status": "verified"
+      },
+      {
+        "product_kr": "코어톡스",
+        "brand_kr": "코어톡스",
+        "manufacturer_kr": "메디톡스",
+        "category": "톡신",
+        "plandocs_handled": 1,
+        "plandocs_featured": 1,
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "http://planmeclinic.com/new2014/jmboard/notice.php?no=10576", "evidence": "6월 이벤트 EVENT3 '스킨보톡스 v라인(코어)'" }
+        ],
+        "context": "이벤트의 '스킨보톡스 v라인(코어)'의 '(코어)'를 코어톡스로 추정 매칭. 명시적 제품명이 아니라 보수적으로 inferred",
+        "verification_status": "inferred"
+      },
+      {
+        "product_kr": "쥬비덤 볼루마",
+        "brand_kr": "쥬비덤",
+        "manufacturer_kr": "엘러간",
+        "category": "필러",
+        "plandocs_handled": 1,
+        "plandocs_featured": 0,
+        "mention_count": 2,
+        "sources": [
+          { "channel": "homepage", "url": "http://planmeclinic.com/new2014/mn01/mn01_05_04.html", "evidence": "'쥬비덤 - 원산지 프랑스, 천연 히알루론산(비동물성)'" },
+          { "channel": "homepage", "url": "http://planmeclinic.com/new2014/mn03/mn03_03.html", "evidence": "쁘띠성형 '필러' 메뉴" }
+        ],
+        "context": "사이트 '쥬비덤'(라인 미특정) → 카탈로그 라인 중 대표격 '쥬비덤 볼루마'로 매칭",
+        "verification_status": "verified"
+      },
+      {
+        "product_kr": "레스틸렌",
+        "brand_kr": "레스틸렌",
+        "manufacturer_kr": "갈더마",
+        "category": "필러",
+        "plandocs_handled": 0,
+        "plandocs_featured": 0,
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "http://planmeclinic.com/new2014/mn01/mn01_05_04.html", "evidence": "'레스틸렌 - 원산지 스웨덴, 천연 히알루론산(비동물성)'" }
+        ],
+        "context": "기본형 매칭(스웨덴 갈더마)",
+        "verification_status": "verified"
+      },
+      {
+        "product_kr": "엘란쎄",
+        "brand_kr": "엘란쎄",
+        "manufacturer_kr": "싱클레어",
+        "category": "스킨부스터",
+        "plandocs_handled": 0,
+        "plandocs_featured": 0,
+        "mention_count": 2,
+        "sources": [
+          { "channel": "homepage", "url": "http://planmeclinic.com/new2014/mn01/mn01_05_04.html", "evidence": "'엘란쎄(콜라겐필러) - 원산지 네덜란드 AQTIS메디컬, FDA/KFDA/CE 허가'" },
+          { "channel": "homepage", "url": "http://planmeclinic.com/new2014/mn03/mn03_04.html", "evidence": "쁘띠성형 '엘란쎄' 메뉴" }
+        ],
+        "context": "PCL 콜라겐 부스터. 카탈로그 '엘란쎄' 직접 매칭",
+        "verification_status": "verified"
+      },
+      {
+        "product_kr": "벨로테로 리바이브 스킨부스터",
+        "brand_kr": "벨로테로",
+        "manufacturer_kr": "멀츠",
+        "category": "스킨부스터",
+        "plandocs_handled": 0,
+        "plandocs_featured": 0,
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "http://planmeclinic.com/new2014/jmboard/notice.php?no=10576", "evidence": "6월 이벤트 EVENT1 '벨로테로 리바이브 2cc - 60만원'" }
+        ],
+        "context": "이벤트의 '벨로테로 리바이브' → 카탈로그 '벨로테로 리바이브 스킨부스터' 직접 매칭",
+        "verification_status": "verified"
+      },
+      {
+        "product_kr": "리쥬란 힐러",
+        "brand_kr": "리쥬란",
+        "manufacturer_kr": "파마리서치",
+        "category": "스킨부스터",
+        "plandocs_handled": 0,
+        "plandocs_featured": 0,
+        "mention_count": 2,
+        "sources": [
+          { "channel": "homepage", "url": "http://planmeclinic.com/new2014/mn05/mn05_00.html", "evidence": "안티에이징 '리쥬란힐러' 메뉴" }
+        ],
+        "context": "연어 PN 스킨부스터. 직접 매칭",
+        "verification_status": "verified"
+      },
+      {
+        "product_kr": "래디어스",
+        "brand_kr": "래디어스",
+        "manufacturer_kr": "멀츠",
+        "category": "스킨부스터",
+        "plandocs_handled": 0,
+        "plandocs_featured": 0,
+        "mention_count": 3,
+        "sources": [
+          { "channel": "homepage", "url": "http://planmeclinic.com/new2014/mn05/mn05_09.html", "evidence": "안티에이징 '레디어스' 메뉴" },
+          { "channel": "homepage", "url": "http://planmeclinic.com/new2014/jmboard/notice.php?no=10576", "evidence": "6월 이벤트 EVENT5 '레디어스 1앰플 + 울쎄라피 프라임/브이로 200샷'" }
+        ],
+        "context": "CaHA 콜라겐 부스터. 사이트 표기 '레디어스' → 카탈로그 '래디어스' 매칭",
+        "verification_status": "verified"
+      },
+      {
+        "product_kr": "쥬베룩",
+        "brand_kr": "쥬베룩",
+        "manufacturer_kr": "바임",
+        "category": "스킨부스터",
+        "plandocs_handled": 1,
+        "plandocs_featured": 1,
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "http://planmeclinic.com/new2014/mn05/mn05_10.html", "evidence": "안티에이징 '쥬베룩' 메뉴" }
+        ],
+        "context": "PDLLA 콜라겐 부스터. 카탈로그 기본형 '쥬베룩' 매칭",
+        "verification_status": "verified"
+      }
+    ],
+    "unmatched_products": [
+      {
+        "raw_name": "큐오필",
+        "category_guess": "필러(HA+자가혈)",
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "http://planmeclinic.com/new2014/mn01/mn01_05_04.html", "evidence": "'큐오필 - HA 필러와 자가 혈액 전구세포 결합, FDA 허가'" }
+        ],
+        "context": "Qoofill(HA+자가혈) 필러. 카탈로그 미등재",
+        "verification_status": "verified"
+      },
+      {
+        "raw_name": "글라이톤 (glytone)",
+        "category_guess": "필러(HA)",
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "http://planmeclinic.com/new2014/mn01/mn01_05_04.html", "evidence": "'글라이톤 - 원산지 독일 멀츠(Merz), 3가지 성분 HA 필러, 24개월'" }
+        ],
+        "context": "멀츠 Glytone 필러. 카탈로그 미등재(멀츠 라인이나 동명 제품 없음)",
+        "verification_status": "verified"
+      },
+      {
+        "raw_name": "울트라V리프팅",
+        "category_guess": "실리프팅 봉합사",
+        "mention_count": 2,
+        "sources": [
+          { "channel": "homepage", "url": "http://planmeclinic.com/new2014/mn01/mn01_05_04.html", "evidence": "'울트라V리프팅 - KFDA 인증 녹는실'" },
+          { "channel": "homepage", "url": "http://planmeclinic.com/new2014/mn03/mn03_05.html", "evidence": "쁘띠성형 'V라인 리프팅' 메뉴" }
+        ],
+        "context": "울트라V 실리프팅 봉합사. 봉합사는 카탈로그 범위 밖",
+        "verification_status": "verified"
+      },
+      {
+        "raw_name": "민트리프팅",
+        "category_guess": "실리프팅 봉합사",
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "http://planmeclinic.com/new2014/mn03/mn03_05_05.html", "evidence": "쁘띠성형 '민트리프팅' 메뉴" }
+        ],
+        "context": "민트(MINT) 실리프팅 봉합사. 범위 밖",
+        "verification_status": "verified"
+      },
+      {
+        "raw_name": "다크써클필러",
+        "category_guess": "필러(눈밑)",
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "http://planmeclinic.com/new2014/mn03/mn03_04_new.html", "evidence": "쁘띠성형 '다크써클필러' 메뉴" }
+        ],
+        "context": "눈밑 다크서클 필러, 제품 브랜드 미표기. 미매칭",
+        "verification_status": "unverified"
+      },
+      {
+        "raw_name": "볼슬림주사 / 이중턱 지방파괴윤곽주사 / 지방분해주사",
+        "category_guess": "지방분해주사",
+        "mention_count": 3,
+        "sources": [
+          { "channel": "homepage", "url": "http://planmeclinic.com/new2014/mn03/mn03_06.html", "evidence": "쁘띠성형 '볼슬림주사' 메뉴" },
+          { "channel": "homepage", "url": "http://planmeclinic.com/new2014/jmboard/notice.php?no=10576", "evidence": "6월 이벤트 EVENT3 '이중턱 지방파괴윤곽주사 2cc'" }
+        ],
+        "context": "지방분해/윤곽 주사(아미노필린·HPL 등). 카탈로그(에스테틱 제품) 범위 밖",
+        "verification_status": "verified"
+      },
+      {
+        "raw_name": "영양수액(신데렐라·백옥·마늘·마이어스칵테일·고농도아미노산)",
+        "category_guess": "영양/항산화 수액",
+        "mention_count": 5,
+        "sources": [
+          { "channel": "homepage", "url": "http://planmeclinic.com/new2014/mn01/mn01_05_05.html", "evidence": "안티에이징주사 '신데렐라주사·백옥주사·마이어스 칵테일'" },
+          { "channel": "homepage", "url": "http://planmeclinic.com/new2014/jmboard/notice.php?no=10576", "evidence": "6월 이벤트 EVENT6 '고농도 아미노산 수액·마이어스칵테일 수액'" }
+        ],
+        "context": "혈관영양주사(글루타치온·비타민 등). 카탈로그 범위 밖",
+        "verification_status": "verified"
+      }
+    ]
+  },
+  "equipments": {
+    "matched_equipments": [
+      {
+        "name_kr": "더블로",
+        "name_en": "Doublo",
+        "category": "리프팅",
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "http://planmeclinic.com/new2014/mn01/mn01_05.html", "evidence": "장비&의약품(피부레이저) '더블로 - HIFU, 진피·SMAS층 동시 작용, 국내최초 눈썹리프팅 식약청 허가'" }
+        ],
+        "context": "HIFU 초음파 리프팅. 카탈로그 '더블로(Doublo)' 직접 매칭",
+        "verification_status": "verified"
+      },
+      {
+        "name_kr": "울쎄라피 프라임",
+        "name_en": "Ultherapy Prime",
+        "category": "리프팅",
+        "mention_count": 3,
+        "sources": [
+          { "channel": "homepage", "url": "http://planmeclinic.com/new2014/jmboard/notice.php?no=10576", "evidence": "6월 이벤트 EVENT2 '울쎄라피 프라임 400샷 160만원', EVENT5 '울쎄라피 프라임 200샷'" }
+        ],
+        "context": "HIFU 2세대(Ultherapy Prime). 카탈로그 '울쎄라피 프라임' 직접 매칭",
+        "verification_status": "verified"
+      },
+      {
+        "name_kr": "온다",
+        "name_en": "ONDA",
+        "category": "리프팅",
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "http://planmeclinic.com/new2014/mn05/mn05_08.html", "evidence": "안티에이징 '온다 리프팅' 메뉴" }
+        ],
+        "context": "마이크로웨이브 리프팅. 카탈로그 '온다(ONDA)' 직접 매칭",
+        "verification_status": "verified"
+      }
+    ],
+    "unmatched_equipments": [
+      {
+        "raw_name": "브이로",
+        "category_guess": "초음파(HIFU) 리프팅",
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "http://planmeclinic.com/new2014/jmboard/notice.php?no=10576", "evidence": "6월 이벤트 EVENT5 '레디어스 1앰플 + 브이로 200샷 99만원'" }
+        ],
+        "context": "샷 단위 HIFU 리프팅 장비로 추정(브이로/V-RO). 카탈로그 미등재",
+        "verification_status": "unverified"
+      },
+      {
+        "raw_name": "클라리티",
+        "category_guess": "색소/탄력 레이저(755nm)",
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "http://planmeclinic.com/new2014/mn01/mn01_05.html", "evidence": "'클라리티 - 755nm 레이저, 잡티·주근깨·탄력·혈관, 듀얼 파장'" }
+        ],
+        "context": "Clarity(루트로닉) 알렉산드라이트/Nd:YAG 레이저. 카탈로그 미등재",
+        "verification_status": "verified"
+      },
+      {
+        "raw_name": "헬리오스II 레이저",
+        "category_guess": "토닝 레이저(1064/532nm)",
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "http://planmeclinic.com/new2014/mn01/mn01_05.html", "evidence": "'헬리오스Ⅱ - 2파장(1064/532) 4모드 색소 토닝'" }
+        ],
+        "context": "Helios II 큐스위치 Nd:YAG 토닝. 카탈로그 미등재",
+        "verification_status": "verified"
+      },
+      {
+        "raw_name": "제이시스 셀렉",
+        "category_guess": "IPL 계열 광치료(420~800nm)",
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "http://planmeclinic.com/new2014/mn01/mn01_05.html", "evidence": "'제이시스 셀렉 - 420~800nm, IPL 업그레이드, 모공·기미·홍조'" }
+        ],
+        "context": "IPL 계열 광치료 장비. 카탈로그 IPL 장비와 동일 확신 없어 보류",
+        "verification_status": "unverified"
+      },
+      {
+        "raw_name": "플로라셀",
+        "category_guess": "마이크로니들 고주파(RF)",
+        "mention_count": 2,
+        "sources": [
+          { "channel": "homepage", "url": "http://planmeclinic.com/new2014/mn01/mn01_05.html", "evidence": "'플로라셀 - 마이크로니들 RF, 진피층 고주파, 모공·흉터·주름'" }
+        ],
+        "context": "FloraCell 니들 RF. 카탈로그 미등재",
+        "verification_status": "verified"
+      },
+      {
+        "raw_name": "로투스II",
+        "category_guess": "프락셔널 레이저",
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "http://planmeclinic.com/new2014/mn01/mn01_05.html", "evidence": "'로투스Ⅱ - 레이저 박피 + 프락셔널 모드'" }
+        ],
+        "context": "Lotus II 프락셔널 레이저. 카탈로그 미등재",
+        "verification_status": "verified"
+      },
+      {
+        "raw_name": "CO2레이저 (DS-40V)",
+        "category_guess": "CO2 레이저(점·사마귀 제거)",
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "http://planmeclinic.com/new2014/mn01/mn01_05.html", "evidence": "'CO2레이저(DS-40V) - 점·사마귀·검버섯 제거'" }
+        ],
+        "context": "DS-40V 시술용 CO2 레이저(절제형). 카탈로그 'CO₂ 프락셔널'은 프락셔널형이라 동일 장비로 단정 불가 → 보류",
+        "verification_status": "unverified"
+      },
+      {
+        "raw_name": "더마샤인 (물광주사 인젝터)",
+        "category_guess": "물광 인젝터(MTS)",
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "http://planmeclinic.com/new2014/mn01/mn01_05.html", "evidence": "'더마샤인 물광주사 - 진피층 유효물질 균일 주입'" }
+        ],
+        "context": "Dermashine 물광 자동 인젝터. 카탈로그 미등재",
+        "verification_status": "verified"
+      },
+      {
+        "raw_name": "오토MTS",
+        "category_guess": "마이크로니들 MTS",
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "http://planmeclinic.com/new2014/mn01/mn01_05.html", "evidence": "'오토MTS - 마이크로니들로 약물 침투 피부재생'" }
+        ],
+        "context": "자동 MTS 마이크로니들. 카탈로그 미등재(브랜드 미상)",
+        "verification_status": "verified"
+      },
+      {
+        "raw_name": "야누스 (피부정밀검진)",
+        "category_guess": "피부 진단 장비",
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "http://planmeclinic.com/new2014/mn01/mn01_05.html", "evidence": "'야누스 - 피부정밀검진 장비'" }
+        ],
+        "context": "Janus 피부 분석/진단 장비(치료 장비 아님). 카탈로그 미등재",
+        "verification_status": "verified"
+      },
+      {
+        "raw_name": "미쿨 (냉각지방분해)",
+        "category_guess": "쿨스컬프팅 계열(냉각지방분해)",
+        "mention_count": 2,
+        "sources": [
+          { "channel": "homepage", "url": "http://planmeclinic.com/new2014/mn01/mn01_05_02.html", "evidence": "비만장비 '미쿨(냉각지방분해)'" },
+          { "channel": "homepage", "url": "http://planmeclinic.com/new2014/mn04/mn04_04.html", "evidence": "비만체형 '미쿨' 메뉴" }
+        ],
+        "context": "MiCool 냉동지방분해 장비. 카탈로그 미등재",
+        "verification_status": "verified"
+      },
+      {
+        "raw_name": "울트라젯 (ULTRA Z)",
+        "category_guess": "초음파 지방흡입 장비",
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "http://planmeclinic.com/new2014/mn01/mn01_05_02.html", "evidence": "비만장비 '울트라 젯(ULTRA Z) - 초음파 지방용해봉 + 흡입'" }
+        ],
+        "context": "초음파 지방흡입 장비. 카탈로그(에스테틱 제품/장비) 범위 밖",
+        "verification_status": "verified"
+      }
+    ]
+  },
+  "treatments": [
+    {
+      "treatment_name": "[6월 이벤트] 벨로테로 리바이브 2cc",
+      "category": "스킨부스터 이벤트",
+      "product_name": "벨로테로 리바이브 스킨부스터",
+      "equipment_name": null,
+      "price": { "text": "60만원", "low": 600000, "high": 600000, "unit": "2cc", "currency": "KRW", "is_event_price": true },
+      "package": { "sessions": null, "duration_months": null, "event_period": "2026-06-01 ~ 2026-06-30" },
+      "notes": "6월 이벤트 EVENT1. VAT 별도. 이벤트 배너 이미지 vision 판독",
+      "source_page": "http://planmeclinic.com/new2014/jmboard/notice.php?no=10576",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "[6월 이벤트] 울쎄라피 프라임 400샷",
+      "category": "리프팅 이벤트",
+      "product_name": null,
+      "equipment_name": "울쎄라피 프라임",
+      "price": { "text": "정상 200만원 → 160만원", "low": 1600000, "high": 1600000, "unit": "400샷", "currency": "KRW", "is_event_price": true },
+      "package": { "sessions": null, "duration_months": null, "event_period": "2026-06-01 ~ 2026-06-30" },
+      "notes": "6월 이벤트 EVENT2. 정상가 200만원. VAT 별도. 이미지 vision 판독",
+      "source_page": "http://planmeclinic.com/new2014/jmboard/notice.php?no=10576",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "[6월 이벤트] 이중턱 지방파괴윤곽주사 2cc + 스킨보톡스 v라인(코어)",
+      "category": "쁘띠 이벤트",
+      "product_name": "코어톡스",
+      "equipment_name": null,
+      "price": { "text": "32만원", "low": 320000, "high": 320000, "unit": "패키지", "currency": "KRW", "is_event_price": true },
+      "package": { "sessions": null, "duration_months": null, "event_period": "2026-06-01 ~ 2026-06-30" },
+      "notes": "6월 이벤트 EVENT3(나의 이중턱 없애기). 지방파괴윤곽주사(지방분해)+스킨보톡스 v라인. '(코어)'=코어톡스 추정. VAT 별도. 이미지 vision 판독",
+      "source_page": "http://planmeclinic.com/new2014/jmboard/notice.php?no=10576",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "[6월 이벤트] 듀얼토닝 + 벨벳 마스크팩 5회",
+      "category": "피부 이벤트",
+      "product_name": null,
+      "equipment_name": null,
+      "price": { "text": "정상 95만원 → 80만원", "low": 800000, "high": 800000, "unit": "5회", "currency": "KRW", "is_event_price": true },
+      "package": { "sessions": 5, "duration_months": null, "event_period": "2026-06-01 ~ 2026-06-30" },
+      "notes": "6월 이벤트 EVENT4(기미치료). 정상가 95만원. VAT 별도. 이미지 vision 판독",
+      "source_page": "http://planmeclinic.com/new2014/jmboard/notice.php?no=10576",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "[6월 이벤트] 레디어스 1앰플 + 울쎄라피 프라임 200샷",
+      "category": "리프팅 이벤트",
+      "product_name": "래디어스",
+      "equipment_name": "울쎄라피 프라임",
+      "price": { "text": "158만원", "low": 1580000, "high": 1580000, "unit": "패키지", "currency": "KRW", "is_event_price": true },
+      "package": { "sessions": null, "duration_months": null, "event_period": "2026-06-01 ~ 2026-06-30" },
+      "notes": "6월 이벤트 EVENT5(목주름 없애기). VAT 별도. 이미지 vision 판독",
+      "source_page": "http://planmeclinic.com/new2014/jmboard/notice.php?no=10576",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "[6월 이벤트] 레디어스 1앰플 + 브이로 200샷",
+      "category": "리프팅 이벤트",
+      "product_name": "래디어스",
+      "equipment_name": "브이로",
+      "price": { "text": "99만원", "low": 990000, "high": 990000, "unit": "패키지", "currency": "KRW", "is_event_price": true },
+      "package": { "sessions": null, "duration_months": null, "event_period": "2026-06-01 ~ 2026-06-30" },
+      "notes": "6월 이벤트 EVENT5(목주름 없애기). VAT 별도. 이미지 vision 판독",
+      "source_page": "http://planmeclinic.com/new2014/jmboard/notice.php?no=10576",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "[6월 이벤트] 고농도 아미노산 수액 1회",
+      "category": "수액 이벤트",
+      "product_name": null,
+      "equipment_name": null,
+      "price": { "text": "6만원", "low": 60000, "high": 60000, "unit": "회", "currency": "KRW", "is_event_price": true },
+      "package": { "sessions": 1, "duration_months": null, "event_period": "2026-06-01 ~ 2026-06-30" },
+      "notes": "6월 이벤트 EVENT6. VAT 별도. 이미지 vision 판독",
+      "source_page": "http://planmeclinic.com/new2014/jmboard/notice.php?no=10576",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "[6월 이벤트] 7가지앰플 마이어스칵테일 수액 1회",
+      "category": "수액 이벤트",
+      "product_name": null,
+      "equipment_name": null,
+      "price": { "text": "7만원", "low": 70000, "high": 70000, "unit": "회", "currency": "KRW", "is_event_price": true },
+      "package": { "sessions": 1, "duration_months": null, "event_period": "2026-06-01 ~ 2026-06-30" },
+      "notes": "6월 이벤트 EVENT6. VAT 별도. 이미지 vision 판독",
+      "source_page": "http://planmeclinic.com/new2014/jmboard/notice.php?no=10576",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "보톡스",
+      "category": "쁘띠",
+      "product_name": "보톡스; 제오민; 보툴렉스",
+      "equipment_name": null,
+      "price": null,
+      "package": null,
+      "notes": "얼굴/바디/사각턱/다한증 보톡스. 취급 톡신: 엘러간 보톡스·제오민·보툴렉스",
+      "source_page": "http://planmeclinic.com/new2014/mn03/mn03_01.html",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "필러",
+      "category": "쁘띠",
+      "product_name": "쥬비덤 볼루마; 레스틸렌",
+      "equipment_name": null,
+      "price": null,
+      "package": null,
+      "notes": "HA 필러. 취급: 쥬비덤·레스틸렌·큐오필(미매칭)·글라이톤(미매칭). 다크써클필러 별도 메뉴",
+      "source_page": "http://planmeclinic.com/new2014/mn03/mn03_03.html",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "엘란쎄",
+      "category": "스킨부스터",
+      "product_name": "엘란쎄",
+      "equipment_name": null,
+      "price": null,
+      "package": null,
+      "notes": "PCL 콜라겐 필러/부스터",
+      "source_page": "http://planmeclinic.com/new2014/mn03/mn03_04.html",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "리쥬란힐러",
+      "category": "스킨부스터",
+      "product_name": "리쥬란 힐러",
+      "equipment_name": null,
+      "price": null,
+      "package": null,
+      "notes": "연어 PN 피부 리모델링 주사",
+      "source_page": "http://planmeclinic.com/new2014/mn05/mn05_00.html",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "레디어스",
+      "category": "스킨부스터",
+      "product_name": "래디어스",
+      "equipment_name": null,
+      "price": null,
+      "package": null,
+      "notes": "CaHA 콜라겐 부스터",
+      "source_page": "http://planmeclinic.com/new2014/mn05/mn05_09.html",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "쥬베룩",
+      "category": "스킨부스터",
+      "product_name": "쥬베룩",
+      "equipment_name": null,
+      "price": null,
+      "package": null,
+      "notes": "PDLLA 콜라겐 부스터",
+      "source_page": "http://planmeclinic.com/new2014/mn05/mn05_10.html",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "온다 리프팅",
+      "category": "리프팅",
+      "product_name": null,
+      "equipment_name": "온다",
+      "price": null,
+      "package": null,
+      "notes": "마이크로웨이브 리프팅",
+      "source_page": "http://planmeclinic.com/new2014/mn05/mn05_08.html",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "더블로 리프팅",
+      "category": "리프팅",
+      "product_name": null,
+      "equipment_name": "더블로",
+      "price": null,
+      "package": null,
+      "notes": "HIFU 초음파 SMAS 리프팅(국내최초 눈썹리프팅 식약청 허가 언급)",
+      "source_page": "http://planmeclinic.com/new2014/mn01/mn01_05.html",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "V라인 리프팅 / 민트리프팅 (실리프팅)",
+      "category": "리프팅",
+      "product_name": "울트라V리프팅; 민트리프팅",
+      "equipment_name": null,
+      "price": null,
+      "package": null,
+      "notes": "녹는실 실리프팅(울트라V·민트). 봉합사는 카탈로그 범위 밖",
+      "source_page": "http://planmeclinic.com/new2014/mn03/mn03_05.html",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "피부/색소 레이저 클리닉",
+      "category": "피부 / 레이저",
+      "product_name": null,
+      "equipment_name": "클라리티; 헬리오스II 레이저; 제이시스 셀렉; 로투스II; 플로라셀; CO2레이저 (DS-40V); 오토MTS; 더마샤인 (물광주사 인젝터)",
+      "price": null,
+      "package": null,
+      "notes": "기미/잡티·여드름·모공/흉터·물광패키지·점빼기·발톱무좀 등. 장비: 클라리티(755nm)·헬리오스II·제이시스셀렉·로투스II·플로라셀(RF니들)·CO2(DS-40V)·오토MTS·더마샤인 물광. 가격 미게시",
+      "source_page": "http://planmeclinic.com/new2014/mn02/mn02_01.html",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "비만/체형 관리",
+      "category": "비만 / 체형",
+      "product_name": null,
+      "equipment_name": "미쿨 (냉각지방분해); 울트라젯 (ULTRA Z)",
+      "price": null,
+      "package": null,
+      "notes": "미쿨(냉각지방분해)·울트라젯(초음파 지방흡입)·소닉스 진동운동·사이저·지방분해주사·카복시테라피·메조테라피·LLD림프순환·HPL지방분해. 대부분 카탈로그 범위 밖. 가격 미게시(이벤트 제외)",
+      "source_page": "http://planmeclinic.com/new2014/mn04/mn04_01.html",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "안티에이징 수액주사",
+      "category": "안티에이징",
+      "product_name": null,
+      "equipment_name": null,
+      "price": null,
+      "package": null,
+      "notes": "신데렐라주사·백옥주사(글루타치온)·마늘주사·마이어스칵테일 등 혈관영양주사. 카탈로그 범위 밖",
+      "source_page": "http://planmeclinic.com/new2014/mn01/mn01_05_05.html",
+      "verification_status": "verified"
+    }
+  ],
+  "language_support": {
+    "supported_languages": ["ko"],
+    "has_language_switcher": false,
+    "foreign_language_pages": {}
+  },
+  "crawl_metadata": {
+    "pages_crawled": 11,
+    "pages_visited": [
+      "http://planmeclinic.com/ (프레임셋 → /new2014/index.html)",
+      "http://planmeclinic.com/new2014/index.html (메인·메뉴맵·푸터 운영정보·진료시간)",
+      "http://planmeclinic.com/new2014/mn01/mn01_02.html (의료진소개 — 이승환 약력·학회)",
+      "http://planmeclinic.com/new2014/mn01/mn01_05.html (장비&의약품: 피부레이저 탭)",
+      "http://planmeclinic.com/new2014/mn01/mn01_05_02.html (비만장비&시술 탭)",
+      "http://planmeclinic.com/new2014/mn01/mn01_05_03.html (피부관리장비 탭)",
+      "http://planmeclinic.com/new2014/mn01/mn01_05_04.html (보톡스&필러&실 탭 — 브랜드 원산지 명시)",
+      "http://planmeclinic.com/new2014/mn01/mn01_05_05.html (안티에이징주사 탭)",
+      "http://planmeclinic.com/new2014/jmboard/notice.php?BCode=1 (공지·이벤트 목록)",
+      "http://planmeclinic.com/new2014/jmboard/notice.php?no=10576 (6월 이벤트 — 이미지 가격표)",
+      "이벤트 이미지 원본 직접 열람(6efe...jpg) — 오버레이 가림 회피 후 vision 판독"
+    ],
+    "crawl_method": "manual_agent (Claude가 Playwright MCP로 직접 방문). 프레임셋 기반 레거시 사이트(/new2014/). 운영정보·의료진·장비&의약품(피부레이저/비만/피부관리/보톡스필러실/안티에이징주사 5개 탭)은 DOM 텍스트로 풍부하게 추출(브랜드 원산지·제조사 명시). 가격은 6월 이벤트 글의 세로 배너 이미지를 vision 판독(오버레이 가림으로 1차 캡처 시 EVENT3가 가려져, 이미지 원본 URL을 직접 열어 재캡처 후 판독)",
+    "errors": [],
+    "completeness": {
+      "operation_info": true,
+      "doctors": true,
+      "products": true,
+      "equipments": true,
+      "treatments": true,
+      "prices": true,
+      "language_support": true
+    },
+    "stage_costs": {},
+    "notes": [
+      "가격(중요·vision 판독): 상시 가격표는 없고, '공지(이벤트)' 게시판의 6월 이벤트 글(no=10576)에 세로 배너 이미지(650×1649)로만 가격이 게시됨. vision으로 8개 이벤트 항목 판독: ①벨로테로 리바이브 2cc 60만 ②울쎄라피 프라임 400샷 정상200만→160만 ③이중턱 지방파괴윤곽주사 2cc+스킨보톡스 v라인(코어) 32만 ④듀얼토닝+벨벳마스크팩 5회 정상95만→80만 ⑤레디어스1앰플+울쎄라피프라임 200샷 158만 / 레디어스1앰플+브이로 200샷 99만 ⑥고농도 아미노산 수액 6만 / 마이어스칵테일 수액 7만. 모든 이벤트 VAT 별도. (이벤트 기간 2026-06, 오늘 2026-06-01 진행중)",
+      "이미지 판독 재캡처(중요): 1차 element 캡처 시 페이지의 고정 퀵메뉴 바가 EVENT3 가격 영역을 가려 판독 불가 → 스킬 §5 단서(잘림 시 추측 금지)에 따라 이미지 원본 URL을 브라우저로 직접 열어 fullPage 재캡처 후 EVENT3까지 정상 판독함.",
+      "제품 매칭: 장비&의약품(보톡스&필러&실) 페이지가 브랜드별 원산지·제조사를 텍스트로 명시해 매칭 신뢰도 높음. 직접 매칭 11종 — 보톡스(엘러간)·제오민(멀츠)·보툴렉스(휴젤)·쥬비덤 볼루마(엘러간, 라인 미특정 대표)·레스틸렌(갈더마)·엘란쎄(싱클레어)·벨로테로 리바이브 스킨부스터(멀츠, 이벤트)·리쥬란 힐러·래디어스·쥬베룩. 추정 매칭 1종 — 코어톡스(이벤트 'v라인(코어)'에서 추정, inferred). 보류 — 큐오필(HA+자가혈, 미등재)·글라이톤(멀츠 Glytone, 미등재)·울트라V/민트리프팅(봉합사, 범위 밖)·다크써클필러(브랜드 미상)·볼슬림/지방분해/윤곽주사(범위 밖)·영양수액(범위 밖).",
+      "장비 매칭: 직접 매칭 3종 — 더블로(Doublo HIFU)·울쎄라피 프라임(Ultherapy Prime, 이벤트)·온다(ONDA). 보류 — 브이로(HIFU 추정, 미등재)·클라리티(755nm)·헬리오스II(토닝)·제이시스셀렉(IPL계열, 동일 확신 없음)·플로라셀(니들RF)·로투스II(프락셔널)·CO2(DS-40V, 카탈로그 프락셔널형과 동일 단정 불가)·더마샤인(물광 인젝터)·오토MTS·야누스(진단)·미쿨(냉각지방분해)·울트라젯(지방흡입). 사이트 표기 '레디어스'='래디어스', '울쎄라피 프라임'은 카탈로그상 '울쎄라'와 별개 항목으로 정확히 구분됨.",
+      "의료진: 대표원장 이승환 1명. 약력 고려대 의학과·의학석사·의학박사·고려대 안암병원 전문의·(전)고려대 의대 교수·(현)고려대 의대 외래교수, 다수 학회(레이저피부모발·비만·비만체형·미용웰빙·가정의학·노인병·미용성형) 정회원, 하버드/동경대 연수. 비만·가정의학 배경이 강함. 의료진 페이지는 텍스트로 약력 제공.",
+      "운영정보: 대표 이승환, 사업자번호 220-09-85004, 전화 02-553-5535(보조 010-2703-5535), 팩스 02-553-5540, 이메일 planmeclinic@gmail.com, 카카오 _zuEBxd(채널)/planmec(문의). 진료시간 월·화·금 10:30~19:00 / 수 15:00~19:00 / 목 10:30~20:30(야간진료) / 토 10:30~15:00 / 일·공휴일 휴진. 주차정보 사이트 미표기. 선릉역 7번 출구 도보 1분. 주소 선릉로 513 에이팩스타워 7층(역삼동) = 입력 CSV 일치. 단독 의원(지점 없음).",
+      "채널: 네이버블로그(blog.naver.com/planmeclinic)·인스타그램(planmeclinic)·페이스북·유튜브(시술 영상 임베드)·카카오채널 운영. blog_url·sns_url(인스타) 기록. 본 스킬은 홈페이지-한정이라 외부 채널 콘텐츠는 추출하지 않음.",
+      "다국어: 언어 스위처/외국어 사이트 없음. 한국어 전용(supported_languages=['ko']).",
+      "미방문/보류: 시술 메뉴 개별 상세 페이지(mn02~mn05 다수)는 장비&의약품 5개 탭에 핵심 장비·제품·브랜드가 모두 텍스트로 집약돼 있어 대표 페이지+장비탭 기준으로 항목을 확보(전수 방문 생략). before&after·시술후기·언론홍보·온라인상담/예약 게시판은 제품/장비 신규 정보 없어 미수집. 종료된 과거 이벤트 글들은 미판독(현행 6월 이벤트만 가격 반영)."
+    ]
+  },
+  "run_meta": null
+}

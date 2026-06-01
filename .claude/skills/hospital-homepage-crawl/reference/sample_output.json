@@ -2,14 +2,30 @@
   "hospital_id": "ri8bix",
   "hospital_name": "사르티네의원",
   "crawled_at": "2026-05-29T16:45:00+09:00",
+  "address": {
+    "sido": "서울",
+    "sigungu": "강남구",
+    "eupmyeondong": "신사동",
+    "road": "선릉로155길 8",
+    "detail": null,
+    "latitude": null,
+    "longitude": null
+  },
   "homepage_url": "https://www.sartine.kr/",
   "url_source": "WebSearch 불요 — Next.js 서버 데이터(partnerInfo)에서 병원명·대표(양세환)·사업자번호(680-25-01773)·주소(선릉로155길 8 신사동)가 CSV와 일치함을 확인",
   "url_confidence": "high",
+  "identity_status": "match",
   "blog_url": "https://blog.naver.com/dead2079",
   "sns_url": "https://www.instagram.com/thesartine.official/",
   "alternative_urls": [
     "https://www.thesartine.com/"
   ],
+  "branches": {
+    "type": "single",
+    "network_group": null,
+    "this_branch_name": "사르티네의원",
+    "sibling_branches": []
+  },
   "operation_info": {
     "hospital_name": "사르티네의원",
     "representative_name": "양세환",
@@ -61,7 +77,8 @@
         "뉴라미스(NEURAMIS) 키닥터",
         "엘라비에 리투오(ELRAVIE Re2O) 키닥터"
       ],
-      "profile_image_url": "https://d1lwt7q4fvbsnv.cloudfront.net/partner/2025_11_11jej3ddhb591b.png"
+      "profile_image_url": "https://d1lwt7q4fvbsnv.cloudfront.net/partner/2025_11_11jej3ddhb591b.png",
+      "verification_status": "verified"
     },
     {
       "name": "권도윤",
@@ -77,7 +94,8 @@
       ],
       "associations": [],
       "awards": [],
-      "profile_image_url": "https://d1lwt7q4fvbsnv.cloudfront.net/partner/2026_5_27ee3ajj7a10bj.jpeg"
+      "profile_image_url": "https://d1lwt7q4fvbsnv.cloudfront.net/partner/2026_5_27ee3ajj7a10bj.jpeg",
+      "verification_status": "verified"
     }
   ],
   "products": {
@@ -89,8 +107,12 @@
         "category": "스킨부스터",
         "plandocs_handled": 0,
         "plandocs_featured": 0,
-        "source_page": "https://www.sartine.kr/brandings/4085",
-        "context": "스킨부스터 라인업 '리쥬란힐러'(연어 DNA 유래 PN). 카탈로그 '리쥬란 힐러' 직접 매칭"
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "https://www.sartine.kr/brandings/4085", "evidence": "스킨부스터 라인업 '리쥬란힐러'(연어 DNA 유래 PN)" }
+        ],
+        "context": "카탈로그 '리쥬란 힐러' 직접 매칭",
+        "verification_status": "verified"
       },
       {
         "product_kr": "리쥬란 HB",
@@ -99,8 +121,12 @@
         "category": "스킨부스터",
         "plandocs_handled": 0,
         "plandocs_featured": 0,
-        "source_page": "https://www.sartine.kr/brandings/4085",
-        "context": "스킨부스터 라인업 '리쥬란HB'(리쥬란+히알루론산). 직접 매칭"
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "https://www.sartine.kr/brandings/4085", "evidence": "스킨부스터 라인업 '리쥬란HB'(리쥬란+히알루론산)" }
+        ],
+        "context": "직접 매칭",
+        "verification_status": "verified"
       },
       {
         "product_kr": "리쥬란 아이",
@@ -109,8 +135,12 @@
         "category": "스킨부스터",
         "plandocs_handled": 0,
         "plandocs_featured": 0,
-        "source_page": "https://www.sartine.kr/brandings/4085",
-        "context": "스킨부스터 라인업 '아이리쥬란'(눈가 전용). 카탈로그 '리쥬란 아이' 매칭"
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "https://www.sartine.kr/brandings/4085", "evidence": "스킨부스터 라인업 '아이리쥬란'(눈가 전용)" }
+        ],
+        "context": "카탈로그 '리쥬란 아이' 매칭",
+        "verification_status": "verified"
       },
       {
         "product_kr": "엘라비에 리투오",
@@ -119,8 +149,13 @@
         "category": "스킨부스터",
         "plandocs_handled": 0,
         "plandocs_featured": 0,
-        "source_page": "https://www.sartine.kr/brandings/4085",
-        "context": "스킨부스터 라인업 '엘라비에 리투오'(구조화 HA 리바이탈). 대표원장 ELRAVIE Re2O 키닥터. 직접 매칭"
+        "mention_count": 3,
+        "sources": [
+          { "channel": "homepage", "url": "https://www.sartine.kr/brandings/4085", "evidence": "스킨부스터 라인업 '엘라비에 리투오'(구조화 HA 리바이탈)" },
+          { "channel": "homepage", "url": "https://www.sartine.kr/exhibitions", "evidence": "목주름 이벤트 구성품 '리투오 1회'" }
+        ],
+        "context": "대표원장 ELRAVIE Re2O 키닥터. 직접 매칭",
+        "verification_status": "verified"
       },
       {
         "product_kr": "힐로웨이브",
@@ -129,8 +164,12 @@
         "category": "스킨부스터",
         "plandocs_handled": 1,
         "plandocs_featured": 1,
-        "source_page": "https://www.sartine.kr/brandings/4085",
-        "context": "스킨부스터 라인업 '힐로웨이브'(고분자·저분자 HA 듀얼 구조). 카탈로그 직접 매칭. ※ 메타설명에 장비처럼 나열돼 있으나 실제는 스킨부스터 제품(자동 크롤링은 미등재 장비로 오분류함)"
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "https://www.sartine.kr/brandings/4085", "evidence": "스킨부스터 라인업 '힐로웨이브'(고분자·저분자 HA 듀얼 구조)" }
+        ],
+        "context": "카탈로그 직접 매칭. ※ 메타설명에 장비처럼 나열돼 있으나 실제는 스킨부스터 제품(자동 크롤링은 미등재 장비로 오분류함)",
+        "verification_status": "verified"
       },
       {
         "product_kr": "벨로테로 리바이브 스킨부스터",
@@ -139,8 +178,12 @@
         "category": "스킨부스터",
         "plandocs_handled": 0,
         "plandocs_featured": 0,
-        "source_page": "https://www.sartine.kr/brandings/4085",
-        "context": "스킨부스터 라인업 '벨로테로 리바이브'(HA+글리세롤 광채 부스터). 카탈로그 '벨로테로 리바이브 스킨부스터' 직접 매칭"
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "https://www.sartine.kr/brandings/4085", "evidence": "스킨부스터 라인업 '벨로테로 리바이브'(HA+글리세롤 광채 부스터)" }
+        ],
+        "context": "카탈로그 '벨로테로 리바이브 스킨부스터' 직접 매칭",
+        "verification_status": "verified"
       },
       {
         "product_kr": "쥬베룩",
@@ -149,8 +192,12 @@
         "category": "스킨부스터",
         "plandocs_handled": 1,
         "plandocs_featured": 1,
-        "source_page": "https://www.sartine.kr/brandings/4085",
-        "context": "스킨부스터 라인업 '쥬베룩 스킨'(PDLLA+HA 콜라겐 부스터). 카탈로그 기본형 '쥬베룩' 매칭"
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "https://www.sartine.kr/brandings/4085", "evidence": "스킨부스터 라인업 '쥬베룩 스킨'(PDLLA+HA 콜라겐 부스터)" }
+        ],
+        "context": "카탈로그 기본형 '쥬베룩' 매칭",
+        "verification_status": "verified"
       },
       {
         "product_kr": "쥬베룩 볼륨",
@@ -159,8 +206,12 @@
         "category": "스킨부스터",
         "plandocs_handled": 1,
         "plandocs_featured": 1,
-        "source_page": "https://www.sartine.kr/brandings/4107",
-        "context": "콜라겐부스터 라인업 '쥬베룩 볼륨'(쥬베룩 스킨과 동일 성분, 입자 크고 함량 약 4배). 직접 매칭"
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "https://www.sartine.kr/brandings/4107", "evidence": "콜라겐부스터 라인업 '쥬베룩 볼륨'(쥬베룩 스킨과 동일 성분, 입자 크고 함량 약 4배)" }
+        ],
+        "context": "직접 매칭",
+        "verification_status": "verified"
       },
       {
         "product_kr": "뉴라미스",
@@ -169,8 +220,12 @@
         "category": "필러",
         "plandocs_handled": 1,
         "plandocs_featured": 1,
-        "source_page": "https://www.sartine.kr/brandings/4133",
-        "context": "필러 라인업 '뉴라미스'(클래식/라이트). 대표원장 NEURAMIS 키닥터. 직접 매칭"
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "https://www.sartine.kr/brandings/4133", "evidence": "필러 라인업 '뉴라미스'(클래식/라이트)" }
+        ],
+        "context": "대표원장 NEURAMIS 키닥터. 직접 매칭",
+        "verification_status": "verified"
       },
       {
         "product_kr": "레스틸렌",
@@ -179,8 +234,12 @@
         "category": "필러",
         "plandocs_handled": 0,
         "plandocs_featured": 0,
-        "source_page": "https://www.sartine.kr/brandings/4133",
-        "context": "필러 라인업 '레스틸렌'(라인: 아이라이트/리도카인/키스/리프트/비탈). 기본형 매칭"
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "https://www.sartine.kr/brandings/4133", "evidence": "필러 라인업 '레스틸렌'(라인: 아이라이트/리도카인/키스/리프트/비탈)" }
+        ],
+        "context": "기본형 매칭",
+        "verification_status": "verified"
       },
       {
         "product_kr": "레스틸렌 리프트",
@@ -189,8 +248,12 @@
         "category": "필러",
         "plandocs_handled": 0,
         "plandocs_featured": 0,
-        "source_page": "https://www.sartine.kr/brandings/4133",
-        "context": "레스틸렌 '리프트' 라인. 카탈로그 '레스틸렌 리프트' 매칭"
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "https://www.sartine.kr/brandings/4133", "evidence": "레스틸렌 '리프트' 라인" }
+        ],
+        "context": "카탈로그 '레스틸렌 리프트' 매칭",
+        "verification_status": "verified"
       },
       {
         "product_kr": "레스틸렌 키스",
@@ -199,8 +262,12 @@
         "category": "필러",
         "plandocs_handled": 0,
         "plandocs_featured": 0,
-        "source_page": "https://www.sartine.kr/brandings/4133",
-        "context": "레스틸렌 '키스' 라인. 카탈로그 '레스틸렌 키스' 매칭"
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "https://www.sartine.kr/brandings/4133", "evidence": "레스틸렌 '키스' 라인" }
+        ],
+        "context": "카탈로그 '레스틸렌 키스' 매칭",
+        "verification_status": "verified"
       },
       {
         "product_kr": "쥬비덤 볼룩스",
@@ -209,8 +276,12 @@
         "category": "필러",
         "plandocs_handled": 1,
         "plandocs_featured": 0,
-        "source_page": "https://www.sartine.kr/brandings/4133",
-        "context": "필러 라인업 '쥬비덤' 볼룩스 라인. 직접 매칭"
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "https://www.sartine.kr/brandings/4133", "evidence": "필러 라인업 '쥬비덤' 볼룩스 라인" }
+        ],
+        "context": "직접 매칭",
+        "verification_status": "verified"
       },
       {
         "product_kr": "쥬비덤 볼루마",
@@ -219,8 +290,12 @@
         "category": "필러",
         "plandocs_handled": 1,
         "plandocs_featured": 0,
-        "source_page": "https://www.sartine.kr/brandings/4133",
-        "context": "필러 라인업 '쥬비덤' 볼루마 라인. 직접 매칭"
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "https://www.sartine.kr/brandings/4133", "evidence": "필러 라인업 '쥬비덤' 볼루마 라인" }
+        ],
+        "context": "직접 매칭",
+        "verification_status": "verified"
       },
       {
         "product_kr": "쥬비덤 볼리프트",
@@ -229,8 +304,12 @@
         "category": "필러",
         "plandocs_handled": 1,
         "plandocs_featured": 0,
-        "source_page": "https://www.sartine.kr/brandings/4133",
-        "context": "필러 라인업 '쥬비덤' 볼리프트 라인. 직접 매칭"
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "https://www.sartine.kr/brandings/4133", "evidence": "필러 라인업 '쥬비덤' 볼리프트 라인" }
+        ],
+        "context": "직접 매칭",
+        "verification_status": "verified"
       },
       {
         "product_kr": "벨로테로 소프트",
@@ -239,8 +318,13 @@
         "category": "필러",
         "plandocs_handled": 0,
         "plandocs_featured": 0,
-        "source_page": "https://www.sartine.kr/brandings/4133",
-        "context": "필러 라인업 '벨로테로'(소프트). 직접 매칭. 목주름 이벤트의 '벨로테로 필러'도 동일 브랜드"
+        "mention_count": 2,
+        "sources": [
+          { "channel": "homepage", "url": "https://www.sartine.kr/brandings/4133", "evidence": "필러 라인업 '벨로테로'(소프트)" },
+          { "channel": "homepage", "url": "https://www.sartine.kr/exhibitions", "evidence": "목주름 이벤트의 '벨로테로 필러'(목주름 필러 1cc)" }
+        ],
+        "context": "직접 매칭. 목주름 이벤트의 '벨로테로 필러'도 동일 브랜드",
+        "verification_status": "verified"
       },
       {
         "product_kr": "코어톡스",
@@ -249,8 +333,12 @@
         "category": "톡신",
         "plandocs_handled": 1,
         "plandocs_featured": 1,
-        "source_page": "https://www.sartine.kr/brandings/4137",
-        "context": "보톡스 라인업 '코어톡스'(메디톡스, 정제 톡신). 직접 매칭"
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "https://www.sartine.kr/brandings/4137", "evidence": "보톡스 라인업 '코어톡스'(메디톡스, 정제 톡신)" }
+        ],
+        "context": "직접 매칭",
+        "verification_status": "verified"
       },
       {
         "product_kr": "보톡스",
@@ -259,8 +347,12 @@
         "category": "톡신",
         "plandocs_handled": 0,
         "plandocs_featured": 0,
-        "source_page": "https://www.sartine.kr/brandings/4137",
-        "context": "보톡스 라인업 '엘러간'(세계 최초 FDA 승인 오리지널 보툴리눔 톡신). 카탈로그 '보톡스(엘러간)' 매칭"
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "https://www.sartine.kr/brandings/4137", "evidence": "보톡스 라인업 '엘러간'(세계 최초 FDA 승인 오리지널 보툴리눔 톡신)" }
+        ],
+        "context": "카탈로그 '보톡스(엘러간)' 매칭",
+        "verification_status": "verified"
       },
       {
         "product_kr": "제오민",
@@ -269,70 +361,114 @@
         "category": "톡신",
         "plandocs_handled": 0,
         "plandocs_featured": 0,
-        "source_page": "https://www.sartine.kr/brandings/4137",
-        "context": "보톡스 라인업 '제오민'(멀츠, 순수 톡신). 직접 매칭"
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "https://www.sartine.kr/brandings/4137", "evidence": "보톡스 라인업 '제오민'(멀츠, 순수 톡신)" }
+        ],
+        "context": "직접 매칭",
+        "verification_status": "verified"
       }
     ],
     "unmatched_products": [
       {
         "raw_name": "필로르가135",
         "category_guess": "스킨부스터",
-        "source_page": "https://www.sartine.kr/brandings/4085",
-        "context": "스킨부스터 라인업. 50여 영양성분+HA 프랑스 더마 브랜드(Filorga NCTF 135). 카탈로그 미등재"
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "https://www.sartine.kr/brandings/4085", "evidence": "스킨부스터 라인업. 50여 영양성분+HA 프랑스 더마 브랜드(Filorga NCTF 135)" }
+        ],
+        "context": "카탈로그 미등재",
+        "verification_status": "unverified"
       },
       {
         "raw_name": "ASCE+ 엑소좀",
         "category_guess": "스킨부스터(엑소좀)",
-        "source_page": "https://www.sartine.kr/brandings/4085",
-        "context": "스킨부스터 라인업. 엑소좀 제품. 카탈로그 '큐티셀 오리진 위드 엑소좀'과 동일 확신 없어 보수적으로 보류"
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "https://www.sartine.kr/brandings/4085", "evidence": "스킨부스터 라인업. 엑소좀 제품" }
+        ],
+        "context": "카탈로그 '큐티셀 오리진 위드 엑소좀'과 동일 확신 없어 보수적으로 보류",
+        "verification_status": "unverified"
       },
       {
         "raw_name": "레디어스",
         "category_guess": "콜라겐부스터(CaHA)",
-        "source_page": "https://www.sartine.kr/brandings/4107",
-        "context": "콜라겐부스터 라인업. CaHA 주성분 FDA 승인(Radiesse). 카탈로그 미등재"
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "https://www.sartine.kr/brandings/4107", "evidence": "콜라겐부스터 라인업. CaHA 주성분 FDA 승인(Radiesse)" }
+        ],
+        "context": "카탈로그 미등재",
+        "verification_status": "unverified"
       },
       {
         "raw_name": "브이올렛",
         "category_guess": "지방분해주사(데옥시콜산)",
-        "source_page": "https://www.sartine.kr/brandings/4149",
-        "context": "이중턱 지방개선 주사제(deoxycholic acid). 카탈로그 미등재(지방분해 주사는 카탈로그 범위 밖)"
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "https://www.sartine.kr/brandings/4149", "evidence": "이중턱 지방개선 주사제(deoxycholic acid)" }
+        ],
+        "context": "카탈로그 미등재(지방분해 주사는 카탈로그 범위 밖)",
+        "verification_status": "unverified"
       },
       {
         "raw_name": "민트리프트 쁘띠 플러스",
         "category_guess": "실리프팅 봉합사(PDO/PLLA)",
-        "source_page": "https://www.sartine.kr/brandings/4150",
-        "context": "실리프팅 라인업 '민트리프트'(안면조직고정용실). 봉합사는 카탈로그 범위 밖"
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "https://www.sartine.kr/brandings/4150", "evidence": "실리프팅 라인업 '민트리프트'(안면조직고정용실)" }
+        ],
+        "context": "봉합사는 카탈로그 범위 밖",
+        "verification_status": "unverified"
       },
       {
         "raw_name": "민트리프트 파인 플러스",
         "category_guess": "실리프팅 봉합사(PDO/PLLA)",
-        "source_page": "https://www.sartine.kr/brandings/4150",
-        "context": "실리프팅 라인업 '민트리프트' 파인 플러스. 봉합사는 카탈로그 범위 밖"
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "https://www.sartine.kr/brandings/4150", "evidence": "실리프팅 라인업 '민트리프트' 파인 플러스" }
+        ],
+        "context": "봉합사는 카탈로그 범위 밖",
+        "verification_status": "unverified"
       },
       {
         "raw_name": "민트리프트 픽스 플러스",
         "category_guess": "실리프팅 봉합사(PDO/PLLA)",
-        "source_page": "https://www.sartine.kr/brandings/4150",
-        "context": "실리프팅 라인업 '민트리프트' 픽스 플러스. 봉합사는 카탈로그 범위 밖"
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "https://www.sartine.kr/brandings/4150", "evidence": "실리프팅 라인업 '민트리프트' 픽스 플러스" }
+        ],
+        "context": "봉합사는 카탈로그 범위 밖",
+        "verification_status": "unverified"
       },
       {
         "raw_name": "위고비",
         "category_guess": "다이어트 처방주사(GLP-1)",
-        "source_page": "https://www.sartine.kr/brandings/4206",
-        "context": "비만 관리 처방주사제(Wegovy, GLP-1). 카탈로그(에스테틱 제품) 범위 밖"
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "https://www.sartine.kr/brandings/4206", "evidence": "비만 관리 처방주사제(Wegovy, GLP-1)" }
+        ],
+        "context": "카탈로그(에스테틱 제품) 범위 밖",
+        "verification_status": "unverified"
       },
       {
         "raw_name": "마운자로",
         "category_guess": "다이어트 처방주사(GLP-1/GIP)",
-        "source_page": "https://www.sartine.kr/brandings/4206",
-        "context": "비만 관리 처방주사제(Mounjaro, GLP-1/GIP). 카탈로그 범위 밖"
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "https://www.sartine.kr/brandings/4206", "evidence": "비만 관리 처방주사제(Mounjaro, GLP-1/GIP)" }
+        ],
+        "context": "카탈로그 범위 밖",
+        "verification_status": "unverified"
       },
       {
         "raw_name": "지방분해주사",
         "category_guess": "바디 지방분해주사",
-        "source_page": "https://www.sartine.kr/exhibitions (슬림 튠바디 이벤트)",
-        "context": "바디 슬림 패키지 구성품(60/100/200cc). 브랜드 미표기, 카탈로그 범위 밖"
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "https://www.sartine.kr/exhibitions", "evidence": "바디 슬림 패키지 구성품(60/100/200cc). 슬림 튠바디 이벤트" }
+        ],
+        "context": "브랜드 미표기, 카탈로그 범위 밖",
+        "verification_status": "unverified"
       }
     ]
   },
@@ -342,56 +478,93 @@
         "name_kr": "써마지 FLX",
         "name_en": "Thermage FLX",
         "category": "리프팅",
-        "source_page": "https://www.sartine.kr/introduce/equipment",
-        "context": "장비 소개 '써마지FLX'(33% 넓어진 팁·25% 짧은 시술시간). 카탈로그 no.4 직접 매칭. 시술 4053·디자인리프팅(4050)에도 사용"
+        "mention_count": 2,
+        "sources": [
+          { "channel": "homepage", "url": "https://www.sartine.kr/introduce/equipment", "evidence": "장비 소개 '써마지FLX'(33% 넓어진 팁·25% 짧은 시술시간)" },
+          { "channel": "homepage", "url": "https://www.sartine.kr/brandings/4053", "evidence": "써마지FLX 시술 페이지" }
+        ],
+        "context": "카탈로그 no.4 직접 매칭. 시술 4053·디자인리프팅(4050)에도 사용",
+        "verification_status": "verified"
       },
       {
         "name_kr": "쿨소닉",
         "name_en": "CoolSonic",
         "category": "리프팅",
-        "source_page": "https://www.sartine.kr/introduce/equipment",
-        "context": "장비 소개 '쿨소닉'(초음파+냉각 HIFU). 카탈로그 no.36 직접 매칭. 대표원장 쿨소닉 키닥터. 목주름 이벤트·VIP 멤버십(쿨소닉 샷 제공)에도 활용"
+        "mention_count": 3,
+        "sources": [
+          { "channel": "homepage", "url": "https://www.sartine.kr/introduce/equipment", "evidence": "장비 소개 '쿨소닉'(초음파+냉각 HIFU)" },
+          { "channel": "homepage", "url": "https://www.sartine.kr/exhibitions", "evidence": "목주름 이벤트·VIP 멤버십(쿨소닉 샷 제공)" }
+        ],
+        "context": "카탈로그 no.36 직접 매칭. 대표원장 쿨소닉 키닥터",
+        "verification_status": "verified"
       },
       {
         "name_kr": "포텐자",
         "name_en": "POTENZA",
         "category": "리프팅 / 재생",
-        "source_page": "https://www.sartine.kr/introduce/equipment",
-        "context": "장비 소개 '포텐자'(2타입 고주파·14핀 마이크로니들 RF). 카탈로그 no.42 직접 매칭. 시술 4078"
+        "mention_count": 2,
+        "sources": [
+          { "channel": "homepage", "url": "https://www.sartine.kr/introduce/equipment", "evidence": "장비 소개 '포텐자'(2타입 고주파·14핀 마이크로니들 RF)" },
+          { "channel": "homepage", "url": "https://www.sartine.kr/brandings/4078", "evidence": "포텐자 시술 페이지" }
+        ],
+        "context": "카탈로그 no.42 직접 매칭. 시술 4078",
+        "verification_status": "verified"
       },
       {
         "name_kr": "울쎄라피 프라임",
         "name_en": "Ultherapy Prime",
         "category": "리프팅",
-        "source_page": "https://www.sartine.kr/brandings/4081",
-        "context": "시술 메뉴 '울쎄라피 프라임'(HIFU SMAS, 울쎄라 차세대·DeepSEE 8mm). 카탈로그 no.33 매칭. 디자인리프팅·메타설명의 '울쎄라'도 동일 장비"
+        "mention_count": 2,
+        "sources": [
+          { "channel": "homepage", "url": "https://www.sartine.kr/brandings/4081", "evidence": "시술 메뉴 '울쎄라피 프라임'(HIFU SMAS, 울쎄라 차세대·DeepSEE 8mm)" }
+        ],
+        "context": "카탈로그 no.33 매칭. 디자인리프팅·메타설명의 '울쎄라'도 동일 장비",
+        "verification_status": "verified"
       },
       {
         "name_kr": "온다",
         "name_en": "ONDA",
         "category": "리프팅",
-        "source_page": "https://www.sartine.kr/brandings/4360",
-        "context": "시술 메뉴 '온다'(극초단파 Microwave 지방분해·탄력). 카탈로그 no.9 매칭. 슬림 튠바디 이벤트의 '바디온다'도 동일 장비"
+        "mention_count": 2,
+        "sources": [
+          { "channel": "homepage", "url": "https://www.sartine.kr/brandings/4360", "evidence": "시술 메뉴 '온다'(극초단파 Microwave 지방분해·탄력)" },
+          { "channel": "homepage", "url": "https://www.sartine.kr/exhibitions", "evidence": "슬림 튠바디 이벤트의 '바디온다'" }
+        ],
+        "context": "카탈로그 no.9 매칭. 슬림 튠바디 이벤트의 '바디온다'도 동일 장비",
+        "verification_status": "verified"
       }
     ],
     "unmatched_equipments": [
       {
         "raw_name": "리프테라2 (Liftera2)",
         "category_guess": "리프팅(집속초음파 HIFU)",
-        "source_page": "https://www.sartine.kr/introduce/equipment",
-        "context": "장비 소개 '리프테라2'(두 가지 핸드피스). 클래시스 계열 HIFU 추정, 카탈로그 미등재. 대표원장 리프테라2 키닥터. 슬림 튠바디 이벤트 '바디리프테라'도 동일 장비"
+        "mention_count": 2,
+        "sources": [
+          { "channel": "homepage", "url": "https://www.sartine.kr/introduce/equipment", "evidence": "장비 소개 '리프테라2'(두 가지 핸드피스)" },
+          { "channel": "homepage", "url": "https://www.sartine.kr/exhibitions", "evidence": "슬림 튠바디 이벤트 '바디리프테라'" }
+        ],
+        "context": "클래시스 계열 HIFU 추정, 카탈로그 미등재. 대표원장 리프테라2 키닥터. 슬림 튠바디 이벤트 '바디리프테라'도 동일 장비",
+        "verification_status": "unverified"
       },
       {
         "raw_name": "쿨페이즈 (Coolfase/Coolpaze)",
         "category_guess": "리프팅(고주파 RF)",
-        "source_page": "https://www.sartine.kr/introduce/equipment",
-        "context": "장비 소개 '쿨페이즈'(특허 냉각장치·통증없는 고주파). 카탈로그 미등재. 대표원장 쿨페이즈 키닥터"
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "https://www.sartine.kr/introduce/equipment", "evidence": "장비 소개 '쿨페이즈'(특허 냉각장치·통증없는 고주파)" }
+        ],
+        "context": "카탈로그 미등재. 대표원장 쿨페이즈 키닥터",
+        "verification_status": "unverified"
       },
       {
         "raw_name": "트리니티 (Trinity)",
         "category_guess": "리프팅(리프토닝)",
-        "source_page": "https://www.sartine.kr/introduce/equipment",
-        "context": "장비 소개 '트리니티'(지지인대 강화·이중턱 리프토닝). 카탈로그 미등재"
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "https://www.sartine.kr/introduce/equipment", "evidence": "장비 소개 '트리니티'(지지인대 강화·이중턱 리프토닝)" }
+        ],
+        "context": "카탈로그 미등재",
+        "verification_status": "unverified"
       }
     ]
   },
@@ -402,11 +575,10 @@
       "product_name": null,
       "equipment_name": "쿨소닉; 쿨페이즈; 울쎄라피 프라임; 써마지 FLX; 리프테라2",
       "price": null,
-      "price_display": null,
-      "unit": null,
-      "is_event_price": null,
+      "package": null,
       "notes": "5가지 장비를 얼굴 구조에 맞춰 설계하는 시그니처 복합 리프팅(쿨소닉·쿨페이즈·울쎄라피프라임·써마지FLX·리프테라2)",
-      "source_page": "https://www.sartine.kr/brandings/4050"
+      "source_page": "https://www.sartine.kr/brandings/4050",
+      "verification_status": "verified"
     },
     {
       "treatment_name": "쿨소닉",
@@ -414,11 +586,10 @@
       "product_name": null,
       "equipment_name": "쿨소닉",
       "price": null,
-      "price_display": null,
-      "unit": null,
-      "is_event_price": null,
+      "package": null,
       "notes": "초음파+냉각 결합, 눈썹 리프팅·주름 개선",
-      "source_page": "https://www.sartine.kr/brandings/4064"
+      "source_page": "https://www.sartine.kr/brandings/4064",
+      "verification_status": "verified"
     },
     {
       "treatment_name": "쿨페이즈",
@@ -426,11 +597,10 @@
       "product_name": null,
       "equipment_name": "쿨페이즈",
       "price": null,
-      "price_display": null,
-      "unit": null,
-      "is_event_price": null,
+      "package": null,
       "notes": "특허 냉각장치 적용 통증 없는 고주파(RF) 리프팅",
-      "source_page": "https://www.sartine.kr/brandings/4075"
+      "source_page": "https://www.sartine.kr/brandings/4075",
+      "verification_status": "verified"
     },
     {
       "treatment_name": "울쎄라피 프라임",
@@ -438,11 +608,10 @@
       "product_name": null,
       "equipment_name": "울쎄라피 프라임",
       "price": null,
-      "price_display": null,
-      "unit": null,
-      "is_event_price": null,
+      "package": null,
       "notes": "HIFU SMAS 리프팅(울쎄라 차세대). 35% 커진 모니터·DeepSEE 8mm·약 20% 빠른 시술. 이중턱·얼굴 전체",
-      "source_page": "https://www.sartine.kr/brandings/4081"
+      "source_page": "https://www.sartine.kr/brandings/4081",
+      "verification_status": "verified"
     },
     {
       "treatment_name": "써마지FLX",
@@ -450,11 +619,10 @@
       "product_name": null,
       "equipment_name": "써마지 FLX",
       "price": null,
-      "price_display": null,
-      "unit": null,
-      "is_event_price": null,
+      "package": null,
       "notes": "고주파(RF) 열에너지 콜라겐 재구성 탄력 리프팅",
-      "source_page": "https://www.sartine.kr/brandings/4053"
+      "source_page": "https://www.sartine.kr/brandings/4053",
+      "verification_status": "verified"
     },
     {
       "treatment_name": "리프테라2",
@@ -462,11 +630,10 @@
       "product_name": null,
       "equipment_name": "리프테라2",
       "price": null,
-      "price_display": null,
-      "unit": null,
-      "is_event_price": null,
+      "package": null,
       "notes": "두 가지 핸드피스 집속초음파(HIFU) 리프팅, 윤곽 정돈",
-      "source_page": "https://www.sartine.kr/brandings/4061"
+      "source_page": "https://www.sartine.kr/brandings/4061",
+      "verification_status": "verified"
     },
     {
       "treatment_name": "온다 (ONDA)",
@@ -474,11 +641,10 @@
       "product_name": null,
       "equipment_name": "온다",
       "price": null,
-      "price_display": null,
-      "unit": null,
-      "is_event_price": null,
+      "package": null,
       "notes": "극초단파(Microwave) 지방세포 분해·콜라겐 재생. 페이스 온다 및 팔뚝·복부·허벅지 바디온다(Before/After 다수)",
-      "source_page": "https://www.sartine.kr/brandings/4360"
+      "source_page": "https://www.sartine.kr/brandings/4360",
+      "verification_status": "verified"
     },
     {
       "treatment_name": "포텐자",
@@ -486,11 +652,10 @@
       "product_name": null,
       "equipment_name": "포텐자",
       "price": null,
-      "price_display": null,
-      "unit": null,
-      "is_event_price": null,
+      "package": null,
       "notes": "마이크로니들 고주파(RF) 14핀 팁, 색소·홍조·모공·탄력 개선",
-      "source_page": "https://www.sartine.kr/brandings/4078"
+      "source_page": "https://www.sartine.kr/brandings/4078",
+      "verification_status": "verified"
     },
     {
       "treatment_name": "스킨부스터",
@@ -498,11 +663,10 @@
       "product_name": "리쥬란 힐러; 리쥬란 HB; 리쥬란 아이; 엘라비에 리투오; 힐로웨이브; 벨로테로 리바이브 스킨부스터; 쥬베룩",
       "equipment_name": null,
       "price": null,
-      "price_display": null,
-      "unit": null,
-      "is_event_price": null,
+      "package": null,
       "notes": "피부 영양 공급 부스터. 라인업: 리쥬란힐러·리쥬란HB·엘라비에 리투오·필로르가135(미매칭)·힐로웨이브·아이리쥬란·벨로테로 리바이브·쥬베룩 스킨·ASCE+ 엑소좀(미매칭)",
-      "source_page": "https://www.sartine.kr/brandings/4085"
+      "source_page": "https://www.sartine.kr/brandings/4085",
+      "verification_status": "verified"
     },
     {
       "treatment_name": "콜라겐 볼륨 (콜라겐부스터)",
@@ -510,11 +674,10 @@
       "product_name": "쥬베룩 볼륨",
       "equipment_name": null,
       "price": null,
-      "price_display": null,
-      "unit": null,
-      "is_event_price": null,
+      "package": null,
       "notes": "콜라겐 생성 유도 볼륨. 라인업: 레디어스(미매칭, CaHA)·쥬베룩 볼륨",
-      "source_page": "https://www.sartine.kr/brandings/4107"
+      "source_page": "https://www.sartine.kr/brandings/4107",
+      "verification_status": "verified"
     },
     {
       "treatment_name": "필러",
@@ -522,11 +685,10 @@
       "product_name": "뉴라미스; 레스틸렌; 레스틸렌 리프트; 레스틸렌 키스; 쥬비덤 볼룩스; 쥬비덤 볼루마; 쥬비덤 볼리프트; 벨로테로 소프트",
       "equipment_name": null,
       "price": null,
-      "price_display": null,
-      "unit": null,
-      "is_event_price": null,
+      "package": null,
       "notes": "HA 필러 볼륨·주름 개선. 라인업: 뉴라미스(클래식/라이트)·레스틸렌(아이라이트/리도카인/키스/리프트/비탈)·쥬비덤(볼룩스/볼루마/볼리프트)·벨로테로(소프트)",
-      "source_page": "https://www.sartine.kr/brandings/4133"
+      "source_page": "https://www.sartine.kr/brandings/4133",
+      "verification_status": "verified"
     },
     {
       "treatment_name": "보톡스",
@@ -534,11 +696,10 @@
       "product_name": "코어톡스; 보톡스; 제오민",
       "equipment_name": null,
       "price": null,
-      "price_display": null,
-      "unit": null,
-      "is_event_price": null,
+      "package": null,
       "notes": "사각턱/침샘·바디·다한증·주름·스킨 보톡스. 톡신 라인업: 코어톡스·엘러간(보톡스)·제오민",
-      "source_page": "https://www.sartine.kr/brandings/4137"
+      "source_page": "https://www.sartine.kr/brandings/4137",
+      "verification_status": "verified"
     },
     {
       "treatment_name": "브이올렛",
@@ -546,11 +707,10 @@
       "product_name": "브이올렛",
       "equipment_name": null,
       "price": null,
-      "price_display": null,
-      "unit": null,
-      "is_event_price": null,
+      "package": null,
       "notes": "데옥시콜산(DCA) 이중턱 지방개선 주사. 국내 유일 허가 이중턱 개선 주사",
-      "source_page": "https://www.sartine.kr/brandings/4149"
+      "source_page": "https://www.sartine.kr/brandings/4149",
+      "verification_status": "verified"
     },
     {
       "treatment_name": "실리프팅",
@@ -558,11 +718,10 @@
       "product_name": "민트리프트 쁘띠 플러스; 민트리프트 파인 플러스; 민트리프트 픽스 플러스",
       "equipment_name": null,
       "price": null,
-      "price_display": null,
-      "unit": null,
-      "is_event_price": null,
+      "package": null,
       "notes": "PDO/PLLA 녹는 실(민트리프트, 안면조직고정용실, 360° 3D 돌기). 봉합사 3종 라인업",
-      "source_page": "https://www.sartine.kr/brandings/4150"
+      "source_page": "https://www.sartine.kr/brandings/4150",
+      "verification_status": "verified"
     },
     {
       "treatment_name": "페이셜 관리 프로그램",
@@ -570,11 +729,10 @@
       "product_name": null,
       "equipment_name": null,
       "price": null,
-      "price_display": null,
-      "unit": null,
-      "is_event_price": null,
+      "package": null,
       "notes": "5종 프리미엄 페이셜: 이브세라·이브업·파셀라 얼굴형 관리·프리미엄 산소테라피·글로우 필링",
-      "source_page": "https://www.sartine.kr/brandings/4196"
+      "source_page": "https://www.sartine.kr/brandings/4196",
+      "verification_status": "verified"
     },
     {
       "treatment_name": "비만 관리 (다이어트 프로그램)",
@@ -582,11 +740,10 @@
       "product_name": "위고비; 마운자로",
       "equipment_name": null,
       "price": null,
-      "price_display": null,
-      "unit": null,
-      "is_event_price": null,
+      "package": null,
       "notes": "GLP-1 계열 비만 처방주사: 위고비(Wegovy)·마운자로(Mounjaro). 복부·팔·허벅지",
-      "source_page": "https://www.sartine.kr/brandings/4206"
+      "source_page": "https://www.sartine.kr/brandings/4206",
+      "verification_status": "verified"
     },
     {
       "treatment_name": "페이스 매핑 (FACE MAPPING)",
@@ -594,11 +751,10 @@
       "product_name": null,
       "equipment_name": null,
       "price": null,
-      "price_display": null,
-      "unit": null,
-      "is_event_price": null,
+      "package": null,
       "notes": "얼굴 분석 기반 시술 설계 컨셉. 상세는 이미지(캐러셀)만 제공돼 텍스트 없음",
-      "source_page": "https://www.sartine.kr/brandings/4342"
+      "source_page": "https://www.sartine.kr/brandings/4342",
+      "verification_status": "inferred"
     },
     {
       "treatment_name": "페이스 로드맵 (FACE ROADMAP)",
@@ -606,131 +762,230 @@
       "product_name": null,
       "equipment_name": null,
       "price": null,
-      "price_display": null,
-      "unit": null,
-      "is_event_price": null,
+      "package": null,
       "notes": "맞춤 시술 로드맵 설계 컨셉(for WOMEN 4472 / for MEN 4473 하위 분기). 상세는 이미지(소개·영상·설명)만 제공돼 텍스트 없음",
-      "source_page": "https://www.sartine.kr/brandings/4474"
+      "source_page": "https://www.sartine.kr/brandings/4474",
+      "verification_status": "inferred"
     },
     {
       "treatment_name": "슬림 튠바디 이벤트 - 팔뚝 (바디온다 20만줄+바디 리프테라 4000샷+지방분해주사 60cc)",
       "category": "바디 이벤트",
       "product_name": "지방분해주사",
       "equipment_name": "온다; 리프테라2",
-      "price": 900000,
-      "price_display": "정상가 1,800,000원 → 이벤트가 900,000원",
-      "unit": "패키지",
-      "is_event_price": true,
-      "notes": "5월 슬림 튠바디 이벤트(~2026-05-31). 팔뚝 바디온다+바디리프테라+지방분해주사",
-      "source_page": "https://www.sartine.kr/exhibitions"
+      "price": {
+        "text": "정상가 1,800,000원 → 이벤트가 900,000원",
+        "low": 900000,
+        "high": 900000,
+        "unit": "패키지",
+        "currency": "KRW",
+        "is_event_price": true
+      },
+      "package": {
+        "sessions": null,
+        "duration_months": null,
+        "event_period": "~ 2026-05-31"
+      },
+      "notes": "5월 슬림 튠바디 이벤트. 팔뚝 바디온다+바디리프테라+지방분해주사. 정상가 1,800,000원",
+      "source_page": "https://www.sartine.kr/exhibitions",
+      "verification_status": "verified"
     },
     {
       "treatment_name": "슬림 튠바디 이벤트 - 허벅지 (바디온다 20만줄+바디 리프테라 10000샷+지방분해주사 100cc)",
       "category": "바디 이벤트",
       "product_name": "지방분해주사",
       "equipment_name": "온다; 리프테라2",
-      "price": 1800000,
-      "price_display": "정상가 2,800,000원 → 이벤트가 1,800,000원",
-      "unit": "패키지",
-      "is_event_price": true,
-      "notes": "5월 슬림 튠바디 이벤트(~2026-05-31). 허벅지",
-      "source_page": "https://www.sartine.kr/exhibitions"
+      "price": {
+        "text": "정상가 2,800,000원 → 이벤트가 1,800,000원",
+        "low": 1800000,
+        "high": 1800000,
+        "unit": "패키지",
+        "currency": "KRW",
+        "is_event_price": true
+      },
+      "package": {
+        "sessions": null,
+        "duration_months": null,
+        "event_period": "~ 2026-05-31"
+      },
+      "notes": "5월 슬림 튠바디 이벤트. 허벅지. 정상가 2,800,000원",
+      "source_page": "https://www.sartine.kr/exhibitions",
+      "verification_status": "verified"
     },
     {
       "treatment_name": "슬림 튠바디 이벤트 - 복부 (바디온다 40만줄+지방분해주사 200cc+바디 리프테라 10000샷)",
       "category": "바디 이벤트",
       "product_name": "지방분해주사",
       "equipment_name": "온다; 리프테라2",
-      "price": 3200000,
-      "price_display": "정상가 4,440,000원 → 이벤트가 3,200,000원",
-      "unit": "패키지",
-      "is_event_price": true,
-      "notes": "5월 슬림 튠바디 이벤트(~2026-05-31). 복부(중앙+아랫배+옆구리)",
-      "source_page": "https://www.sartine.kr/exhibitions"
+      "price": {
+        "text": "정상가 4,440,000원 → 이벤트가 3,200,000원",
+        "low": 3200000,
+        "high": 3200000,
+        "unit": "패키지",
+        "currency": "KRW",
+        "is_event_price": true
+      },
+      "package": {
+        "sessions": null,
+        "duration_months": null,
+        "event_period": "~ 2026-05-31"
+      },
+      "notes": "5월 슬림 튠바디 이벤트. 복부(중앙+아랫배+옆구리). 정상가 4,440,000원",
+      "source_page": "https://www.sartine.kr/exhibitions",
+      "verification_status": "verified"
     },
     {
       "treatment_name": "슬림 튠바디 이벤트 - 올인원 전신",
       "category": "바디 이벤트",
       "product_name": "지방분해주사",
       "equipment_name": "온다; 리프테라2",
-      "price": 4800000,
-      "price_display": "4,800,000원",
-      "unit": "패키지",
-      "is_event_price": true,
-      "notes": "5월 슬림 튠바디 이벤트(~2026-05-31). 올인원 전신(할인가 별도 없음)",
-      "source_page": "https://www.sartine.kr/exhibitions"
+      "price": {
+        "text": "4,800,000원",
+        "low": 4800000,
+        "high": 4800000,
+        "unit": "패키지",
+        "currency": "KRW",
+        "is_event_price": true
+      },
+      "package": {
+        "sessions": null,
+        "duration_months": null,
+        "event_period": "~ 2026-05-31"
+      },
+      "notes": "5월 슬림 튠바디 이벤트. 올인원 전신(할인가 별도 없음)",
+      "source_page": "https://www.sartine.kr/exhibitions",
+      "verification_status": "verified"
     },
     {
       "treatment_name": "목주름 이벤트 - 목주름 필러 1cc + 목 스킨보톡스",
       "category": "쁘띠 이벤트",
       "product_name": "벨로테로 소프트",
       "equipment_name": null,
-      "price": 550000,
-      "price_display": "정상가 800,000원 → 이벤트가 550,000원",
-      "unit": "패키지",
-      "is_event_price": true,
-      "notes": "5월 목주름 이벤트(~2026-05-31). 벨로테로 필러 사용",
-      "source_page": "https://www.sartine.kr/exhibitions"
+      "price": {
+        "text": "정상가 800,000원 → 이벤트가 550,000원",
+        "low": 550000,
+        "high": 550000,
+        "unit": "패키지",
+        "currency": "KRW",
+        "is_event_price": true
+      },
+      "package": {
+        "sessions": null,
+        "duration_months": null,
+        "event_period": "~ 2026-05-31"
+      },
+      "notes": "5월 목주름 이벤트. 벨로테로 필러 사용. 정상가 800,000원",
+      "source_page": "https://www.sartine.kr/exhibitions",
+      "verification_status": "verified"
     },
     {
       "treatment_name": "목주름 이벤트 - 필러 1cc + 스킨보톡스 + 리투오 1회",
       "category": "쁘띠 이벤트",
       "product_name": "벨로테로 소프트; 엘라비에 리투오",
       "equipment_name": null,
-      "price": 1150000,
-      "price_display": "정상가 1,650,000원 → 이벤트가 1,150,000원",
-      "unit": "패키지",
-      "is_event_price": true,
-      "notes": "5월 목주름 이벤트(~2026-05-31). 벨로테로 필러+리투오",
-      "source_page": "https://www.sartine.kr/exhibitions"
+      "price": {
+        "text": "정상가 1,650,000원 → 이벤트가 1,150,000원",
+        "low": 1150000,
+        "high": 1150000,
+        "unit": "패키지",
+        "currency": "KRW",
+        "is_event_price": true
+      },
+      "package": {
+        "sessions": null,
+        "duration_months": null,
+        "event_period": "~ 2026-05-31"
+      },
+      "notes": "5월 목주름 이벤트. 벨로테로 필러+리투오. 정상가 1,650,000원",
+      "source_page": "https://www.sartine.kr/exhibitions",
+      "verification_status": "verified"
     },
     {
       "treatment_name": "목주름 이벤트 - 필러 1cc + 스킨보톡스 + 리투오 1회 + 쿨소닉 3000샷",
       "category": "쁘띠 이벤트",
       "product_name": "벨로테로 소프트; 엘라비에 리투오",
       "equipment_name": "쿨소닉",
-      "price": 1650000,
-      "price_display": "정상가 2,250,000원 → 이벤트가 1,650,000원",
-      "unit": "패키지",
-      "is_event_price": true,
-      "notes": "5월 목주름 이벤트(~2026-05-31). 벨로테로 필러+리투오+쿨소닉",
-      "source_page": "https://www.sartine.kr/exhibitions"
+      "price": {
+        "text": "정상가 2,250,000원 → 이벤트가 1,650,000원",
+        "low": 1650000,
+        "high": 1650000,
+        "unit": "패키지",
+        "currency": "KRW",
+        "is_event_price": true
+      },
+      "package": {
+        "sessions": null,
+        "duration_months": null,
+        "event_period": "~ 2026-05-31"
+      },
+      "notes": "5월 목주름 이벤트. 벨로테로 필러+리투오+쿨소닉. 정상가 2,250,000원",
+      "source_page": "https://www.sartine.kr/exhibitions",
+      "verification_status": "verified"
     },
     {
       "treatment_name": "작은 얼굴 프로젝트 - 경락 1회권 + 턱보톡스",
       "category": "제휴 이벤트",
       "product_name": null,
       "equipment_name": null,
-      "price": 79000,
-      "price_display": "정상가 149,000원 → 이벤트가 79,000원 (1회 한정 체험)",
-      "unit": "1회권",
-      "is_event_price": true,
-      "notes": "SARTINE X 더하얀경락 오픈 이벤트(~2026-05-31). 1:1 페이스맵핑+작은얼굴 경락+턱보톡스. 경락은 제휴사(더하얀경락) 프로그램",
-      "source_page": "https://www.sartine.kr/exhibitions"
+      "price": {
+        "text": "정상가 149,000원 → 이벤트가 79,000원 (1회 한정 체험)",
+        "low": 79000,
+        "high": 79000,
+        "unit": "1회권",
+        "currency": "KRW",
+        "is_event_price": true
+      },
+      "package": {
+        "sessions": 1,
+        "duration_months": null,
+        "event_period": "~ 2026-05-31"
+      },
+      "notes": "SARTINE X 더하얀경락 오픈 이벤트. 1:1 페이스맵핑+작은얼굴 경락+턱보톡스. 경락은 제휴사(더하얀경락) 프로그램. 정상가 149,000원",
+      "source_page": "https://www.sartine.kr/exhibitions",
+      "verification_status": "verified"
     },
     {
       "treatment_name": "작은 얼굴 프로젝트 - 경락 5회권 + 턱보톡스",
       "category": "제휴 이벤트",
       "product_name": null,
       "equipment_name": null,
-      "price": 690000,
-      "price_display": "690,000원",
-      "unit": "5회권",
-      "is_event_price": true,
-      "notes": "SARTINE X 더하얀경락 이벤트(~2026-05-31). 경락 5회+턱보톡스",
-      "source_page": "https://www.sartine.kr/exhibitions"
+      "price": {
+        "text": "690,000원",
+        "low": 690000,
+        "high": 690000,
+        "unit": "5회권",
+        "currency": "KRW",
+        "is_event_price": true
+      },
+      "package": {
+        "sessions": 5,
+        "duration_months": null,
+        "event_period": "~ 2026-05-31"
+      },
+      "notes": "SARTINE X 더하얀경락 이벤트. 경락 5회+턱보톡스",
+      "source_page": "https://www.sartine.kr/exhibitions",
+      "verification_status": "verified"
     },
     {
       "treatment_name": "작은 얼굴 프로젝트 - 경락 10회권 + 턱보톡스",
       "category": "제휴 이벤트",
       "product_name": null,
       "equipment_name": null,
-      "price": 1200000,
-      "price_display": "1,200,000원",
-      "unit": "10회권",
-      "is_event_price": true,
-      "notes": "SARTINE X 더하얀경락 이벤트(~2026-05-31). 경락 10회+턱보톡스",
-      "source_page": "https://www.sartine.kr/exhibitions"
+      "price": {
+        "text": "1,200,000원",
+        "low": 1200000,
+        "high": 1200000,
+        "unit": "10회권",
+        "currency": "KRW",
+        "is_event_price": true
+      },
+      "package": {
+        "sessions": 10,
+        "duration_months": null,
+        "event_period": "~ 2026-05-31"
+      },
+      "notes": "SARTINE X 더하얀경락 이벤트. 경락 10회+턱보톡스",
+      "source_page": "https://www.sartine.kr/exhibitions",
+      "verification_status": "verified"
     }
   ],
   "language_support": {
@@ -763,20 +1018,8 @@
       "https://www.sartine.kr/brandings/4209 (VIP 멤버십), /brandings/4342(페이스맵핑), /brandings/4474(페이스로드맵)"
     ],
     "crawl_method": "manual_agent (Claude가 Playwright MCP로 직접 방문). 운영정보·의료진·장비는 Next.js 서버 데이터(partnerInfo/PartnerEmployeeList/introduceEquipment)에서, 시술 상세의 제품·봉합사 라인업은 클라이언트 렌더 DOM 본문 텍스트 + 이미지 alt에서, 가격은 기획전(exhibitionList) 서버 데이터에서 추출",
+    "crawl_duration_seconds": 0,
     "errors": [],
-    "notes": [
-      "가격(중요): 자동 크롤링(ri8bix_headless.json)은 '텍스트 가격 전무'로 판단했으나, 기획전 페이지(/exhibitions)에 구조화된 이벤트 텍스트 가격이 존재함을 확인. 슬림 튠바디(90만~480만원)·목주름(55만~165만원)·작은얼굴 경락+턱보톡스(7.9만~120만원) 등 3개 이벤트 패키지의 옵션별 정상가/할인가를 treatments에 텍스트로 수록. 따라서 prices=true. (이벤트 기간 모두 ~2026-05-31, 오늘 2026-05-29 기준 진행중)",
-      "시술 상세 추출(중요): brandings 상세는 _next/data 서버 props가 비어 있으나(pageData {}), 페이지는 클라이언트에서 텍스트+이미지로 렌더됨. 자동 크롤링은 이를 '이미지뿐 추출 불가'로 처리해 라인업을 누락했지만, 실제 DOM 본문과 이미지 alt에 제품·봉합사 브랜드가 텍스트로 존재. 이를 직접 렌더링해 스킨부스터 9종·콜라겐부스터 2종·필러 4브랜드·톡신 3종·실리프팅 봉합사 3종 등을 추가 수집함.",
-      "힐로웨이브 정정: 자동 크롤링은 힐로웨이브를 '미등재 장비'로 분류했으나, 스킨부스터 라인업의 제품이며 카탈로그에 등재된 스킨부스터(하이어코퍼레이션, handled=1/featured=1)임. matched_products로 정정함.",
-      "제품 매칭: 한↔영/라인 교차 매칭 적용. 아이리쥬란→리쥬란 아이, 쥬베룩 스킨→쥬베룩(기본형), 엘러간(보톡스 라인업)→보톡스(엘러간), 쥬비덤 볼룩스/볼루마/볼리프트·레스틸렌 리프트/키스 등 카탈로그 존재 라인 매칭. 보류(unmatched): 필로르가135(Filorga, 미등재), ASCE+ 엑소좀(큐티셀 엑소좀과 동일 확신 없어 보류), 레디어스(Radiesse CaHA, 미등재), 브이올렛(데옥시콜산 지방분해, 범위 밖), 민트리프트 봉합사 3종(범위 밖), 위고비·마운자로(GLP-1 다이어트, 범위 밖), 지방분해주사(브랜드 미표기).",
-      "장비 매칭: 장비 소개 6종(써마지FLX·리프테라2·쿨소닉·쿨페이즈·트리니티·포텐자)+시술 메뉴의 울쎄라피 프라임·온다. 매칭 5종(써마지 FLX no.4, 쿨소닉 no.36, 포텐자 no.42, 울쎄라피 프라임 no.33, 온다 no.9). 미등재 3종(리프테라2, 쿨페이즈, 트리니티). 메타설명의 '울쎄라'='울쎄라피 프라임'(no.33)으로 봄(no.1 중복 추가 안 함).",
-      "의료진: 의료진 페이지(/introduce/staff)에 실제 렌더링되는 의사는 양세환 대표원장·권도윤 원장 2명(isHomepageView=true)뿐임을 DOM에서 확인. PartnerEmployeeList DB와 pageKeywords에는 이시은·이채림·이재윤(원장/부원장)·권예진·김하얀 등이 있으나 모두 isHomepageView=false로 홈페이지 미노출(키워드 스터핑/퇴직 추정) → 제외. 약력·메시지·프로필 이미지 확보. 양세환 인스타 well.d.yang.",
-      "운영정보: 평일 10:00-20:00·토 10:00-17:00·일 휴진·점심시간 없음(partnerInfo, lunch 전부 null). 공휴일 진료(isHolidayWork=true), 월별 정기휴진은 진료시간 캘린더 고지(2026-05: 5/30·5/31 정기휴진). 사업자번호 680-25-01773, 대표 양세환, 주소 서울 강남구 선릉로155길 8(신사동)=CSV 일치. 전화 050-7873-0543(0507 안심번호, 표시 그대로 보존). 발렛파킹. 카카오 _QxhVfn, 인스타 thesartine.official, 네이버블로그 dead2079, 네이버톡톡 talk.naver.com/WPQKVUH.",
-      "별도 도메인 정책 사안: 동일 병원(대표 양세환)의 영문 사이트 thesartine.com이 별도 도메인으로 존재. 홈페이지-한정 정책상 본 추출은 한국어 공식 사이트(sartine.kr)만 반영, 영문 도메인은 범위 외로 두되 통합 여부 정책 결정 필요. sartine.kr은 한국어 전용·언어 스위처 없음.",
-      "제휴 사안: '작은 얼굴 프로젝트'는 사르티네의원 × 더하얀경락(thehayan) 제휴 이벤트로, 경락 프로그램은 외부 제휴사 서비스(병원 시술 아님)이나 사르티네 이벤트 가격으로 판매되어 treatments에 기록함.",
-      "멤버십: VIP 500(500만원/적립 50만원/쿨소닉 2000샷/1년)·VIP 1000(1000만원/적립 150만원/4000샷/2년)·VIP 2000(2000만원/적립 350만원/6000샷/3년) 선결제 멤버십(brandings/4209). 시술이 아니므로 treatments에서 제외하되 가격 정보로 기록.",
-      "미방문/보류: 공간 소개(/introduce/space)·페이스맵핑(4342)·페이스로드맵(4474/4472/4473)은 이미지(캐러셀)만이라 텍스트 시설/콘텐츠 없음 → facilities 비움. 커뮤니티(faq/notice/contact)는 시술·제품 정보 없어 미수집. 시술별 비급여진료비 텍스트 표(상시 가격표)는 네비게이션에 별도 페이지 없음(가격은 기획전 이벤트로만 텍스트 노출)."
-    ],
     "completeness": {
       "operation_info": true,
       "doctors": true,
@@ -785,6 +1028,23 @@
       "treatments": true,
       "prices": true,
       "language_support": true
-    }
-  }
+    },
+    "stage_costs": {},
+    "notes": [
+      "가격(중요): 자동 크롤링(ri8bix_headless.json)은 '텍스트 가격 전무'로 판단했으나, 기획전 페이지(/exhibitions)에 구조화된 이벤트 텍스트 가격이 존재함을 확인. 슬림 튠바디(90만~480만원)·목주름(55만~165만원)·작은얼굴 경락+턱보톡스(7.9만~120만원) 등 3개 이벤트 패키지의 옵션별 정상가/할인가를 treatments에 텍스트로 수록. 따라서 prices=true. (이벤트 기간 모두 ~2026-05-31, 오늘 2026-05-29 기준 진행중)",
+      "시술 상세 추출(중요): brandings 상세는 _next/data 서버 props가 비어 있으나(pageData {}), 페이지는 클라이언트에서 텍스트+이미지로 렌더됨. 자동 크롤링은 이를 '이미지뿐 추출 불가'로 처리해 라인업을 누락했지만, 실제 DOM 본문과 이미지 alt에 제품·봉합사 브랜드가 텍스트로 존재. 이를 직접 렌더링해 스킨부스터 9종·콜라겐부스터 2종·필러 4브랜드·톡신 3종·실리프팅 봉합사 3종 등을 추가 수집함.",
+      "힐로웨이브 정정: 자동 크롤링은 힐로웨이브를 '미등재 장비'로 분류했으나, 스킨부스터 라인업의 제품이며 카탈로그에 등재된 스킨부스터(하이어코퍼레이션, handled=1/featured=1)임. matched_products로 정정함.",
+      "제품 매칭: 한↔영/라인 교차 매칭 적용. 아이리쥬란→리쥬란 아이, 쥬베룩 스킨→쥬베룩(기본형), 엘러간(보톡스 라인업)→보톡스(엘러간), 쥬비덤 볼룩스/볼루마/볼리프트·레스틸렌 리프트/키스 등 카탈로그 존재 라인 매칭. 보류(unmatched): 필로르가135(Filorga, 미등재), ASCE+ 엑소좀(큐티셀 엑소좀과 동일 확신 없어 보류), 레디어스(Radiesse CaHA, 미등재), 브이올렛(데옥시콜산 지방분해, 범위 밖), 민트리프트 봉합사 3종(범위 밖), 위고비·마운자로(GLP-1 다이어트, 범위 밖), 지방분해주사(브랜드 미표기).",
+      "장비 매칭: 장비 소개 6종(써마지FLX·리프테라2·쿨소닉·쿨페이즈·트리니티·포텐자)+시술 메뉴의 울쎄라피 프라임·온다. 매칭 5종(써마지 FLX no.4, 쿨소닉 no.36, 포텐자 no.42, 울쎄라피 프라임 no.33, 온다 no.9). 미등재 3종(리프테라2, 쿨페이즈, 트리니티). 메타설명의 '울쎄라'='울쎄라피 프라임'(no.33)으로 봄(no.1 중복 추가 안 함).",
+      "의료진: 의료진 페이지(/introduce/staff)에 실제 렌더링되는 의사는 양세환 대표원장·권도윤 원장 2명(isHomepageView=true)뿐임을 DOM에서 확인. PartnerEmployeeList DB와 pageKeywords에는 이시은·이채림·이재윤(원장/부원장)·권예진·김하얀 등이 있으나 모두 isHomepageView=false로 홈페이지 미노출(키워드 스터핑/퇴직 추정) → 제외. 약력·메시지·프로필 이미지 확보. 양세환 인스타 well.d.yang.",
+      "운영정보: 평일 10:00-20:00·토 10:00-17:00·일 휴진·점심시간 없음(partnerInfo, lunch 전부 null). 공휴일 진료(isHolidayWork=true), 월별 정기휴진은 진료시간 캘린더 고지(2026-05: 5/30·5/31 정기휴진). 사업자번호 680-25-01773, 대표 양세환, 주소 서울 강남구 선릉로155길 8(신사동)=CSV 일치. 전화 050-7873-0543(0507 안심번호, 표시 그대로 보존). 발렛파킹. 카카오 _QxhVfn, 인스타 thesartine.official, 네이버블로그 dead2079, 네이버톡톡 talk.naver.com/WPQKVUH.",
+      "별도 도메인 정책 사안: 동일 병원(대표 양세환)의 영문 사이트 thesartine.com이 별도 도메인으로 존재. 홈페이지-한정 정책상 본 추출은 한국어 공식 사이트(sartine.kr)만 반영, 영문 도메인은 범위 외로 두되 통합 여부 정책 결정 필요. sartine.kr은 한국어 전용·언어 스위처 없음. (branches.type=single 로 두되 영문 도메인은 별도 정책 판단 대상)",
+      "제휴 사안: '작은 얼굴 프로젝트'는 사르티네의원 × 더하얀경락(thehayan) 제휴 이벤트로, 경락 프로그램은 외부 제휴사 서비스(병원 시술 아님)이나 사르티네 이벤트 가격으로 판매되어 treatments에 기록함.",
+      "멤버십: VIP 500(500만원/적립 50만원/쿨소닉 2000샷/1년)·VIP 1000(1000만원/적립 150만원/4000샷/2년)·VIP 2000(2000만원/적립 350만원/6000샷/3년) 선결제 멤버십(brandings/4209). 시술이 아니므로 treatments에서 제외하되 가격 정보로 기록.",
+      "미방문/보류: 공간 소개(/introduce/space)·페이스맵핑(4342)·페이스로드맵(4474/4472/4473)은 이미지(캐러셀)만이라 텍스트 시설/콘텐츠 없음 → facilities 비움. 커뮤니티(faq/notice/contact)는 시술·제품 정보 없어 미수집. 시술별 비급여진료비 텍스트 표(상시 가격표)는 네비게이션에 별도 페이지 없음(가격은 기획전 이벤트로만 텍스트 노출).",
+      "주소: address 는 CSV 입력 기준 시도=서울/시군구=강남구/읍면동=신사동/도로명=선릉로155길 8. 좌표는 입력에서 미확보(null).",
+      "run_meta 는 runner 가 SDK 응답에서 주입하는 필드로 본 매뉴얼 산출 샘플에서는 null."
+    ]
+  },
+  "run_meta": null
 }
