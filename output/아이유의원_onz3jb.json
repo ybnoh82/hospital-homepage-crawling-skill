@@ -1,0 +1,607 @@
+{
+  "hospital_id": "onz3jb",
+  "hospital_name": "아이유의원",
+  "crawled_at": "2026-06-02T13:45:00+09:00",
+  "address": {
+    "sido": "서울",
+    "sigungu": "강남구",
+    "eupmyeondong": "역삼동",
+    "road_address": "서울특별시 강남구 강남대로 402, 시계탑빌딩 10층 (역삼동)",
+    "latitude": 37.4988176,
+    "longitude": 127.0278562
+  },
+  "homepage_url": "http://i-you.co.kr/",
+  "url_source": "WebSearch로 후보(i-you.co.kr) 발견 후 Playwright로 접속, 푸터 사업자정보(대표 이상준·사업자등록번호 114-14-51557·주소 '서울시 강남구 강남대로 402(역삼동) 시계탑빌딩 10층')가 입력 CSV와 일치함을 확인",
+  "url_confidence": "high",
+  "identity_status": "match",
+  "blog_url": "http://blog.naver.com/furmmi",
+  "sns_url": "https://www.facebook.com/iyouclinic",
+  "alternative_urls": [
+    "https://i-you.co.kr/Default.asp",
+    "http://i-you.co.kr/jp/",
+    "https://story.kakao.com/ch/iyou"
+  ],
+  "branches": {
+    "type": "single",
+    "network_group": null,
+    "this_branch_name": "강남 아이유클리닉",
+    "sibling_branches": []
+  },
+  "operation_info": {
+    "hospital_name": "강남 아이유클리닉",
+    "representative_name": "이상준",
+    "business_number": "114-14-51557",
+    "phone": "02-517-7538",
+    "phone_secondary": "02-517-7539",
+    "fax": null,
+    "email": null,
+    "kakao_channel": "https://story.kakao.com/ch/iyou",
+    "operating_hours": {
+      "monday": { "open": "11:00", "close": "20:30", "break_start": null, "break_end": null },
+      "tuesday": { "open": "11:00", "close": "20:30", "break_start": null, "break_end": null },
+      "wednesday": { "open": "11:00", "close": "20:30", "break_start": null, "break_end": null },
+      "thursday": { "open": "11:00", "close": "20:30", "break_start": null, "break_end": null },
+      "friday": { "open": "11:00", "close": "20:30", "break_start": null, "break_end": null },
+      "saturday": { "open": "11:00", "close": "15:00", "break_start": null, "break_end": null },
+      "sunday": null,
+      "holiday": null
+    },
+    "operating_hours_note": "평일 11:00-20:30 / 토 11:00-15:00 / 일요일·공휴일 휴진 (홈페이지 메인 배너 기준). 2026년 6월 정기휴진: 6/3(전국동시지방선거)·6/6(현충일) — 공지사항 '2026년 06월 휴진안내'. 일본어 사이트는 '100% 예약제' 안내.",
+    "parking_info": "시계탑빌딩(본 건물) 주차장 이용 시 중형차 이하만 주차 가능, 토요일은 오후 3시 이전 출차 필요. 또는 YBM(영풍문고) 건물 주차장(서울시 강남구 강남대로 408) 이용 시 모든 차량 주차 가능.",
+    "transport_info": "지하철: 2호선 강남역 11번 출구 바로 앞(국기원 방향 도보 약 7분), 9호선 신논현역 5번 출구에서 300m 직진(도보 약 7분).",
+    "facilities": []
+  },
+  "doctors": [
+    {
+      "name": "오종탁",
+      "is_representative": true,
+      "role": "대표원장",
+      "specialty": ["피부과"],
+      "education": ["서울대 동문"],
+      "career": [
+        "전 아름다운피부과 원장",
+        "전 듀오피부과 과장",
+        "전 김피부과 과장",
+        "전 하나로성심병원 피부과장"
+      ],
+      "associations": [],
+      "awards": [],
+      "profile_image_url": "https://i-you.co.kr/board/upload_file/boardImages/sub01_01.jpg",
+      "verification_status": "verified"
+    }
+  ],
+  "products": {
+    "matched_products": [
+      {
+        "product_kr": "리쥬란 힐러",
+        "brand_kr": "리쥬란",
+        "manufacturer_kr": "파마리서치",
+        "category": "스킨부스터",
+        "plandocs_handled": 0,
+        "plandocs_featured": 0,
+        "mention_count": 3,
+        "sources": [
+          {
+            "channel": "homepage",
+            "url": "https://i-you.co.kr/board/view.asp?B_CODE=B_NOTICE&tID=100&sID=120&IDX=323",
+            "evidence": "비급여 진료비용 공지: '리쥬란힐러 : 209,000원'"
+          },
+          {
+            "channel": "homepage",
+            "url": "https://i-you.co.kr/content/page.asp?tid=102&sid=149",
+            "evidence": "스킨센터 시술 메뉴 '리쥬란힐러'"
+          }
+        ],
+        "context": "카탈로그 '리쥬란 힐러'(파마리서치) 직접 매칭. 시술명 '연어주사'와는 별도 항목으로 표기됨",
+        "verification_status": "verified"
+      },
+      {
+        "product_kr": "NCTF BOOST 135 HA",
+        "brand_kr": "NCTF",
+        "manufacturer_kr": "필메드",
+        "category": "스킨부스터",
+        "plandocs_handled": 1,
+        "plandocs_featured": 1,
+        "mention_count": 1,
+        "sources": [
+          {
+            "channel": "homepage",
+            "url": "https://i-you.co.kr/board/view.asp?B_CODE=B_NOTICE&tID=100&sID=120&IDX=323",
+            "evidence": "비급여 진료비용 공지: '샤넬주사 : 209,000원'"
+          }
+        ],
+        "context": "사이트 표기 '샤넬주사'는 카탈로그 'NCTF BOOST 135 HA'(brand_kr='NCTF, 샤넬주사', 필메드)의 통용 별칭 — 직접 매칭",
+        "verification_status": "verified"
+      }
+    ],
+    "unmatched_products": [
+      {
+        "raw_name": "연어주사",
+        "category_guess": "스킨부스터(PN/PDRN 연어 DNA 주사)",
+        "mention_count": 2,
+        "sources": [
+          {
+            "channel": "homepage",
+            "url": "https://i-you.co.kr/board/view.asp?B_CODE=B_NOTICE&tID=100&sID=120&IDX=323",
+            "evidence": "비급여 진료비용 공지: '연어주사 : 165,000원'"
+          },
+          {
+            "channel": "homepage",
+            "url": "https://i-you.co.kr/content/page.asp?tid=102&sid=151",
+            "evidence": "스킨센터 시술 메뉴 '연어주사'"
+          }
+        ],
+        "context": "브랜드 미표기 일반 연어주사(PN). 사이트에서 '리쥬란힐러'와 별도 항목·다른 가격(165,000 vs 209,000)으로 표기되어 동일 제품으로 단정 불가 → 보수적으로 보류",
+        "verification_status": "unverified"
+      },
+      {
+        "raw_name": "보톡스(국산)",
+        "category_guess": "톡신",
+        "mention_count": 1,
+        "sources": [
+          {
+            "channel": "homepage",
+            "url": "https://i-you.co.kr/board/view.asp?B_CODE=B_NOTICE&tID=100&sID=120&IDX=323",
+            "evidence": "비급여 진료비용 공지: '보톡스(국산) 100유닛 132,000원 / 300유닛 396,000원'"
+          }
+        ],
+        "context": "'국산'으로만 표기되어 브랜드 미특정. 카탈로그 '보톡스'는 엘러간(수입)이라 불일치 → 매칭 보류",
+        "verification_status": "unverified"
+      },
+      {
+        "raw_name": "필러(국산)",
+        "category_guess": "필러(HA)",
+        "mention_count": 1,
+        "sources": [
+          {
+            "channel": "homepage",
+            "url": "https://i-you.co.kr/board/view.asp?B_CODE=B_NOTICE&tID=100&sID=120&IDX=323",
+            "evidence": "비급여 진료비용 공지: '필러(국산) 1cc : 132,000원'"
+          }
+        ],
+        "context": "브랜드 미표기(국산 1cc). 특정 제품 단정 불가 → 보류",
+        "verification_status": "unverified"
+      },
+      {
+        "raw_name": "필러(수입)",
+        "category_guess": "필러(HA)",
+        "mention_count": 1,
+        "sources": [
+          {
+            "channel": "homepage",
+            "url": "https://i-you.co.kr/board/view.asp?B_CODE=B_NOTICE&tID=100&sID=120&IDX=323",
+            "evidence": "비급여 진료비용 공지: '필러(수입) 1cc : 275,000원'"
+          }
+        ],
+        "context": "브랜드 미표기(수입 1cc). 특정 제품 단정 불가 → 보류",
+        "verification_status": "unverified"
+      },
+      {
+        "raw_name": "브이핏 윤곽주사 (달걀주사)",
+        "category_guess": "윤곽/지방분해 주사(자체 브랜드명)",
+        "mention_count": 2,
+        "sources": [
+          {
+            "channel": "homepage",
+            "url": "https://i-you.co.kr/board/view.asp?B_CODE=B_NOTICE&tID=100&sID=120&IDX=323",
+            "evidence": "비급여 진료비용 공지: '브이핏 윤곽주사 : 132,000원'"
+          },
+          {
+            "channel": "homepage",
+            "url": "https://i-you.co.kr/content/page.asp?tid=103&sid=109",
+            "evidence": "성형센터 대표 시술 '브이핏 윤곽주사(달걀주사)'"
+          }
+        ],
+        "context": "얼굴 윤곽(지방분해) 주사의 자체 브랜드명. 카탈로그(톡신·필러·스킨부스터) 범위 밖",
+        "verification_status": "unverified"
+      },
+      {
+        "raw_name": "에스핏 바디주사",
+        "category_guess": "바디 지방분해주사(자체 브랜드명)",
+        "mention_count": 1,
+        "sources": [
+          {
+            "channel": "homepage",
+            "url": "https://i-you.co.kr/content/page.asp?tid=104&sid=133",
+            "evidence": "비만센터 '에스핏 바디주사'(팔뚝/복부/허벅지/종아리 부위별)"
+          }
+        ],
+        "context": "바디 지방분해 주사 자체 브랜드명. 카탈로그 범위 밖",
+        "verification_status": "unverified"
+      },
+      {
+        "raw_name": "종아리 컷백주사",
+        "category_guess": "종아리 윤곽(지방분해) 주사",
+        "mention_count": 2,
+        "sources": [
+          {
+            "channel": "homepage",
+            "url": "https://i-you.co.kr/content/page.asp?tid=104&sid=155",
+            "evidence": "비만센터 '종아리 컷백주사' (커뮤니티 후기에서도 다수 언급)"
+          }
+        ],
+        "context": "종아리 윤곽 지방분해 주사 자체 명칭. 카탈로그 범위 밖",
+        "verification_status": "unverified"
+      },
+      {
+        "raw_name": "지방분해주사",
+        "category_guess": "바디 지방분해주사",
+        "mention_count": 1,
+        "sources": [
+          {
+            "channel": "homepage",
+            "url": "https://i-you.co.kr/board/view.asp?B_CODE=B_NOTICE&tID=100&sID=120&IDX=323",
+            "evidence": "비급여 진료비용 공지: '지방분해주사(1포인트) : 88,000원'"
+          }
+        ],
+        "context": "브랜드 미표기. 카탈로그 범위 밖",
+        "verification_status": "unverified"
+      }
+    ]
+  },
+  "equipments": {
+    "matched_equipments": [
+      {
+        "name_kr": "슈링크",
+        "name_en": "Shrink",
+        "category": "리프팅",
+        "mention_count": 2,
+        "sources": [
+          {
+            "channel": "homepage",
+            "url": "https://i-you.co.kr/board/view.asp?B_CODE=B_NOTICE&tID=100&sID=120&IDX=323",
+            "evidence": "비급여 진료비용 공지: '레이저 리프팅(슈링크) 100샷 : 55,000원'"
+          },
+          {
+            "channel": "homepage",
+            "url": "https://i-you.co.kr/content/page.asp?tid=102&sid=147",
+            "evidence": "스킨센터 시술 메뉴 '슈링크'"
+          }
+        ],
+        "context": "카탈로그 no.2 '슈링크'(클래시스, HIFU) 직접 매칭",
+        "verification_status": "verified"
+      },
+      {
+        "name_kr": "프락셀",
+        "name_en": "Fraxel",
+        "category": "재생 / 흉터",
+        "mention_count": 1,
+        "sources": [
+          {
+            "channel": "homepage",
+            "url": "https://i-you.co.kr/content/page.asp?tid=102&sid=113",
+            "evidence": "스킨센터 여드름흉터 시술 메뉴 '슈퍼 프락셀'"
+          }
+        ],
+        "context": "사이트 표기 '슈퍼 프락셀'에서 수식어 제거 후 카탈로그 no.22 '프락셀'(Fraxel, Solta) 매칭. 시술 상세가 이미지뿐이라 정확한 장비 모델은 미표기 → inferred",
+        "verification_status": "inferred"
+      }
+    ],
+    "unmatched_equipments": [
+      {
+        "raw_name": "듀얼 옐로우레이저 (Dual Yellow / 옐로우레이저)",
+        "category_guess": "색소·혈관 레이저(구리 브롬화물 옐로우 레이저)",
+        "mention_count": 1,
+        "sources": [
+          {
+            "channel": "homepage",
+            "url": "https://i-you.co.kr/content/page.asp?tid=102&sid=114",
+            "evidence": "스킨센터 시술 메뉴 '듀얼 옐로우레이저'(여드름흉터·홍조 등)"
+          }
+        ],
+        "context": "Dual Yellow(구리 브롬화물) 계열 옐로우 레이저로 추정, 카탈로그 미등재",
+        "verification_status": "unverified"
+      },
+      {
+        "raw_name": "에끌라토닝",
+        "category_guess": "레이저 토닝(색소)",
+        "mention_count": 1,
+        "sources": [
+          {
+            "channel": "homepage",
+            "url": "https://i-you.co.kr/content/page.asp?tid=102&sid=116",
+            "evidence": "스킨센터 '기미/잡티/주근깨' 토닝 시술 '에끌라토닝'"
+          }
+        ],
+        "context": "레이저 토닝의 자체 브랜드 시술명. 실제 장비 모델은 이미지 본문 미표기 → 보류",
+        "verification_status": "unverified"
+      },
+      {
+        "raw_name": "플래티넘 PTT",
+        "category_guess": "여드름 치료 장비(RF/광역학 추정)",
+        "mention_count": 1,
+        "sources": [
+          {
+            "channel": "homepage",
+            "url": "https://i-you.co.kr/content/page.asp?tid=102&sid=154",
+            "evidence": "스킨센터 여드름 치료 '플래티넘 PTT'"
+          }
+        ],
+        "context": "자체 브랜드 여드름 시술명. 장비 모델 미표기 → 보류",
+        "verification_status": "unverified"
+      }
+    ]
+  },
+  "treatments": [
+    {
+      "treatment_name": "브이핏 윤곽주사 (달걀주사)",
+      "category": "윤곽주사 / 성형센터",
+      "product_name": null,
+      "equipment_name": null,
+      "price": { "text": "132,000원", "low": 132000, "high": 132000, "unit": "회", "currency": "KRW", "is_event_price": false },
+      "package": null,
+      "notes": "얼굴 윤곽(지방분해) 주사. 성형센터 대표 시술. 가격은 비급여 진료비용 공지 텍스트에서 확인",
+      "source_page": "https://i-you.co.kr/content/page.asp?tid=103&sid=109",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "필러",
+      "category": "쁘띠 / 성형센터",
+      "product_name": null,
+      "equipment_name": null,
+      "price": { "text": "국산 1cc 132,000원 / 수입 1cc 275,000원", "low": 132000, "high": 275000, "unit": "cc", "currency": "KRW", "is_event_price": false },
+      "package": null,
+      "notes": "국산/수입 HA 필러. 브랜드 미표기(unmatched_products의 '필러(국산)'·'필러(수입)'). 가격은 비급여 공지",
+      "source_page": "https://i-you.co.kr/content/page.asp?tid=103&sid=124",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "보톡스",
+      "category": "쁘띠 / 성형센터",
+      "product_name": null,
+      "equipment_name": null,
+      "price": { "text": "국산 100유닛 132,000원 / 300유닛 396,000원", "low": 132000, "high": 396000, "unit": "유닛", "currency": "KRW", "is_event_price": false },
+      "package": null,
+      "notes": "국산 톡신(브랜드 미표기). 가격은 비급여 공지",
+      "source_page": "https://i-you.co.kr/content/page.asp?tid=103&sid=125",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "눈성형",
+      "category": "성형센터",
+      "product_name": null,
+      "equipment_name": null,
+      "price": null,
+      "package": null,
+      "notes": "i-YOU 눈성형. 상세는 이미지뿐",
+      "source_page": "https://i-you.co.kr/content/page.asp?tid=103&sid=126",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "코성형",
+      "category": "성형센터",
+      "product_name": null,
+      "equipment_name": null,
+      "price": null,
+      "package": null,
+      "notes": "상세는 이미지뿐",
+      "source_page": "https://i-you.co.kr/content/page.asp?tid=103&sid=127",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "가슴성형",
+      "category": "성형센터",
+      "product_name": null,
+      "equipment_name": null,
+      "price": null,
+      "package": null,
+      "notes": "상세는 이미지뿐",
+      "source_page": "https://i-you.co.kr/content/page.asp?tid=103&sid=128",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "여드름 치료 (스피큘링)",
+      "category": "여드름치료 / 스킨센터",
+      "product_name": null,
+      "equipment_name": null,
+      "price": { "text": "165,000원", "low": 165000, "high": 165000, "unit": "회", "currency": "KRW", "is_event_price": false },
+      "package": null,
+      "notes": "스피큘(해면 가시) 필링 기반 여드름 치료. 가격은 비급여 공지 '여드름치료(스피큘링) 165,000원'",
+      "source_page": "https://i-you.co.kr/content/page.asp?tid=102&sid=106",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "여드름 치료 (플래티넘 PTT / 트리플X)",
+      "category": "여드름치료 / 스킨센터",
+      "product_name": null,
+      "equipment_name": "플래티넘 PTT",
+      "price": { "text": "165,000원", "low": 165000, "high": 165000, "unit": "회", "currency": "KRW", "is_event_price": false },
+      "package": null,
+      "notes": "여드름 치료 자체 브랜드. 비급여 공지 '여드름치료(트리플X) 165,000원'과 연결되는 것으로 추정",
+      "source_page": "https://i-you.co.kr/content/page.asp?tid=102&sid=154",
+      "verification_status": "inferred"
+    },
+    {
+      "treatment_name": "여드름흉터 / 모공",
+      "category": "여드름흉터 / 스킨센터",
+      "product_name": null,
+      "equipment_name": null,
+      "price": null,
+      "package": null,
+      "notes": "여드름 흉터·모공 치료. 상세는 이미지뿐",
+      "source_page": "https://i-you.co.kr/content/page.asp?tid=102&sid=112",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "슈링크 (레이저 리프팅)",
+      "category": "리프팅 / 스킨센터",
+      "product_name": null,
+      "equipment_name": "슈링크",
+      "price": { "text": "100샷 55,000원", "low": 55000, "high": 55000, "unit": "100샷", "currency": "KRW", "is_event_price": false },
+      "package": null,
+      "notes": "HIFU 리프팅. 가격은 비급여 공지 '레이저 리프팅(슈링크) 100샷 55,000원'",
+      "source_page": "https://i-you.co.kr/content/page.asp?tid=102&sid=147",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "밀크필",
+      "category": "미백·보습 / 스킨센터",
+      "product_name": null,
+      "equipment_name": null,
+      "price": { "text": "110,000원", "low": 110000, "high": 110000, "unit": "회", "currency": "KRW", "is_event_price": false },
+      "package": null,
+      "notes": "미백·보습 필링. 가격은 비급여 공지 '밀크필(필링) 110,000원'",
+      "source_page": "https://i-you.co.kr/content/page.asp?tid=102&sid=148",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "리쥬란힐러",
+      "category": "안티에이징 / 스킨센터",
+      "product_name": "리쥬란 힐러",
+      "equipment_name": null,
+      "price": { "text": "209,000원", "low": 209000, "high": 209000, "unit": "회", "currency": "KRW", "is_event_price": false },
+      "package": null,
+      "notes": "PN 스킨부스터. 가격은 비급여 공지 '리쥬란힐러 209,000원'",
+      "source_page": "https://i-you.co.kr/content/page.asp?tid=102&sid=149",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "연어주사",
+      "category": "안티에이징 / 스킨센터",
+      "product_name": null,
+      "equipment_name": null,
+      "price": { "text": "165,000원", "low": 165000, "high": 165000, "unit": "회", "currency": "KRW", "is_event_price": false },
+      "package": null,
+      "notes": "PN/PDRN 연어 DNA 주사(브랜드 미표기, unmatched). 리쥬란힐러와 별도 항목. 가격은 비급여 공지 '연어주사 165,000원'",
+      "source_page": "https://i-you.co.kr/content/page.asp?tid=102&sid=151",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "샤넬주사 (NCTF)",
+      "category": "안티에이징 / 스킨센터",
+      "product_name": "NCTF BOOST 135 HA",
+      "equipment_name": null,
+      "price": { "text": "209,000원", "low": 209000, "high": 209000, "unit": "회", "currency": "KRW", "is_event_price": false },
+      "package": null,
+      "notes": "NCTF135(샤넬주사) 멀티비타민 스킨부스터. 가격은 비급여 공지 '샤넬주사 209,000원'",
+      "source_page": "https://i-you.co.kr/board/view.asp?B_CODE=B_NOTICE&tID=100&sID=120&IDX=323",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "슈퍼 프락셀",
+      "category": "여드름흉터·재생 / 스킨센터",
+      "product_name": null,
+      "equipment_name": "프락셀",
+      "price": null,
+      "package": null,
+      "notes": "프락셔널 레이저 흉터·재생 치료. 상세는 이미지뿐",
+      "source_page": "https://i-you.co.kr/content/page.asp?tid=102&sid=113",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "듀얼 옐로우레이저",
+      "category": "색소·혈관 / 스킨센터",
+      "product_name": null,
+      "equipment_name": "듀얼 옐로우레이저 (Dual Yellow / 옐로우레이저)",
+      "price": null,
+      "package": null,
+      "notes": "옐로우 레이저 색소·혈관·여드름흉터 치료. 상세는 이미지뿐",
+      "source_page": "https://i-you.co.kr/content/page.asp?tid=102&sid=114",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "안면홍조",
+      "category": "혈관 / 스킨센터",
+      "product_name": null,
+      "equipment_name": null,
+      "price": null,
+      "package": null,
+      "notes": "안면홍조 치료. 사용 장비 미표기(이미지뿐)",
+      "source_page": "https://i-you.co.kr/content/page.asp?tid=102&sid=115",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "기미/잡티/주근깨 (에끌라토닝)",
+      "category": "색소 / 스킨센터",
+      "product_name": null,
+      "equipment_name": "에끌라토닝",
+      "price": null,
+      "package": null,
+      "notes": "레이저 토닝 색소 치료(자체 브랜드 '에끌라토닝'). 상세는 이미지뿐",
+      "source_page": "https://i-you.co.kr/content/page.asp?tid=102&sid=116",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "다한증 치료",
+      "category": "기타 / 스킨센터",
+      "product_name": null,
+      "equipment_name": null,
+      "price": null,
+      "package": null,
+      "notes": "다한증 치료. 방법 미표기(이미지뿐)",
+      "source_page": "https://i-you.co.kr/content/page.asp?tid=102&sid=131",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "에스핏 바디주사",
+      "category": "비만 / 비만센터",
+      "product_name": null,
+      "equipment_name": null,
+      "price": null,
+      "package": null,
+      "notes": "바디 지방분해 주사 자체 브랜드. 부위별 하위 메뉴: 팔뚝(sid=133)·복부(134)·허벅지(135)·종아리(136). 비급여 공지 '지방분해주사(1포인트) 88,000원'이 관련 가격으로 추정",
+      "source_page": "https://i-you.co.kr/content/page.asp?tid=104&sid=133",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "종아리 컷백주사",
+      "category": "비만 / 비만센터",
+      "product_name": null,
+      "equipment_name": null,
+      "price": null,
+      "package": null,
+      "notes": "종아리 윤곽 지방분해 주사. 커뮤니티 후기에서 다수 언급되는 인기 시술",
+      "source_page": "https://i-you.co.kr/content/page.asp?tid=104&sid=155",
+      "verification_status": "verified"
+    }
+  ],
+  "language_support": {
+    "supported_languages": ["ko", "ja"],
+    "has_language_switcher": true,
+    "foreign_language_pages": {
+      "ja": "http://i-you.co.kr/jp/"
+    }
+  },
+  "crawl_metadata": {
+    "pages_crawled": 12,
+    "pages_visited": [
+      "https://i-you.co.kr/Default.asp (홈/메인 — 진료시간·교통 배너, 다국어 스위처)",
+      "https://i-you.co.kr/content/page.asp?tid=100&sid=123 (오시는 길 — 주소·교통·주차)",
+      "https://i-you.co.kr/content/page.asp?tid=100&sid=101 (병원소개/인사말 — 대표원장 오종탁)",
+      "https://i-you.co.kr/board/view.asp?...IDX=341 (2026년 06월 휴진안내)",
+      "https://i-you.co.kr/board/view.asp?...IDX=38 ([필독] 강남 아이유클리닉 — 단독원 명시)",
+      "https://i-you.co.kr/board/view.asp?...IDX=323 ((공지) 비급여 진료비용 공지 — 가격 텍스트 출처)",
+      "https://i-you.co.kr/content/page.asp?tid=103&sid=109 (성형센터/브이핏 윤곽주사)",
+      "https://i-you.co.kr/content/page.asp?tid=103&sid=126 (성형센터/눈성형)",
+      "https://i-you.co.kr/content/page.asp?tid=102&sid=106 (스킨센터/여드름·스피큘링)",
+      "https://i-you.co.kr/content/page.asp?tid=102&sid=116 (스킨센터/기미·잡티·주근깨)",
+      "https://i-you.co.kr/content/page.asp?tid=104&sid=133 (비만센터/에스핏 바디주사)",
+      "http://i-you.co.kr/jp/ (일본어 랜딩 사이트)"
+    ],
+    "crawl_method": "manual_agent (Claude가 Playwright MCP로 직접 방문). 사이트가 전형적인 구형 이미지 기반 ASP 사이트(메뉴·시술 상세가 모두 이미지)라, 운영정보(주소·대표·사업자번호)는 footer.jpg·오시는길 콘텐츠 이미지를 element/long-image 캡처 후 vision 판독, 진료시간·교통은 메인 배너(main_ban_03/04) vision 판독, 대표원장은 인사말 이미지 vision 판독으로 수집. 시술/제품명은 (1) 온라인상담 폼의 시술 드롭다운(텍스트), (2) 각 센터 좌측 메뉴 라벨(vision), (3) '비급여 진료비용 공지' 게시글 본문 텍스트에서 추출. 가격은 전적으로 비급여 공지 텍스트가 출처.",
+    "errors": [],
+    "completeness": {
+      "operation_info": true,
+      "doctors": true,
+      "products": true,
+      "equipments": true,
+      "treatments": true,
+      "prices": true,
+      "language_support": true
+    },
+    "notes": [
+      "신원확인: 입력 '아이유의원'(onz3jb)은 홈페이지 'I-YOU CLINIC / 강남 아이유클리닉'. footer.jpg의 사업자정보(대표 이상준·사업자등록번호 114-14-51557·주소 '서울시 강남구 강남대로 402(역삼동) 시계탑빌딩 10층')가 입력 CSV와 정확히 일치 → identity_status=match, url_confidence=high. WebSearch는 후보 URL(i-you.co.kr) 발견에만 사용.",
+      "단독원: 공지 '[필독] 강남 아이유클리닉'에서 '동일한 상호명의 다른 지점은 없으므로 착오 없으시길 바랍니다'라고 명시 → branches.type=single. WebSearch 결과에 '아이유의원 동대문점'(iuclinic.wcw.co.kr)이 보이나, 본원이 동일 상호 분점 없음을 명시했으므로 별개의 무관한 병원으로 판단해 sibling에 넣지 않음.",
+      "대표자 구분: 사업자등록 대표자는 '이상준'(operation_info.representative_name), 진료 대표원장은 '오종탁'(doctors). 오종탁 약력: 서울대 동문 / 전 아름다운피부과 원장·듀오피부과 과장·김피부과 과장·하나로성심병원 피부과장 — 인사말 이미지 vision 판독. profile_image_url은 인사말 콘텐츠 이미지(개별 인물 잘라낸 URL 없음).",
+      "진료시간: 홈페이지 메인 배너(main_ban_03) 기준 평일 11:00-20:30 / 토 11:00-15:00 / 일·공휴일 휴진(점심시간 표기 없음). 포털(굿닥 등)은 10:30 시작으로 표기하나 홈페이지 표기(11:00)를 채택. 2026년 6월 정기휴진 6/3·6/6은 공지로 별도 고지.",
+      "가격(중요): 이벤트/시술 페이지는 모두 이미지뿐이고 가격 텍스트가 없으나, '(공지) 비급여 진료비용 공지' 게시글(IDX=323) 본문에 의료법상 고지 가격이 '텍스트'로 14개 항목 존재 → 이것이 유일한 가격 출처. 브이핏 윤곽주사 132,000 / 지방분해주사 1포인트 88,000 / 스피큘링·트리플X 각 165,000 / 슈링크 100샷 55,000 / 리쥬란힐러 209,000 / 샤넬주사 209,000 / 연어주사 165,000 / 밀크필 110,000 / 보톡스(국산) 100u 132,000·300u 396,000 / 필러 국산 1cc 132,000·수입 1cc 275,000 / 일반진단서 10,000. prices=true.",
+      "제품 매칭: 한↔영/별칭 교차 매칭으로 (1) 리쥬란힐러→리쥬란 힐러(파마리서치), (2) 샤넬주사→NCTF BOOST 135 HA(필메드, 카탈로그 brand_kr이 'NCTF, 샤넬주사') 확정. 보류(unmatched): 연어주사(브랜드 미표기·리쥬란힐러와 별도가격이라 동일 단정 불가), 보톡스(국산)·필러(국산/수입)(브랜드 미표기, 카탈로그 보톡스=엘러간 수입과 불일치), 브이핏 윤곽주사·에스핏 바디주사·종아리 컷백주사·지방분해주사(지방분해/윤곽 주사로 카탈로그 범위 밖).",
+      "장비 매칭: 슈링크→카탈로그 no.2 슈링크(클래시스) 확정(verified). '슈퍼 프락셀'→no.22 프락셀(Fraxel, Solta)로 매칭하되 시술 상세가 이미지뿐이라 모델 미확인 → inferred. 보류(unmatched): 듀얼 옐로우레이저(Dual Yellow 계열, 미등재), 에끌라토닝(자체 토닝 시술명·장비 모델 미표기), 플래티넘 PTT(자체 여드름 시술명).",
+      "이미지 기반 사이트 처리: 시술 상세 페이지(sub0X_YY.jpg)는 모두 높이 4,000~4,500px의 텍스트 없는 단일 이미지. SKILL.md 비용 가이드에 따라 전수 vision 판독은 생략하고, 시술/제품명은 상담폼 드롭다운·좌측 메뉴 라벨·비급여 공지 텍스트로 라벨 매칭함. 자사 매칭 가능 핵심 항목(리쥬란·NCTF·슈링크·프락셀)은 텍스트 출처로 확정됨.",
+      "다국어/해외마케팅(영업 신호): KOR/JPN 스위처 보유. 일본어 사이트(i-you.co.kr/jp)는 최신형 별도 랜딩으로 LINE 상담·'100% 예약제'·'셀럽도 찾는 핫플레이스' 등 일본인 환자 타깃 마케팅이 활발 → 해외 마케팅 관심 병원. 본 추출은 한국어 본사이트(i-you.co.kr) 기준이며 일본어 사이트는 동일 병원의 언어 버전(alternative_urls·foreign_language_pages에 기록).",
+      "SNS/채널: 페이스북 facebook.com/iyouclinic, 카카오스토리 story.kakao.com/ch/iyou, 네이버블로그 blog.naver.com/furmmi. (블로그·SNS는 데이터 출처로 사용하지 않고 링크만 보존.)",
+      "미방문/보류: 시술 상세 개별 이미지 페이지 다수(성형센터 6·스킨센터 13·비만센터 6 중 대표 페이지만 확인), 갤러리/후기/이벤트 게시판, 스킨센터 1개 하위 라벨(sid=132 미판독). 시설(facilities) 정보는 이미지에 별도 텍스트 없어 비움.",
+      "주소: address는 입력 CSV 기준(시도 서울/시군구 강남구/읍면동 역삼동/도로명 강남대로 402 시계탑빌딩 10층/좌표 보존). 홈페이지 표기 주소(역삼동 820-11)도 동일 건물로 확인됨."
+    ]
+  }
+}
