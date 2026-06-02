@@ -1,0 +1,705 @@
+{
+  "hospital_id": "y9ytju",
+  "hospital_name": "청담제이더마의원",
+  "crawled_at": "2026-06-01T17:05:00+09:00",
+  "address": {
+    "sido": "서울",
+    "sigungu": "강남구",
+    "eupmyeondong": "청담동",
+    "road": "압구정로 434",
+    "detail": "성원빌딩 3층 (지번: 청담동 80-6)",
+    "latitude": 37.5266286,
+    "longitude": 127.0443373
+  },
+  "homepage_url": "http://www.jayderma.com/",
+  "url_source": "WebSearch로 후보(jayderma.com) 확보 후 Playwright 접속. 푸터 사업자등록번호(473-74-00252)·대표(정승환)·주소(압구정로434 성원빌딩 3층, 청담동 80-6)가 입력 CSV와 일치함을 확인",
+  "url_confidence": "high",
+  "identity_status": "match",
+  "blog_url": null,
+  "sns_url": null,
+  "alternative_urls": [],
+  "branches": {
+    "type": "single",
+    "network_group": null,
+    "this_branch_name": "청담제이더마의원",
+    "sibling_branches": []
+  },
+  "operation_info": {
+    "hospital_name": "청담제이더마의원",
+    "representative_name": "정승환",
+    "business_number": "473-74-00252",
+    "phone": "02-516-9855",
+    "phone_secondary": null,
+    "fax": "02-516-9854",
+    "email": null,
+    "kakao_channel": "http://pf.kakao.com/_vxfxdsxb",
+    "operating_hours": {
+      "monday": { "open": "10:00", "close": "20:00", "break_start": null, "break_end": null },
+      "tuesday": { "open": "10:00", "close": "20:00", "break_start": null, "break_end": null },
+      "wednesday": { "open": "10:00", "close": "20:00", "break_start": null, "break_end": null },
+      "thursday": { "open": "10:00", "close": "20:00", "break_start": null, "break_end": null },
+      "friday": { "open": "10:00", "close": "20:00", "break_start": null, "break_end": null },
+      "saturday": { "open": "10:00", "close": "17:00", "break_start": null, "break_end": null },
+      "sunday": null,
+      "holiday": null
+    },
+    "parking_info": null,
+    "transport_info": "압구정로데오역 인근 (오시는길 약도 기준)",
+    "facilities": [],
+    "operating_hours_note": "월·화·수·목·금 10:00~20:00 / 토 10:00~17:00 / 일요일 휴진. 점심시간 표기 없음. 월별 진료일정(정기휴진)은 '제이더마소식' 게시판에 매월 공지."
+  },
+  "doctors": [
+    {
+      "name": "정승환",
+      "is_representative": true,
+      "role": "대표원장",
+      "specialty": ["피부과", "성형외과"],
+      "education": [
+        "계명대학교 의과대학 졸업",
+        "가톨릭대학교 의과대학 부속 여의도성모병원 인턴",
+        "여의도성모병원 전공의",
+        "고려대학교 경제학과 졸업",
+        "고려대학교 법과대학 법학석사",
+        "서울대학교 경영전문대학원 졸업"
+      ],
+      "career": [
+        "오라클피부과의원 청담점 (2014~2018)",
+        "리젠성형외과의원 (2018~2019)"
+      ],
+      "associations": [
+        "대한미용외과학회 정회원",
+        "대한피부모발학회 정회원"
+      ],
+      "awards": [],
+      "profile_image_url": null,
+      "verification_status": "verified"
+    }
+  ],
+  "products": {
+    "matched_products": [
+      {
+        "product_kr": "스컬트라",
+        "brand_kr": "스컬트라",
+        "manufacturer_kr": "갈더마",
+        "category": "스킨부스터",
+        "plandocs_handled": 0,
+        "plandocs_featured": 0,
+        "mention_count": 3,
+        "sources": [
+          { "channel": "homepage", "url": "http://www.jayderma.com/", "evidence": "피부시술 카드 '스컬트라 - 주름 및 탄력 리프팅 콜라겐 생성 촉진제' 및 시그니처 시술" },
+          { "channel": "homepage", "url": "http://www.jayderma.com/sub3-3.php", "evidence": "시그니처 '스컬트라' 상세 페이지" }
+        ],
+        "context": "PLLA 콜라겐 생성 촉진제. 카탈로그 '스컬트라' 직접 매칭",
+        "verification_status": "verified"
+      },
+      {
+        "product_kr": "리쥬란 힐러",
+        "brand_kr": "리쥬란",
+        "manufacturer_kr": "파마리서치",
+        "category": "스킨부스터",
+        "plandocs_handled": 0,
+        "plandocs_featured": 0,
+        "mention_count": 4,
+        "sources": [
+          { "channel": "homepage", "url": "http://www.jayderma.com/sub1-6.php", "evidence": "시그니처 '리쥬란힐러 - 피부 리모델링 주사' 상세 페이지" },
+          { "channel": "homepage", "url": "http://www.jayderma.com/", "evidence": "피부시술 카드 '리쥬란힐러', JAYDERMA TV '리쥬란힐러HB 시술 및 설명'" }
+        ],
+        "context": "연어 PN 스킨부스터. 제휴사 파마리서치(PR) 명시. 카탈로그 '리쥬란 힐러' 직접 매칭",
+        "verification_status": "verified"
+      },
+      {
+        "product_kr": "NCTF BOOST 135 HA",
+        "brand_kr": "NCTF, 샤넬주사",
+        "manufacturer_kr": "필메드",
+        "category": "스킨부스터",
+        "plandocs_handled": 1,
+        "plandocs_featured": 1,
+        "mention_count": 2,
+        "sources": [
+          { "channel": "homepage", "url": "http://www.jayderma.com/sub3-2.php", "evidence": "시그니처 '필메드NCTF - 피부활력 스킨부스터' 상세 페이지" },
+          { "channel": "homepage", "url": "http://www.jayderma.com/", "evidence": "피부시술 카드 '필메드NCTF'" }
+        ],
+        "context": "사이트 표기 '필메드NCTF'(Fillmed NCTF 135) → 카탈로그 '필메드 NCTF BOOST 135 HA' 한↔영 매칭",
+        "verification_status": "verified"
+      },
+      {
+        "product_kr": "울트라콜 100",
+        "brand_kr": "울트라콜",
+        "manufacturer_kr": "울트라브이",
+        "category": "스킨부스터",
+        "plandocs_handled": 1,
+        "plandocs_featured": 1,
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "http://www.jayderma.com/sub1-9.php", "evidence": "시그니처 '울트라콜 - 속부터 탄탄한 피부' 상세 페이지" }
+        ],
+        "context": "PLLA 콜라겐 부스터. 사이트는 '울트라콜'만 표기 → 카탈로그 라인 중 기본형 '울트라콜 100'으로 매칭(라인 미특정)",
+        "verification_status": "verified"
+      },
+      {
+        "product_kr": "엘란쎄",
+        "brand_kr": "엘란쎄",
+        "manufacturer_kr": "싱클레어",
+        "category": "스킨부스터",
+        "plandocs_handled": 0,
+        "plandocs_featured": 0,
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "http://www.jayderma.com/sub1-10.php", "evidence": "시그니처 '엘란쎄 - 피부 속부터 차오르는 콜라겐' 상세 페이지" }
+        ],
+        "context": "PCL 콜라겐 부스터. 카탈로그 '엘란쎄' 직접 매칭",
+        "verification_status": "verified"
+      },
+      {
+        "product_kr": "쥬비덤 볼루마",
+        "brand_kr": "쥬비덤",
+        "manufacturer_kr": "엘러간",
+        "category": "필러",
+        "plandocs_handled": 1,
+        "plandocs_featured": 0,
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "http://www.jayderma.com/sub1-5.php", "evidence": "시그니처 '쥬비덤 필러 - 자연스럽게 차오르는' 상세 페이지" }
+        ],
+        "context": "사이트 '쥬비덤 필러'(라인 미특정) → 카탈로그 라인 중 대표격 '쥬비덤 볼루마'로 매칭(브랜드 다중 라인 규칙)",
+        "verification_status": "verified"
+      }
+    ],
+    "unmatched_products": [
+      {
+        "raw_name": "엑소좀",
+        "category_guess": "스킨부스터(엑소좀)",
+        "mention_count": 3,
+        "sources": [
+          { "channel": "homepage", "url": "http://www.jayderma.com/sub3-1.php", "evidence": "시그니처 '엑소좀 - 피부나이를 되돌려주는 스킨부스터' 상세 페이지" },
+          { "channel": "homepage", "url": "http://www.jayderma.com/sub1-8.php", "evidence": "'헤어 엑소좀' 메뉴" }
+        ],
+        "context": "브랜드 미표기. 카탈로그 '큐티셀 오리진 위드 엑소좀'과 동일 확신 없어 보류",
+        "verification_status": "unverified"
+      },
+      {
+        "raw_name": "보톡스 (보툴리눔 톡신)",
+        "category_guess": "톡신",
+        "mention_count": 4,
+        "sources": [
+          { "channel": "homepage", "url": "http://www.jayderma.com/sub1-4.php", "evidence": "시그니처 '보톡스' 상세(얼굴·바디·사각턱/자갈턱·다한증 보톡스). 제조사 미표기" },
+          { "channel": "homepage", "url": "http://www.jayderma.com/sub9-4.php", "evidence": "'바디보톡스' 메뉴" }
+        ],
+        "context": "보톡스를 일반명으로만 표기하고 제조사 미명시. 제휴사에 휴젤(hugel)이 있어 보툴렉스 가능성 있으나 확정 불가 → 보수적으로 미매칭",
+        "verification_status": "unverified"
+      },
+      {
+        "raw_name": "코그실리프팅",
+        "category_guess": "실리프팅 봉합사",
+        "mention_count": 2,
+        "sources": [
+          { "channel": "homepage", "url": "http://www.jayderma.com/sub1-3.php", "evidence": "시그니처 '코그실리프팅 - 탱탱한 탄력피부' 상세 페이지" },
+          { "channel": "homepage", "url": "http://www.jayderma.com/", "evidence": "JAYDERMA 시술 동영상 '실리프팅'" }
+        ],
+        "context": "코그(돌기)형 실리프팅 봉합사. 봉합사는 카탈로그 범위 밖",
+        "verification_status": "verified"
+      },
+      {
+        "raw_name": "릴리드 주사",
+        "category_guess": "지방분해/윤곽 주사",
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "http://www.jayderma.com/", "evidence": "JAYDERMA 시술 동영상 '릴리드 주사 + 튠페이스 시술'" }
+        ],
+        "context": "릴리드(Leelid) 주사. 카탈로그 미등재(범위 밖 추정)",
+        "verification_status": "unverified"
+      },
+      {
+        "raw_name": "윤곽주사 / 지방분해주사",
+        "category_guess": "지방분해주사",
+        "mention_count": 2,
+        "sources": [
+          { "channel": "homepage", "url": "http://www.jayderma.com/sub9-3.php", "evidence": "'지방분해주사' 메뉴, JAYDERMA TV '윤곽주사'" }
+        ],
+        "context": "브랜드 미표기 윤곽/지방분해 주사. 카탈로그(에스테틱 제품) 범위 밖",
+        "verification_status": "verified"
+      }
+    ]
+  },
+  "equipments": {
+    "matched_equipments": [
+      {
+        "name_kr": "써마지 FLX",
+        "name_en": "Thermage FLX",
+        "category": "리프팅",
+        "mention_count": 4,
+        "sources": [
+          { "channel": "homepage", "url": "http://www.jayderma.com/sub2-1.php", "evidence": "시그니처 '써마지 FLX - 한 단계 더 진화' 상세 페이지" },
+          { "channel": "homepage", "url": "http://www.jayderma.com/", "evidence": "JAYDERMA TV '써마지 FLX 설명', 제휴사 솔타(solta)" }
+        ],
+        "context": "고주파(RF) 리프팅. 제휴사 솔타(solta) 명시. 카탈로그 '써마지 FLX' 직접 매칭",
+        "verification_status": "verified"
+      },
+      {
+        "name_kr": "울쎄라",
+        "name_en": "Ulthera",
+        "category": "리프팅",
+        "mention_count": 4,
+        "sources": [
+          { "channel": "homepage", "url": "http://www.jayderma.com/sub1-1.php", "evidence": "시그니처 '울쎄라 - 주름개선·리프팅' 상세 페이지" },
+          { "channel": "homepage", "url": "http://www.jayderma.com/sub9-1.php", "evidence": "'바디울쎄라' 메뉴, JAYDERMA TV '울쎄라 설명 및 시술'" }
+        ],
+        "context": "HIFU 초음파 리프팅. 제휴사 멀츠(merz, 울쎄라 제조). 카탈로그 '울쎄라' 직접 매칭",
+        "verification_status": "verified"
+      },
+      {
+        "name_kr": "슈링크",
+        "name_en": "Shrink",
+        "category": "리프팅",
+        "mention_count": 4,
+        "sources": [
+          { "channel": "homepage", "url": "http://www.jayderma.com/sub1-2.php", "evidence": "시그니처 '슈링크' 상세 페이지" },
+          { "channel": "homepage", "url": "http://www.jayderma.com/sub9-2.php", "evidence": "'바디슈링크' 메뉴, JAYDERMA TV '슈링크 리프팅'" }
+        ],
+        "context": "HIFU 초음파 리프팅. 제휴사 클래시스(classys, 슈링크 제조). 카탈로그 '슈링크' 직접 매칭",
+        "verification_status": "verified"
+      },
+      {
+        "name_kr": "프락셀",
+        "name_en": "Fraxel",
+        "category": "재생 / 흉터",
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "http://www.jayderma.com/sub4-1.php", "evidence": "'프락셀' 메뉴(레이저 시술)" }
+        ],
+        "context": "비박리형 프락셔널 레이저. 제휴사 솔타(solta, 프락셀 제조). 카탈로그 '프락셀' 직접 매칭",
+        "verification_status": "verified"
+      },
+      {
+        "name_kr": "시크릿RF",
+        "name_en": "Secret RF",
+        "category": "리프팅 / 재생",
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "http://www.jayderma.com/sub4-2.php", "evidence": "'시크릿 - 콜라겐·엘라스틴 생성, 흉터' 메뉴" }
+        ],
+        "context": "마이크로니들 고주파(RF). 카탈로그 '시크릿RF' 매칭",
+        "verification_status": "verified"
+      },
+      {
+        "name_kr": "제네시스",
+        "name_en": "Genesis Laser",
+        "category": "여드름 / 토닝",
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "http://www.jayderma.com/sub6-1.php", "evidence": "'제네시스 토닝' 메뉴" }
+        ],
+        "context": "롱펄스 Nd:YAG 토닝. 카탈로그 '제네시스' 매칭",
+        "verification_status": "verified"
+      },
+      {
+        "name_kr": "CO₂ 프락셔널 (ActiveFX/DeepFX)",
+        "name_en": "CO2 Fractional Laser",
+        "category": "재생 / 흉터",
+        "mention_count": 2,
+        "sources": [
+          { "channel": "homepage", "url": "http://www.jayderma.com/sub5-3.php", "evidence": "'CO2' 메뉴(레이저)" },
+          { "channel": "homepage", "url": "http://www.jayderma.com/", "evidence": "피부시술 카드 'N-pulse CO2 - 고출력 CO2레이저, 흉터·모공·주름'" }
+        ],
+        "context": "CO2 프락셔널 레이저. 사이트의 'N-pulse CO2'는 특정 장비 브랜드명이나 동일 CO2 프락셔널 계열로 보고 카탈로그 'CO₂ 프락셔널'에 매칭(브랜드 모델은 N-pulse)",
+        "verification_status": "verified"
+      }
+    ],
+    "unmatched_equipments": [
+      {
+        "raw_name": "튠페이스 / 튠라이너",
+        "category_guess": "고주파(RF) 리프팅",
+        "mention_count": 3,
+        "sources": [
+          { "channel": "homepage", "url": "http://www.jayderma.com/", "evidence": "JAYDERMA 시술 동영상 '튠페이스, 튠라이너 시술', '릴리드 주사 + 튠페이스'" }
+        ],
+        "context": "튠페이스(TuneFace)/튠라이너 고주파 장비. 카탈로그 미등재",
+        "verification_status": "unverified"
+      },
+      {
+        "raw_name": "아그네스",
+        "category_guess": "여드름/모공 RF",
+        "mention_count": 2,
+        "sources": [
+          { "channel": "homepage", "url": "http://www.jayderma.com/sub4-3.php", "evidence": "'아그네스 - 여드름·모공 개선' 메뉴, JAYDERMA TV '아그네스 시술'" }
+        ],
+        "context": "Agnes 고주파 여드름 장비. 카탈로그 미등재",
+        "verification_status": "unverified"
+      },
+      {
+        "raw_name": "파스텔토닝",
+        "category_guess": "색소 레이저(토닝)",
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "http://www.jayderma.com/sub5-1.php", "evidence": "'파스텔토닝' 메뉴" }
+        ],
+        "context": "파스텔(Pastelle) 색소 레이저 토닝. 카탈로그 미등재",
+        "verification_status": "unverified"
+      },
+      {
+        "raw_name": "비탈인젝터2",
+        "category_guess": "스킨부스터 인젝터(MTS)",
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "http://www.jayderma.com/sub1-7.php", "evidence": "피부시술 '비탈인젝터2 - 5중 바늘 시스템' 상세 페이지" }
+        ],
+        "context": "스킨부스터 자동 주입 인젝터 장비. 카탈로그 미등재",
+        "verification_status": "unverified"
+      },
+      {
+        "raw_name": "알라딘필",
+        "category_guess": "필링/스킨케어 장비",
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "http://www.jayderma.com/sub4-6.php", "evidence": "'알라딘필 - 천연 미네랄 필링' 메뉴" }
+        ],
+        "context": "알라딘필 필링 장비/프로그램. 카탈로그 미등재",
+        "verification_status": "unverified"
+      },
+      {
+        "raw_name": "셀렉",
+        "category_guess": "색소·기미·모공 레이저",
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "http://www.jayderma.com/", "evidence": "피부시술 카드 '셀렉 - 스킨 쿨링 시스템, 색소·기미·모공'" }
+        ],
+        "context": "셀렉 색소 레이저(쿨링). 카탈로그 미등재",
+        "verification_status": "unverified"
+      },
+      {
+        "raw_name": "코트라플러스",
+        "category_guess": "흉터·모공 RF",
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "http://www.jayderma.com/", "evidence": "피부시술 카드 '코트라플러스 - 콜라겐 수축·재생, 여드름 흉터·모공'" }
+        ],
+        "context": "코트라플러스 장비. 카탈로그 미등재",
+        "verification_status": "unverified"
+      },
+      {
+        "raw_name": "골드 PTT",
+        "category_guess": "피지·모공 광열치료",
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "http://www.jayderma.com/sub4-4.php", "evidence": "'골드 PTT' 메뉴" }
+        ],
+        "context": "골드 PTT(광열치료, 금나노입자). 카탈로그 미등재",
+        "verification_status": "unverified"
+      },
+      {
+        "raw_name": "IPL",
+        "category_guess": "광선치료(IPL)",
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "http://www.jayderma.com/sub5-2.php", "evidence": "'IPL' 메뉴" }
+        ],
+        "context": "IPL 광선치료, 장비 모델 미표기. 카탈로그 IPL 장비(시너지/텐트리플) 중 확정 불가 → 미매칭",
+        "verification_status": "unverified"
+      },
+      {
+        "raw_name": "제모레이저",
+        "category_guess": "제모 레이저",
+        "mention_count": 1,
+        "sources": [
+          { "channel": "homepage", "url": "http://www.jayderma.com/sub10-1.php", "evidence": "'제모레이저' 메뉴" }
+        ],
+        "context": "제모 레이저, 모델 미표기(제휴사 알마 소프라 가능성). 확정 불가 → 미매칭",
+        "verification_status": "unverified"
+      }
+    ]
+  },
+  "treatments": [
+    {
+      "treatment_name": "써마지 FLX",
+      "category": "리프팅",
+      "product_name": null,
+      "equipment_name": "써마지 FLX",
+      "price": null,
+      "package": null,
+      "notes": "고주파(RF) 콜라겐 재구성 탄력 리프팅. 시그니처 시술",
+      "source_page": "http://www.jayderma.com/sub2-1.php",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "울쎄라",
+      "category": "리프팅",
+      "product_name": null,
+      "equipment_name": "울쎄라",
+      "price": null,
+      "package": null,
+      "notes": "HIFU 초음파 SMAS 리프팅. 얼굴(sub1-1) 및 바디울쎄라(sub9-1)",
+      "source_page": "http://www.jayderma.com/sub1-1.php",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "슈링크",
+      "category": "리프팅",
+      "product_name": null,
+      "equipment_name": "슈링크",
+      "price": null,
+      "package": null,
+      "notes": "HIFU 초음파 리프팅. 얼굴(sub1-2) 및 바디슈링크(sub9-2)",
+      "source_page": "http://www.jayderma.com/sub1-2.php",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "리쥬란힐러",
+      "category": "스킨부스터",
+      "product_name": "리쥬란 힐러",
+      "equipment_name": null,
+      "price": null,
+      "package": null,
+      "notes": "연어 PN 피부 리모델링 주사. 리쥬란힐러HB 포함(JAYDERMA TV)",
+      "source_page": "http://www.jayderma.com/sub1-6.php",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "스컬트라",
+      "category": "스킨부스터",
+      "product_name": "스컬트라",
+      "equipment_name": null,
+      "price": null,
+      "package": null,
+      "notes": "PLLA 콜라겐 생성 촉진제",
+      "source_page": "http://www.jayderma.com/sub3-3.php",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "엑소좀",
+      "category": "스킨부스터",
+      "product_name": "엑소좀",
+      "equipment_name": null,
+      "price": null,
+      "package": null,
+      "notes": "엑소좀 스킨부스터(브랜드 미표기). 헤어 엑소좀(sub1-8)도 운영",
+      "source_page": "http://www.jayderma.com/sub3-1.php",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "필메드NCTF",
+      "category": "스킨부스터",
+      "product_name": "NCTF BOOST 135 HA",
+      "equipment_name": null,
+      "price": null,
+      "package": null,
+      "notes": "Fillmed NCTF 135 피부활력 스킨부스터(샤넬주사)",
+      "source_page": "http://www.jayderma.com/sub3-2.php",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "울트라콜",
+      "category": "스킨부스터",
+      "product_name": "울트라콜 100",
+      "equipment_name": null,
+      "price": null,
+      "package": null,
+      "notes": "PLLA 콜라겐 부스터(라인 미특정)",
+      "source_page": "http://www.jayderma.com/sub1-9.php",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "엘란쎄",
+      "category": "스킨부스터",
+      "product_name": "엘란쎄",
+      "equipment_name": null,
+      "price": null,
+      "package": null,
+      "notes": "PCL 콜라겐 부스터",
+      "source_page": "http://www.jayderma.com/sub1-10.php",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "비탈인젝터2",
+      "category": "스킨부스터",
+      "product_name": null,
+      "equipment_name": "비탈인젝터2",
+      "price": null,
+      "package": null,
+      "notes": "5중 바늘 자동 인젝터를 이용한 스킨부스터 주입",
+      "source_page": "http://www.jayderma.com/sub1-7.php",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "쥬비덤 필러",
+      "category": "필러",
+      "product_name": "쥬비덤 볼루마",
+      "equipment_name": null,
+      "price": null,
+      "package": null,
+      "notes": "HA 필러(쥬비덤). 턱·팔자 등 부위별 필러(JAYDERMA TV)",
+      "source_page": "http://www.jayderma.com/sub1-5.php",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "보톡스",
+      "category": "쁘띠",
+      "product_name": "보톡스 (보툴리눔 톡신)",
+      "equipment_name": null,
+      "price": null,
+      "package": null,
+      "notes": "얼굴·바디·사각턱/자갈턱·다한증·스킨보톡스. 제조사 브랜드 미표기",
+      "source_page": "http://www.jayderma.com/sub1-4.php",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "코그실리프팅",
+      "category": "리프팅",
+      "product_name": "코그실리프팅",
+      "equipment_name": null,
+      "price": null,
+      "package": null,
+      "notes": "코그형 실리프팅 봉합사",
+      "source_page": "http://www.jayderma.com/sub1-3.php",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "프락셀",
+      "category": "재생 / 흉터",
+      "product_name": null,
+      "equipment_name": "프락셀",
+      "price": null,
+      "package": null,
+      "notes": "비박리형 프락셔널 레이저(흉터·모공·재생)",
+      "source_page": "http://www.jayderma.com/sub4-1.php",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "시크릿",
+      "category": "재생 / 흉터",
+      "product_name": null,
+      "equipment_name": "시크릿RF",
+      "price": null,
+      "package": null,
+      "notes": "마이크로니들 고주파(RF), 콜라겐·엘라스틴 생성·흉터",
+      "source_page": "http://www.jayderma.com/sub4-2.php",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "아그네스",
+      "category": "여드름 / 모공",
+      "product_name": null,
+      "equipment_name": "아그네스",
+      "price": null,
+      "package": null,
+      "notes": "병변부위만 선택 파괴, 여드름·모공 개선 RF",
+      "source_page": "http://www.jayderma.com/sub4-3.php",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "CO2 / N-pulse CO2",
+      "category": "재생 / 흉터",
+      "product_name": null,
+      "equipment_name": "CO₂ 프락셔널 (ActiveFX/DeepFX)",
+      "price": null,
+      "package": null,
+      "notes": "고출력 CO2 프락셔널 레이저(흉터·모공·주름). 장비 'N-pulse CO2'",
+      "source_page": "http://www.jayderma.com/sub5-3.php",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "제네시스 토닝",
+      "category": "여드름 / 토닝",
+      "product_name": null,
+      "equipment_name": "제네시스",
+      "price": null,
+      "package": null,
+      "notes": "롱펄스 Nd:YAG 토닝",
+      "source_page": "http://www.jayderma.com/sub6-1.php",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "파스텔토닝",
+      "category": "색소 / 토닝",
+      "product_name": null,
+      "equipment_name": "파스텔토닝",
+      "price": null,
+      "package": null,
+      "notes": "파스텔 색소 레이저 토닝",
+      "source_page": "http://www.jayderma.com/sub5-1.php",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "지방분해주사 / 윤곽주사",
+      "category": "쁘띠 / 바디",
+      "product_name": "윤곽주사 / 지방분해주사",
+      "equipment_name": null,
+      "price": null,
+      "package": null,
+      "notes": "지방세포 파괴·윤곽 주사(브랜드 미표기). 릴리드 주사도 운영(JAYDERMA TV)",
+      "source_page": "http://www.jayderma.com/sub9-3.php",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "제모레이저",
+      "category": "제모",
+      "product_name": null,
+      "equipment_name": "제모레이저",
+      "price": null,
+      "package": null,
+      "notes": "레이저 제모(장비 모델 미표기)",
+      "source_page": "http://www.jayderma.com/sub10-1.php",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "피부관리 케어 프로그램",
+      "category": "관리",
+      "product_name": null,
+      "equipment_name": null,
+      "price": null,
+      "package": null,
+      "notes": "아쿠아필·바하스케일링·여드름초음파케어·보습/진정/탄력케어·미백케어·PHA필·이지톡필·스페셜미백·PDT·골드PTT·알라딘필 등 피부 관리/필링 프로그램 다수. 개별 가격 미게시",
+      "source_page": "http://www.jayderma.com/sub8-6.php",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "PRP 자가혈 치료 / 메조테라피",
+      "category": "재생",
+      "product_name": null,
+      "equipment_name": null,
+      "price": null,
+      "package": null,
+      "notes": "PRP 자가혈 피부재생술(sub10-3), 메조테라피(sub10-2)",
+      "source_page": "http://www.jayderma.com/sub10-3.php",
+      "verification_status": "verified"
+    }
+  ],
+  "language_support": {
+    "supported_languages": ["ko"],
+    "has_language_switcher": false,
+    "foreign_language_pages": {}
+  },
+  "crawl_metadata": {
+    "pages_crawled": 6,
+    "pages_visited": [
+      "http://www.jayderma.com/ (home·시그니처/피부시술 카드·제휴사·JAYDERMA TV·학력)",
+      "http://www.jayderma.com/sub11-1.php (의료진소개 — 이미지, vision 판독)",
+      "http://www.jayderma.com/bbs/board.php?bo_table=notice (제이더마소식 — 진료일정·증명서만, 가격 없음)",
+      "http://www.jayderma.com/sub1-4.php (보톡스 — 이미지 기반, 브랜드 미표기 확인)",
+      "전체 메뉴(#menu_all) 링크 ~45개 항목으로 시술/장비/제품 카탈로그 파악",
+      "오시는길/약도(sub11-2) 및 푸터 운영정보"
+    ],
+    "crawl_method": "manual_agent (Claude가 Playwright MCP로 직접 방문). 그누보드 기반 사이트. 운영정보·제휴사·의료진 학력·제품/장비 카드명은 home DOM 텍스트 + 메뉴 링크 텍스트에서, 의료진 상세(경력·학력·학회)는 의료진 페이지가 이미지라 화면 캡처 후 vision 판독으로 추출. 시술 상세 sub 페이지는 대부분 이미지(브랜드 텍스트 없음)라 home/메뉴의 시술·제품명 기준으로 카탈로그 매칭",
+    "errors": [],
+    "completeness": {
+      "operation_info": true,
+      "doctors": true,
+      "products": true,
+      "equipments": true,
+      "treatments": true,
+      "prices": false,
+      "language_support": true
+    },
+    "notes": [
+      "가격(중요): 사이트 전체에 가격 정보가 없음. '제이더마소식' 게시판은 월별 진료일정 안내와 재직/학위 증명서뿐이고, 이벤트·비급여 수가표·시술 가격 페이지가 존재하지 않음(텍스트·이미지 모두 가격 미게시). 따라서 모든 treatment.price=null, completeness.prices=false. 가격 문의는 카카오톡 상담(_vxfxdsxb)으로 유도하는 구조.",
+      "의료진(vision 판독): 의료진소개(sub11-1) 페이지가 이미지로만 구성돼 화면 캡처 후 vision으로 판독함. 대표원장 정승환 — 전문분야 피부과·성형외과 8년, 경력 오라클피부과의원 청담점(2014~2018)·리젠성형외과의원(2018~2019), 학력 계명대 의대 졸업·가톨릭대 여의도성모병원 인턴/전공의·고려대 경제학과·고려대 법학석사·서울대 경영전문대학원, 학회 대한미용외과학회·대한피부모발학회 정회원. 의료진은 1명.",
+      "제품 매칭: 한↔영/제휴사 정보를 활용한 직접 매칭 — 스컬트라(갈더마)·리쥬란힐러(파마리서치)·필메드NCTF→NCTF BOOST 135 HA(필메드, h/f=1)·울트라콜→울트라콜 100(울트라브이, 라인 미특정 대표 매칭)·엘란쎄(싱클레어)·쥬비덤 필러→쥬비덤 볼루마(엘러간, 라인 미특정 대표 매칭). 보류(unmatched): 엑소좀(브랜드 미표기)·보톡스(제조사 미표기, 휴젤 제휴 있으나 보툴렉스 확정 불가)·코그실리프팅(봉합사, 범위 밖)·릴리드 주사(미상)·윤곽/지방분해주사(범위 밖).",
+      "장비 매칭: 직접 매칭 7종 — 써마지 FLX(솔타)·울쎄라(멀츠)·슈링크(클래시스)·프락셀(솔타)·시크릿RF·제네시스·CO₂ 프락셔널(사이트 장비명 'N-pulse CO2'). 미매칭 — 튠페이스/튠라이너(RF)·아그네스·파스텔토닝·비탈인젝터2·알라딘필·셀렉·코트라플러스·골드PTT·IPL(모델 미표기)·제모레이저(모델 미표기, 알마 소프라 가능성). 제휴사 배너: 멀츠·알마·솔타&클래시스·파마리서치&휴젤.",
+      "제휴사 단서 활용: 홈 팝업의 제휴 브랜드(멀츠/알마/솔타&클래시스/파마리서치&휴젤)로 울쎄라·써마지·프락셀·슈링크·리쥬란의 제조사 매칭 신뢰도를 보강함. 단 보톡스/필러의 구체 제품은 제휴사만으로 단정하지 않고 보수적으로 처리.",
+      "운영정보: 대표 정승환, 사업자번호 473-74-00252, 전화 02-516-9855, 팩스 02-516-9854, 카카오채널 _vxfxdsxb. 진료시간 월~금 10:00~20:00 / 토 10:00~17:00 / 일 휴진. 주차정보 사이트 미표기(null). 위치는 약도상 압구정로데오역 인근. 주소 압구정로 434 성원빌딩 3층(청담동 80-6) = 입력 CSV 일치. '청담제이더마 확장이전안내' 공지 존재(현 주소 기준).",
+      "다국어: 정식 다국어 사이트/언어 스위처 없음(한국어 전용). 단 홈 팝업에 중국어 안내 '请通过微信联系我'(위챗으로 연락) 1줄과 위챗 상담 채널 존재 → 중국인 고객 응대는 위챗으로. 언어 버전 페이지가 아니므로 supported_languages=['ko'].",
+      "채널: JAYDERMA TV(유튜브 시술 설명 영상 다수)·카카오톡 채널·위챗 상담 운영. 네이버블로그/인스타 등 별도 SNS 링크는 사이트에서 확인되지 않음(blog_url/sns_url null). 본 스킬은 홈페이지-한정이라 유튜브/카카오 등 외부 채널 데이터는 추출하지 않음.",
+      "미방문/보류: 시술 상세 sub 페이지(~40개)는 대부분 설명 이미지로 구성돼 브랜드 텍스트가 없어 개별 전수 방문 대신 home 카드·메뉴 라벨·대표 페이지로 항목을 확보함. 피부관리 케어 세부 프로그램(보습/진정/탄력케어·바하스케일링 등)은 제품/장비가 아닌 관리 프로그램이라 treatments에 묶어 기록. 온라인예약(qa 게시판)은 개인정보 입력 폼이라 미수집."
+    ]
+  },
+  "run_meta": null
+}

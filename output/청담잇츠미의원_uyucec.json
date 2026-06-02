@@ -1,81 +1,163 @@
 {
   "hospital_id": "uyucec",
   "hospital_name": "청담잇츠미의원",
-  "crawled_at": "2026-05-29T18:02:33+09:00",
-  "homepage_url": "http://itsme-clinic.kr/m/branch/branch_info.php?idx=59",
-  "url_source": "WebSearch로 잇츠미의원 네트워크(itsme-clinic.kr) 확인 후, 지점안내에서 청담점(idx=59) 식별. 주소(선릉로157길 14 한주빌딩 3~4층)·대표원장(김한구) 일치 확인. 청담점은 별도 도메인 없이 네트워크 본사 사이트를 공식 홈페이지로 사용",
+  "crawled_at": "2026-06-01T17:35:00+09:00",
+  "address": {
+    "sido": "서울",
+    "sigungu": "강남구",
+    "eupmyeondong": "신사동",
+    "road": "선릉로157길 14",
+    "detail": "한주빌딩 3층, 4층",
+    "latitude": 37.5261597,
+    "longitude": 127.0388496
+  },
+  "homepage_url": "http://itsme1.kr/",
+  "url_source": "WebSearch로 후보(itsme1.kr) 확보 후 Playwright 접속. 푸터의 '[청담잇츠미] 서울 강남구 선릉로157길 14 한주빌딩 3층,4층'·대표 김한구·사업자번호 534-57-00905가 입력 CSV와 일치함을 확인",
   "url_confidence": "high",
+  "identity_status": "match",
   "blog_url": null,
-  "sns_url": "https://www.instagram.com/itsme_clinic_official",
-  "alternative_urls": [
-    "http://itsme-clinic.kr/m/"
-  ],
+  "sns_url": "https://www.instagram.com/itsme_clinic_official/",
+  "alternative_urls": [],
+  "branches": {
+    "type": "branch",
+    "network_group": "잇츠미클리닉 (잇츠미 메디컬 그룹)",
+    "this_branch_name": "청담잇츠미의원",
+    "sibling_branches": []
+  },
   "operation_info": {
-    "hospital_name": "청담잇츠미의원 (잇츠미의원 청담점)",
+    "hospital_name": "청담잇츠미의원",
     "representative_name": "김한구",
     "business_number": "534-57-00905",
-    "phone": "02-515-0555",
+    "phone": null,
     "phone_secondary": null,
     "fax": null,
     "email": null,
     "kakao_channel": null,
     "operating_hours": {
-      "monday": { "open": "10:00", "close": "19:00", "break_start": null, "break_end": null },
-      "tuesday": { "open": "10:00", "close": "20:30", "break_start": null, "break_end": null },
+      "monday": {
+        "open": "10:00",
+        "close": "19:00",
+        "break_start": null,
+        "break_end": null
+      },
+      "tuesday": {
+        "open": "10:00",
+        "close": "20:30",
+        "break_start": null,
+        "break_end": null
+      },
       "wednesday": null,
-      "thursday": { "open": "10:00", "close": "19:00", "break_start": null, "break_end": null },
-      "friday": { "open": "10:00", "close": "20:30", "break_start": null, "break_end": null },
-      "saturday": { "open": "10:00", "close": "16:30", "break_start": null, "break_end": null },
+      "thursday": {
+        "open": "10:00",
+        "close": "19:00",
+        "break_start": null,
+        "break_end": null
+      },
+      "friday": {
+        "open": "10:00",
+        "close": "20:30",
+        "break_start": null,
+        "break_end": null
+      },
+      "saturday": {
+        "open": "10:00",
+        "close": "16:30",
+        "break_start": null,
+        "break_end": null
+      },
       "sunday": null,
       "holiday": null
     },
-    "operating_hours_note": "매주 수요일·일요일 정기 휴무. 화·금은 야간진료(~20:30), 월·목 ~19:00, 토 ~16:30. (사이트의 수요일 10:00~21:00·일요일 09:00~21:00 표기는 정기휴무 안내와 모순되는 플레이스홀더로 보여 휴무 처리). 점심시간 별도 표기 없음.",
     "parking_info": null,
-    "transport_info": "압구정로데오역(수인분당선) 5번 출구 도보 2분",
-    "facilities": []
+    "transport_info": "압구정로데오역 5번 출구 도보 2분",
+    "facilities": [],
+    "operating_hours_note": "월 10:00~19:00 / 화 10:00~20:30(야간) / 목 10:00~19:00 / 금 10:00~20:30(야간) / 토 10:00~16:30 / 수요일·일요일 정기 휴무. 대표 전화는 홈페이지에 텍스트로 미표기(카카오톡/네이버예약 유도)."
   },
   "doctors": [
     {
       "name": "김한구",
       "is_representative": true,
       "role": "대표원장",
-      "specialty": [],
-      "education": [
-        "연세대 의대 외래교수",
-        "연세대 의과대학 임상 지도 교수"
+      "specialty": [
+        "피부과",
+        "미용",
+        "비만"
       ],
+      "education": [],
       "career": [
-        "현) 청담 잇츠미의원 대표원장",
-        "카톨릭대 성가병원 외래 자문위원",
-        "전) 미소인 피부 비만 네트워크 대표원장",
-        "전) 백설공주 피부 비만 네트워크 대표원장",
-        "전) 아이디 피부과 원장",
-        "전) 리연케이 피부과 성형외과 원장",
-        "전) 엔비유 피부과 성형외과 센터장"
+        "(현) 청담잇츠미의원 대표원장",
+        "연세대학교 의과대학 외래교수",
+        "(전) 백설공주 피부·비만 네트워크 대표원장",
+        "(전) 아이디 피부과 원장",
+        "(전) 리엔케이 피부과·성형외과 원장",
+        "(전) 엔비유 피부과·성형외과 센터장"
       ],
       "associations": [
-        "대한 레이저피부모발학회 3대 회장 / 현) 명예회장",
-        "한국 피부비만성형학회 부회장",
-        "대한 비만미용학회(KOAT) 학술이사",
-        "대한 비만미용치료학회 창립멤버 / 현) 학술이사",
-        "대한 미용의학회 부회장",
-        "대한 태반영양의학회 부회장"
+        "대한레이저피부모발학회 제3대 회장 (현 명예회장)",
+        "한국피부비만성형학회 부회장",
+        "대한비만미용학회(KOAT) 학술이사",
+        "대한비만미용치료학회 창립멤버·학술이사"
       ],
       "awards": [],
-      "profile_image_url": "http://itsme-clinic.kr/_data/doctor/2025/1226990167000.jpg"
+      "profile_image_url": null,
+      "verification_status": "verified"
     }
   ],
   "products": {
     "matched_products": [
       {
-        "product_kr": "쥬비덤",
+        "product_kr": "보톡스",
+        "brand_kr": "보톡스",
+        "manufacturer_kr": "엘러간",
+        "category": "톡신",
+        "plandocs_handled": 0,
+        "plandocs_featured": 0,
+        "mention_count": 1,
+        "sources": [
+          {
+            "channel": "homepage",
+            "url": "http://itsme1.kr/sub/page.php?code=botox",
+            "evidence": "쁘띠성형 '보톡스' 메뉴/페이지"
+          }
+        ],
+        "context": "쁘띠성형 톡신 메뉴. 카탈로그 '보톡스(엘러간)' 매칭(제조사 미명시이나 일반 '보톡스' 항목으로 매칭)",
+        "verification_status": "verified"
+      },
+      {
+        "product_kr": "제오민",
+        "brand_kr": "제오민",
+        "manufacturer_kr": "멀츠",
+        "category": "톡신",
+        "plandocs_handled": 0,
+        "plandocs_featured": 0,
+        "mention_count": 1,
+        "sources": [
+          {
+            "channel": "homepage",
+            "url": "http://itsme1.kr/sub/page.php?code=xeomin",
+            "evidence": "쁘띠성형 '제오민' 메뉴/페이지"
+          }
+        ],
+        "context": "직접 매칭(멀츠 제오민)",
+        "verification_status": "verified"
+      },
+      {
+        "product_kr": "쥬비덤 볼루마",
         "brand_kr": "쥬비덤",
         "manufacturer_kr": "엘러간",
         "category": "필러",
         "plandocs_handled": 1,
         "plandocs_featured": 0,
-        "source_page": "http://itsme-clinic.kr/m/sub/page.php?code=juvederm",
-        "context": "진료메뉴 '쁘띠성형>쥬비덤'(글로벌 HA 필러). 브랜드 단위로만 명시되고 세부 라인(볼루마/볼룩스/볼리프트/볼벨라) 미표기 → 브랜드 매칭. plandocs handled는 쥬비덤 라인 기준 1"
+        "mention_count": 1,
+        "sources": [
+          {
+            "channel": "homepage",
+            "url": "http://itsme1.kr/sub/page.php?code=juvederm",
+            "evidence": "필러 '쥬비덤' 메뉴/페이지"
+          }
+        ],
+        "context": "사이트 '쥬비덤'(라인 미특정) → 대표격 '쥬비덤 볼루마'로 매칭",
+        "verification_status": "verified"
       },
       {
         "product_kr": "레스틸렌",
@@ -84,18 +166,16 @@
         "category": "필러",
         "plandocs_handled": 0,
         "plandocs_featured": 0,
-        "source_page": "http://itsme-clinic.kr/m/sub/page.php?code=restylane",
-        "context": "진료메뉴 '쁘띠성형>레스틸렌'(1996년 세계 최초 HA 필러). 기본형 매칭. 입술전용 '레스틸렌 키스'는 타 지점 이벤트에서만 명시(notes 참조)"
-      },
-      {
-        "product_kr": "보톡스",
-        "brand_kr": "보톡스",
-        "manufacturer_kr": "엘러간",
-        "category": "톡신",
-        "plandocs_handled": 0,
-        "plandocs_featured": 0,
-        "source_page": "http://itsme-clinic.kr/m/sub/page.php?code=botox",
-        "context": "진료메뉴 '쁘띠성형>보톡스'. 사각턱/주름/다한증. 본문에 '국산'과 '(미국) 엘러간' 병기 → 카탈로그 '보톡스(엘러간)' 매칭. 국산 톡신은 브랜드 미표기"
+        "mention_count": 1,
+        "sources": [
+          {
+            "channel": "homepage",
+            "url": "http://itsme1.kr/sub/page.php?code=restylane",
+            "evidence": "필러 '레스틸렌' 메뉴/페이지"
+          }
+        ],
+        "context": "기본형 매칭(갈더마 레스틸렌)",
+        "verification_status": "verified"
       },
       {
         "product_kr": "리쥬란 힐러",
@@ -104,381 +184,772 @@
         "category": "스킨부스터",
         "plandocs_handled": 0,
         "plandocs_featured": 0,
-        "source_page": "http://itsme-clinic.kr/m/sub/page.php?code=rejuran",
-        "context": "진료메뉴 '웰에이징>리쥬란힐러'(고밀도 피부재생, PN). 직접 매칭. 리쥬란 HB·아이힐러는 타 지점 이벤트에서만 명시(notes 참조)"
+        "mention_count": 1,
+        "sources": [
+          {
+            "channel": "homepage",
+            "url": "http://itsme1.kr/sub/page.php?code=rejuran",
+            "evidence": "스킨부스터 '리쥬란/리쥬란HB' 메뉴/페이지"
+          }
+        ],
+        "context": "직접 매칭(연어 PN)",
+        "verification_status": "verified"
+      },
+      {
+        "product_kr": "리쥬란 HB",
+        "brand_kr": "리쥬란",
+        "manufacturer_kr": "파마리서치",
+        "category": "스킨부스터",
+        "plandocs_handled": 0,
+        "plandocs_featured": 0,
+        "mention_count": 1,
+        "sources": [
+          {
+            "channel": "homepage",
+            "url": "http://itsme1.kr/sub/page.php?code=rejuran",
+            "evidence": "스킨부스터 '리쥬란/리쥬란HB' 메뉴/페이지"
+          }
+        ],
+        "context": "직접 매칭(HB, 히알루론산 배합)",
+        "verification_status": "verified"
+      },
+      {
+        "product_kr": "스킨바이브",
+        "brand_kr": "스킨바이브",
+        "manufacturer_kr": "엘러간",
+        "category": "스킨부스터",
+        "plandocs_handled": 1,
+        "plandocs_featured": 0,
+        "mention_count": 1,
+        "sources": [
+          {
+            "channel": "homepage",
+            "url": "http://itsme1.kr/skinvibe/",
+            "evidence": "스킨부스터 '스킨바이브' 메뉴/페이지"
+          }
+        ],
+        "context": "엘러간 SkinVive HA 스킨부스터. 직접 매칭",
+        "verification_status": "verified"
+      },
+      {
+        "product_kr": "벨로테로 리바이브 스킨부스터",
+        "brand_kr": "리바이브",
+        "manufacturer_kr": "멀츠",
+        "category": "스킨부스터",
+        "plandocs_handled": 0,
+        "plandocs_featured": 0,
+        "mention_count": 1,
+        "sources": [
+          {
+            "channel": "homepage",
+            "url": "http://itsme1.kr/belotero/",
+            "evidence": "스킨부스터 '벨로테로(리바이브)' 메뉴/페이지"
+          }
+        ],
+        "context": "사이트 '벨로테로(리바이브)' → 카탈로그 '벨로테로 리바이브 스킨부스터' 직접 매칭",
+        "verification_status": "verified"
+      },
+      {
+        "product_kr": "엘라비에 리투오",
+        "brand_kr": "리투오",
+        "manufacturer_kr": "휴메딕스",
+        "category": "스킨부스터",
+        "plandocs_handled": 0,
+        "plandocs_featured": 0,
+        "mention_count": 2,
+        "sources": [
+          {
+            "channel": "homepage",
+            "url": "http://itsme1.kr/re2o/",
+            "evidence": "스킨부스터 '리투오' 메뉴/페이지"
+          },
+          {
+            "channel": "homepage",
+            "url": "http://itsme1.kr/event01/",
+            "evidence": "쁘띠 특가 '리투오 플러스 6cc + 크라이오셀 + LED + 옥시젠테라피 699,000원'(이미지 vision)"
+          }
+        ],
+        "context": "사이트 '리투오/리투오 플러스' → 카탈로그 '엘라비에 리투오' 매칭",
+        "verification_status": "verified"
+      },
+      {
+        "product_kr": "레티젠",
+        "brand_kr": "레티젠",
+        "manufacturer_kr": "한국파비스",
+        "category": "스킨부스터",
+        "plandocs_handled": 0,
+        "plandocs_featured": 0,
+        "mention_count": 1,
+        "sources": [
+          {
+            "channel": "homepage",
+            "url": "http://itsme1.kr/laetigen/",
+            "evidence": "스킨부스터 '레티젠' 메뉴/페이지"
+          }
+        ],
+        "context": "직접 매칭(레티젠 스킨부스터)",
+        "verification_status": "verified"
       }
     ],
     "unmatched_products": [
       {
-        "raw_name": "스킨부스터 (물광주사/연어주사/꿀광주사/더마톡신/PDRN/엑소좀)",
-        "category_guess": "스킨부스터(일반)",
-        "source_page": "http://itsme-clinic.kr/m/sub/page.php?code=booster",
-        "context": "진료메뉴 '웰에이징>스킨부스터'. 시술명(물광·연어·꿀광주사·더마톡신·PDRN·엑소좀) 위주로 브랜드 미표기 → 카탈로그 특정 제품 확정 불가. 보수적으로 보류"
+        "raw_name": "잇팅주사",
+        "category_guess": "윤곽/지방분해 주사(자체개발)",
+        "mention_count": 3,
+        "sources": [
+          {
+            "channel": "homepage",
+            "url": "http://itsme1.kr/event01/",
+            "evidence": "쁘띠 특가 '잇팅주사 정상 15만→9만 / 24만(3회)', '잇팅주사 바디 1회 90,000원'. *프리미엄 윤곽·지방분해 주사"
+          }
+        ],
+        "context": "잇츠미 자체개발 윤곽/지방분해 주사(얼굴/바디). 카탈로그(에스테틱 제품) 범위 밖",
+        "verification_status": "verified"
       },
       {
-        "raw_name": "국산 필러 (순수필/에피티크)",
-        "category_guess": "필러(국산 HA)",
-        "source_page": "http://itsme-clinic.kr/m/sub/page.php?code=filler",
-        "context": "필러 메뉴/타 지점 이벤트에 '국산 순수필', '에피티크(순수필)' 표기. 카탈로그 미등재"
+        "raw_name": "용량 무제한 어깨필러",
+        "category_guess": "필러(어깨)",
+        "mention_count": 1,
+        "sources": [
+          {
+            "channel": "homepage",
+            "url": "http://itsme1.kr/event01/",
+            "evidence": "쁘띠 특가 '용량 무제한 어깨필러 여자 90만 / 남자 150만'(이미지 vision)"
+          }
+        ],
+        "context": "어깨 볼륨 필러, 제품 브랜드 미표기. 미매칭",
+        "verification_status": "verified"
       },
       {
-        "raw_name": "쥬비덤 볼라이트 (Volite)",
-        "category_guess": "스킨부스터(HA 물광)",
-        "source_page": "http://itsme-clinic.kr/m/sub/page.php?code=booster",
-        "context": "스킨부스터 '볼빛 물광주사(쥬비덤 볼라이트)'. 타 지점(천안불당) 이벤트 표기. 카탈로그에 쥬비덤 Volite 미등재(스킨바이브만 등재) → 보류"
+        "raw_name": "실리프팅",
+        "category_guess": "실리프팅 봉합사",
+        "mention_count": 1,
+        "sources": [
+          {
+            "channel": "homepage",
+            "url": "http://itsme1.kr/sub/page.php?code=threadlifting",
+            "evidence": "쁘띠성형 '실리프팅' 메뉴"
+          }
+        ],
+        "context": "실리프팅 봉합사(브랜드 미표기). 봉합사는 카탈로그 범위 밖",
+        "verification_status": "verified"
       },
       {
-        "raw_name": "BS 라인주사 (지방분해주사)",
-        "category_guess": "지방분해주사(노스테로이드)",
-        "source_page": "http://itsme-clinic.kr/m/sub/page.php?code=bs_line",
-        "context": "진료메뉴 '스킨&바디케어>BS 라인주사'. 잇츠미 자체 지방파괴 주사. 지방분해주사는 카탈로그 범위 밖"
-      },
-      {
-        "raw_name": "실리프팅 봉합사 (민트실/PDO실, 젬버실, 실루엣 소프트실, 모노실, 볼륨실)",
-        "category_guess": "실리프팅 봉합사(PDO 등)",
-        "source_page": "http://itsme-clinic.kr/m/sub/page.php?code=threadlifting",
-        "context": "진료메뉴 '쁘띠성형>실리프팅'. 청담 nav는 '실리프팅'만, 세부 봉합사명(민트실·젬버실·실루엣 소프트실·모노실·볼륨실)은 타 지점 이벤트(네트워크 공유 사이트)에 표기. 봉합사는 카탈로그 범위 밖. 무누락 원칙으로 개별 기록"
+        "raw_name": "메타셀 MCT 자가엑소좀 / 줄기세포",
+        "category_guess": "줄기세포·엑소좀",
+        "mention_count": 2,
+        "sources": [
+          {
+            "channel": "homepage",
+            "url": "http://itsme1.kr/mct/",
+            "evidence": "'MCT(줄기세포)' 메뉴"
+          },
+          {
+            "channel": "homepage",
+            "url": "http://itsme1.kr/event01/",
+            "evidence": "줄기세포 치료 이벤트(얼굴 109만/정맥 209만/얼굴+정맥 299만), *메타셀 MCT 자가엑소좀 추가(이미지 vision)"
+          }
+        ],
+        "context": "메타셀 MCT 자가엑소좀/줄기세포 치료. 카탈로그(에스테틱 제품) 범위 밖",
+        "verification_status": "verified"
       }
     ]
   },
   "equipments": {
     "matched_equipments": [
       {
-        "name_kr": "피코슈어",
-        "name_en": "PicoSure",
-        "category": "색소",
-        "source_page": "http://itsme-clinic.kr/m/sub/page.php?code=picosure",
-        "context": "진료메뉴 '피부레이저>피코슈어'(세계 최초 FDA 승인 755nm 피코 레이저 토닝). 카탈로그 no.14 직접 매칭. 홈 키워드 #피코토닝"
+        "name_kr": "울쎄라피 프라임",
+        "name_en": "Ultherapy Prime",
+        "category": "리프팅",
+        "mention_count": 3,
+        "sources": [
+          {
+            "channel": "homepage",
+            "url": "http://itsme1.kr/ultheraprime/",
+            "evidence": "프리미엄리프팅센터 '울쎄라피프라임' + 장비리스트(DeepSEE 업그레이드)"
+          },
+          {
+            "channel": "homepage",
+            "url": "http://itsme1.kr/event01/",
+            "evidence": "리프팅 체험특가 '울쎄라2 프라임 100샷 29만9천원'(이미지 vision, 텍스트 586,000→299,000 교차확인)"
+          }
+        ],
+        "context": "HIFU 2세대. 카탈로그 '울쎄라피 프라임' 직접 매칭",
+        "verification_status": "verified"
       },
       {
-        "name_kr": "피코웨이",
-        "name_en": "PicoWay",
-        "category": "색소",
-        "source_page": "http://itsme-clinic.kr/m/sub/page.php?code=picoway",
-        "context": "진료메뉴 '피부레이저>피코웨이'(쿼드러플 파장 피코 레이저 토닝). 카탈로그 no.15 직접 매칭"
+        "name_kr": "써마지 FLX",
+        "name_en": "Thermage FLX",
+        "category": "리프팅",
+        "mention_count": 1,
+        "sources": [
+          {
+            "channel": "homepage",
+            "url": "http://itsme1.kr/thermage/",
+            "evidence": "프리미엄리프팅센터 '써마지FLX' + 장비리스트(오리지널 고주파)"
+          }
+        ],
+        "context": "고주파(RF) 리프팅. 카탈로그 '써마지 FLX' 직접 매칭",
+        "verification_status": "verified"
+      },
+      {
+        "name_kr": "온다",
+        "name_en": "ONDA",
+        "category": "리프팅",
+        "mention_count": 3,
+        "sources": [
+          {
+            "channel": "homepage",
+            "url": "http://itsme1.kr/sub/page.php?code=onda",
+            "evidence": "프리미엄리프팅센터 '온다리프팅' + 장비리스트(DEKA ONDA, 극초단파)"
+          },
+          {
+            "channel": "homepage",
+            "url": "http://itsme1.kr/event01/",
+            "evidence": "온다레이저 도입기념 특가 1만줄~10만줄(이미지 vision)"
+          }
+        ],
+        "context": "마이크로웨이브 리프팅. 카탈로그 '온다(ONDA)' 직접 매칭",
+        "verification_status": "verified"
+      },
+      {
+        "name_kr": "포텐자",
+        "name_en": "POTENZA",
+        "category": "리프팅 / 재생",
+        "mention_count": 1,
+        "sources": [
+          {
+            "channel": "homepage",
+            "url": "http://itsme1.kr/potenza/",
+            "evidence": "프리미엄리프팅센터 '포텐자' + 장비리스트(RF 미세니들)"
+          }
+        ],
+        "context": "마이크로니들 고주파(RF). 카탈로그 '포텐자' 직접 매칭",
+        "verification_status": "verified"
+      },
+      {
+        "name_kr": "티타늄",
+        "name_en": "Titanium",
+        "category": "리프팅",
+        "mention_count": 3,
+        "sources": [
+          {
+            "channel": "homepage",
+            "url": "http://itsme1.kr/fortra/",
+            "evidence": "프리미엄리프팅센터 '포트라(티타늄)' + 장비리스트(4파장 레이저 리프팅)"
+          },
+          {
+            "channel": "homepage",
+            "url": "http://itsme1.kr/event01/",
+            "evidence": "포트라 이벤트 1만줄~4만줄(이미지 vision)"
+          }
+        ],
+        "context": "사이트 '포트라(티타늄)'(4파장 다이오드 레이저 리프팅) → 카탈로그 '티타늄' 매칭",
+        "verification_status": "verified"
       },
       {
         "name_kr": "슈링크",
         "name_en": "Shrink",
         "category": "리프팅",
-        "source_page": "http://itsme-clinic.kr/m/sub/page.php?code=shrink",
-        "context": "진료메뉴 '웰에이징>슈링크 유니버스'(HIFU 리프팅). 수식어 제거 후 카탈로그 no.2 '슈링크'(클래시스)에 매칭. 홈 키워드 #슈링크유니버스"
+        "mention_count": 1,
+        "sources": [
+          {
+            "channel": "homepage",
+            "url": "http://itsme1.kr/sub/page.php?code=shrink",
+            "evidence": "프리미엄리프팅센터 '슈링크 유니버스'"
+          }
+        ],
+        "context": "HIFU 초음파 리프팅. '슈링크 유니버스' → 카탈로그 '슈링크' 매칭(수식어 제거)",
+        "verification_status": "verified"
       },
       {
-        "name_kr": "울쎄라",
-        "name_en": "Ulthera",
+        "name_kr": "올리지오",
+        "name_en": "Oligio",
         "category": "리프팅",
-        "source_page": "http://itsme-clinic.kr/m/sub/page.php?code=ulthera",
-        "context": "진료메뉴 '웰에이징>울쎄라'(DEEP SEE HIFU SMAS 리프팅). 메뉴/이벤트 모두 'Prime' 표기 없는 기본 울쎄라 → 카탈로그 no.1 매칭. 홈 키워드 #울쎄라"
+        "mention_count": 2,
+        "sources": [
+          {
+            "channel": "homepage",
+            "url": "http://itsme1.kr/community/laser.php",
+            "evidence": "장비리스트 '올리지오 키스'"
+          },
+          {
+            "channel": "homepage",
+            "url": "http://itsme1.kr/event01/",
+            "evidence": "올리지오 키스 이벤트 50~300샷 6.3만~37.8만(이미지 vision)"
+          }
+        ],
+        "context": "고주파(RF) 리프팅. '올리지오 키스' → 카탈로그 '올리지오' 매칭",
+        "verification_status": "verified"
       },
       {
-        "name_kr": "인모드 포마/FX",
-        "name_en": "InMode Forma / FX",
+        "name_kr": "텐써마",
+        "name_en": "TEN Therma",
         "category": "리프팅",
-        "source_page": "http://itsme-clinic.kr/m/sub/page.php?code=inmode",
-        "context": "진료메뉴 '웰에이징>인모드'(고주파 3in1 리프팅). 본문/이벤트에 Forma·FX 모드 모두 언급 → 카탈로그 no.5 '인모드 포마/FX' 매칭"
+        "mention_count": 2,
+        "sources": [
+          {
+            "channel": "homepage",
+            "url": "http://itsme1.kr/10therma/",
+            "evidence": "프리미엄리프팅센터 '텐써마' + 텐써마 이벤트 100샷 12만6천원(이미지 vision)"
+          }
+        ],
+        "context": "고주파(RF) 리프팅. 카탈로그 '텐써마' 직접 매칭",
+        "verification_status": "verified"
       }
     ],
     "unmatched_equipments": [
       {
-        "raw_name": "미라젯 (Mirajet)",
-        "category_guess": "니들프리 제트인젝터(약물 무바늘 주입)",
-        "source_page": "http://itsme-clinic.kr/m/sub/page.php?code=mirajet",
-        "context": "진료메뉴 '피부레이저>미라젯'(NEEDLE FREE SYSTEM, 바늘없이 약물 주입). 카탈로그 미등재"
+        "raw_name": "덴서티 (Density)",
+        "category_guess": "고주파(RF) 리프팅",
+        "mention_count": 3,
+        "sources": [
+          {
+            "channel": "homepage",
+            "url": "http://itsme1.kr/density/",
+            "evidence": "프리미엄리프팅센터 '덴서티' + 장비리스트(듀얼 고주파 모노/바이폴라) + 덴서티 이벤트 100샷15만/클래식600샷90만/알파팁600샷180만(이미지 vision)"
+          }
+        ],
+        "context": "Density 듀얼 RF 리프팅. 카탈로그 미등재",
+        "verification_status": "verified"
       },
       {
-        "raw_name": "리프테라2 (Liftera2)",
-        "category_guess": "리프팅(집속초음파 HIFU)",
-        "source_page": "http://itsme-clinic.kr/m/sub/page.php?code=skin_001 (커스텀 리프팅)",
-        "context": "커스텀 리프팅 메뉴의 타 지점(대전) 이벤트 '리프테라펜타입'으로 등장. 청담 nav 직접 명시는 아니며 네트워크 공유 사이트의 타 지점 이벤트 표기. 카탈로그 미등재. 무누락 원칙으로 기록"
+        "raw_name": "볼뉴머 (Volnewmer)",
+        "category_guess": "고주파(RF) 리프팅",
+        "mention_count": 3,
+        "sources": [
+          {
+            "channel": "homepage",
+            "url": "http://itsme1.kr/community/laser.php",
+            "evidence": "장비리스트 '볼뉴머' + 볼뉴머 이벤트 50샷5만/100샷10만(이미지 vision)"
+          }
+        ],
+        "context": "Volnewmer 고주파 리프팅(클래시스). 카탈로그 미등재",
+        "verification_status": "verified"
       },
       {
-        "raw_name": "엑실리스 (Exilis)",
-        "category_guess": "리프팅(고주파 RF)",
-        "source_page": "http://itsme-clinic.kr/m/sub/page.php?code=botox (타이트닝 이벤트)",
-        "context": "보톡스 메뉴의 타 지점(청주) '타이트닝 리프팅패키지(엑실리스+인모드 FORMA)' 이벤트로 등장. 청담 nav 직접 명시는 아니며 네트워크 공유 사이트의 타 지점 이벤트 표기. 카탈로그 미등재"
+        "raw_name": "에버코어 리프팅",
+        "category_guess": "리프팅(자체 시그니처)",
+        "mention_count": 2,
+        "sources": [
+          {
+            "channel": "homepage",
+            "url": "http://itsme1.kr/evercore2/",
+            "evidence": "메인 메뉴 '에버코어리프팅' + 쁘띠 특가 '에버코어 리프팅 에버덤 1개 29만/79만(3개)/99만(4개)'(이미지 vision)"
+          }
+        ],
+        "context": "잇츠미 자체 개발 리프팅 시술(에버덤). 카탈로그 미등재",
+        "verification_status": "verified"
+      },
+      {
+        "raw_name": "트리필프로",
+        "category_guess": "레이저/리프팅",
+        "mention_count": 1,
+        "sources": [
+          {
+            "channel": "homepage",
+            "url": "http://itsme1.kr/community/laser.php",
+            "evidence": "장비리스트 '트리필프로'"
+          }
+        ],
+        "context": "트리필프로 장비. 카탈로그 미등재",
+        "verification_status": "verified"
+      },
+      {
+        "raw_name": "더마샤인 (물광 인젝터)",
+        "category_guess": "물광 인젝터(MTS)",
+        "mention_count": 1,
+        "sources": [
+          {
+            "channel": "homepage",
+            "url": "http://itsme1.kr/community/laser.php",
+            "evidence": "장비리스트 '더마샤인'"
+          }
+        ],
+        "context": "Dermashine 물광 자동 인젝터. 카탈로그 미등재",
+        "verification_status": "verified"
+      },
+      {
+        "raw_name": "리쥬메이트",
+        "category_guess": "스킨부스터 인젝터",
+        "mention_count": 1,
+        "sources": [
+          {
+            "channel": "homepage",
+            "url": "http://itsme1.kr/community/laser.php",
+            "evidence": "장비리스트 '리쥬메이트'"
+          }
+        ],
+        "context": "리쥬메이트 자동 주입 인젝터. 카탈로그 미등재",
+        "verification_status": "verified"
       }
     ]
   },
   "treatments": [
     {
-      "treatment_name": "피코슈어 토닝",
-      "category": "피부레이저/색소",
-      "product_name": null,
-      "equipment_name": "피코슈어",
-      "price": null,
-      "price_display": null,
-      "unit": null,
-      "is_event_price": null,
-      "notes": "755nm 피코 레이저 토닝(기미·잡티·색소). 청담점 가격은 사이트에 텍스트로 없음(이벤트 미운영)",
-      "source_page": "http://itsme-clinic.kr/m/sub/page.php?code=picosure"
+      "treatment_name": "[특가] 용량 무제한 어깨필러",
+      "category": "쁘띠 이벤트",
+      "product_name": "용량 무제한 어깨필러",
+      "equipment_name": null,
+      "price": {
+        "text": "여자 90만원 / 남자 150만원",
+        "low": 900000,
+        "high": 1500000,
+        "unit": "부위(성별)",
+        "currency": "KRW",
+        "is_event_price": true
+      },
+      "package": {
+        "sessions": null,
+        "duration_months": null,
+        "event_period": null
+      },
+      "notes": "쁘띠 시술 특가. 여자 90만/남자 150만. 평일 주간 한정(토·평일 17시 이후 제외). 이벤트 이미지 vision 판독",
+      "source_page": "http://itsme1.kr/event01/",
+      "verification_status": "verified"
     },
     {
-      "treatment_name": "피코웨이 토닝",
-      "category": "피부레이저/색소",
-      "product_name": null,
-      "equipment_name": "피코웨이",
-      "price": null,
-      "price_display": null,
-      "unit": null,
-      "is_event_price": null,
-      "notes": "쿼드러플 파장 피코 레이저 토닝. 청담점 가격 없음",
-      "source_page": "http://itsme-clinic.kr/m/sub/page.php?code=picoway"
+      "treatment_name": "[특가] 잇팅주사 (프리미엄 윤곽·지방분해)",
+      "category": "쁘띠 이벤트",
+      "product_name": "잇팅주사",
+      "equipment_name": null,
+      "price": {
+        "text": "정상 15만원 → 이벤트 9만원 / 24만원(3회)",
+        "low": 90000,
+        "high": 240000,
+        "unit": "회(1회/3회)",
+        "currency": "KRW",
+        "is_event_price": true
+      },
+      "package": {
+        "sessions": 3,
+        "duration_months": null,
+        "event_period": null
+      },
+      "notes": "정상가 15만. 1회 9만/3회 24만. 바디 1회 90,000원(정상 150,000, 지점페이지 텍스트 교차확인). 이미지 vision 판독",
+      "source_page": "http://itsme1.kr/event01/",
+      "verification_status": "verified"
     },
     {
-      "treatment_name": "미라젯",
-      "category": "피부레이저",
+      "treatment_name": "[특가] 에버코어 리프팅 (에버덤)",
+      "category": "리프팅 이벤트",
       "product_name": null,
-      "equipment_name": "미라젯",
-      "price": null,
-      "price_display": null,
-      "unit": null,
-      "is_event_price": null,
-      "notes": "니들프리(무바늘) 약물 주입 시스템. 청담점 가격 없음",
-      "source_page": "http://itsme-clinic.kr/m/sub/page.php?code=mirajet"
+      "equipment_name": "에버코어 리프팅",
+      "price": {
+        "text": "정상 39만원 → 이벤트 29만원 / 79만원(3개) / 99만원(4개)",
+        "low": 290000,
+        "high": 990000,
+        "unit": "개(1/3/4개)",
+        "currency": "KRW",
+        "is_event_price": true
+      },
+      "package": {
+        "sessions": 4,
+        "duration_months": null,
+        "event_period": null
+      },
+      "notes": "잇츠미 자체개발 리프팅. 에버덤 1개 29만/3개 79만/4개 99만. (지점페이지 텍스트엔 정상 55만→29만으로 표기, 정상가 표기 상이). 이미지 vision 판독",
+      "source_page": "http://itsme1.kr/event01/",
+      "verification_status": "verified"
     },
     {
-      "treatment_name": "커스텀 리프팅",
-      "category": "리프팅",
-      "product_name": null,
-      "equipment_name": "슈링크; 울쎄라; 인모드 포마/FX",
-      "price": null,
-      "price_display": null,
-      "unit": null,
-      "is_event_price": null,
-      "notes": "리프팅 전담 닥터가 설계하는 복합 디자인 리프팅. 초음파(슈링크·울쎄라)·고주파(인모드) 조합. 타 지점 이벤트에 리프테라2 언급. 청담점 가격 없음",
-      "source_page": "http://itsme-clinic.kr/m/sub/page.php?code=skin_001"
+      "treatment_name": "[특가] 리투오 플러스 6cc + 크라이오셀 + LED + 옥시젠테라피",
+      "category": "스킨부스터 이벤트",
+      "product_name": "엘라비에 리투오",
+      "equipment_name": null,
+      "price": {
+        "text": "정상 137만원 → 이벤트 69만 9천원",
+        "low": 699000,
+        "high": 699000,
+        "unit": "패키지",
+        "currency": "KRW",
+        "is_event_price": true
+      },
+      "package": {
+        "sessions": null,
+        "duration_months": null,
+        "event_period": null
+      },
+      "notes": "리투오 플러스 6cc 패키지. 정상 1,370,000 → 699,000(지점페이지 텍스트 48% 교차확인). 이미지 vision 판독",
+      "source_page": "http://itsme1.kr/event01/",
+      "verification_status": "verified"
     },
     {
-      "treatment_name": "슈링크 유니버스",
-      "category": "리프팅",
+      "treatment_name": "[체험특가] 리프팅 1회 체험 (볼뉴머·덴서티·울쎄라피프라임·온다·포트라)",
+      "category": "리프팅 이벤트",
       "product_name": null,
-      "equipment_name": "슈링크",
-      "price": null,
-      "price_display": null,
-      "unit": null,
-      "is_event_price": null,
-      "notes": "HIFU 리프팅(울트라부스터 샷 단위). 청담점 가격 없음",
-      "source_page": "http://itsme-clinic.kr/m/sub/page.php?code=shrink"
+      "equipment_name": "볼뉴머; 덴서티; 울쎄라피 프라임; 온다; 티타늄",
+      "price": {
+        "text": "볼뉴머 100샷 10만 / 덴서티 100샷 15만 / 울쎄라2프라임 100샷 29.9만 / 온다 1만줄 7.5만 / 포트라 1만줄 7.5만",
+        "low": 75000,
+        "high": 299000,
+        "unit": "샷/줄(체험 1회)",
+        "currency": "KRW",
+        "is_event_price": true
+      },
+      "package": {
+        "sessions": 1,
+        "duration_months": null,
+        "event_period": null
+      },
+      "notes": "리프팅 1회 체험 특가 5종. 평일 주간 한정(일부). 이미지 vision 판독",
+      "source_page": "http://itsme1.kr/event01/",
+      "verification_status": "verified"
     },
     {
-      "treatment_name": "울쎄라",
-      "category": "리프팅",
+      "treatment_name": "[이벤트] 덴서티 리프팅",
+      "category": "리프팅 이벤트",
       "product_name": null,
-      "equipment_name": "울쎄라",
-      "price": null,
-      "price_display": null,
-      "unit": null,
-      "is_event_price": null,
-      "notes": "DEEP SEE HIFU SMAS 리프팅(샷 단위). 청담점 가격 없음",
-      "source_page": "http://itsme-clinic.kr/m/sub/page.php?code=ulthera"
+      "equipment_name": "덴서티",
+      "price": {
+        "text": "100샷 15만 / 클래식 600샷 90만 / 알파팁 600샷 180만",
+        "low": 150000,
+        "high": 1800000,
+        "unit": "샷(100~600)",
+        "currency": "KRW",
+        "is_event_price": true
+      },
+      "package": {
+        "sessions": null,
+        "duration_months": null,
+        "event_period": null
+      },
+      "notes": "덴서티 이벤트. 알파팁 600샷은 온다리프팅 5만줄 or 30만원 상당 서비스 포함. 평일 주간 한정. 이미지 vision 판독",
+      "source_page": "http://itsme1.kr/event01/",
+      "verification_status": "verified"
     },
     {
-      "treatment_name": "인모드",
-      "category": "리프팅",
+      "treatment_name": "[도입기념] 온다레이저 리프팅",
+      "category": "리프팅 이벤트",
       "product_name": null,
-      "equipment_name": "인모드 포마/FX",
-      "price": null,
-      "price_display": null,
-      "unit": null,
-      "is_event_price": null,
-      "notes": "고주파 3in1(표피-진피-근막) 리프팅. Forma·FX 모드. 청담점 가격 없음",
-      "source_page": "http://itsme-clinic.kr/m/sub/page.php?code=inmode"
+      "equipment_name": "온다",
+      "price": {
+        "text": "1만줄 7.5만 / 4만줄 29.9만 / 6만줄 57만 / 8만줄 75만 / 10만줄 93만",
+        "low": 75000,
+        "high": 930000,
+        "unit": "줄(1만~10만)",
+        "currency": "KRW",
+        "is_event_price": true
+      },
+      "package": {
+        "sessions": null,
+        "duration_months": null,
+        "event_period": null
+      },
+      "notes": "온다레이저 도입 기념 특가(줄 수별 5단계). 1만줄 75,000(지점페이지 텍스트 48% 교차확인). 이미지 vision 판독",
+      "source_page": "http://itsme1.kr/event01/",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "[이벤트] 포트라(티타늄) 리프팅",
+      "category": "리프팅 이벤트",
+      "product_name": null,
+      "equipment_name": "티타늄",
+      "price": {
+        "text": "1만줄 7.5만 / 2만줄 15만 / 4만줄 30만",
+        "low": 75000,
+        "high": 300000,
+        "unit": "줄(1만~4만)",
+        "currency": "KRW",
+        "is_event_price": true
+      },
+      "package": {
+        "sessions": null,
+        "duration_months": null,
+        "event_period": null
+      },
+      "notes": "포트라 이벤트. 토·평일 17시 이후 제외. 이미지 vision 판독",
+      "source_page": "http://itsme1.kr/event01/",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "[이벤트] 볼뉴머 리프팅",
+      "category": "리프팅 이벤트",
+      "product_name": null,
+      "equipment_name": "볼뉴머",
+      "price": {
+        "text": "50샷 5만 / 100샷 10만",
+        "low": 50000,
+        "high": 100000,
+        "unit": "샷(50/100)",
+        "currency": "KRW",
+        "is_event_price": true
+      },
+      "package": {
+        "sessions": null,
+        "duration_months": null,
+        "event_period": null
+      },
+      "notes": "볼뉴머 이벤트. 평일 주간 한정. 이미지 vision 판독",
+      "source_page": "http://itsme1.kr/event01/",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "[이벤트] 텐써마 리프팅",
+      "category": "리프팅 이벤트",
+      "product_name": null,
+      "equipment_name": "텐써마",
+      "price": {
+        "text": "100샷 12만 6천원",
+        "low": 126000,
+        "high": 126000,
+        "unit": "100샷",
+        "currency": "KRW",
+        "is_event_price": true
+      },
+      "package": {
+        "sessions": null,
+        "duration_months": null,
+        "event_period": null
+      },
+      "notes": "텐써마 이벤트. 평일 주간 한정. 이미지 vision 판독",
+      "source_page": "http://itsme1.kr/event01/",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "[이벤트] 올리지오 키스 리프팅",
+      "category": "리프팅 이벤트",
+      "product_name": null,
+      "equipment_name": "올리지오",
+      "price": {
+        "text": "50샷 6.3만 / 100샷 12.6만 / 200샷 25.2만 / 300샷 37.8만",
+        "low": 63000,
+        "high": 378000,
+        "unit": "샷(50~300)",
+        "currency": "KRW",
+        "is_event_price": true
+      },
+      "package": {
+        "sessions": null,
+        "duration_months": null,
+        "event_period": null
+      },
+      "notes": "올리지오 키스 이벤트(초음파+고주파 복합). 평일 주간 한정. 이미지 vision 판독",
+      "source_page": "http://itsme1.kr/event01/",
+      "verification_status": "verified"
+    },
+    {
+      "treatment_name": "[특가] 줄기세포 치료 (메타셀 MCT)",
+      "category": "안티에이징 이벤트",
+      "product_name": "메타셀 MCT 자가엑소좀 / 줄기세포",
+      "equipment_name": null,
+      "price": {
+        "text": "얼굴시술 정상200만→109만 / 정맥주사 정상400만→209만 / 얼굴+정맥 정상600만→299만",
+        "low": 1090000,
+        "high": 2990000,
+        "unit": "시술(얼굴/정맥/복합)",
+        "currency": "KRW",
+        "is_event_price": true
+      },
+      "package": {
+        "sessions": null,
+        "duration_months": null,
+        "event_period": null
+      },
+      "notes": "줄기세포 치료 특가. 메타셀 MCT 자가엑소좀은 가격 추가. 이미지 vision 판독",
+      "source_page": "http://itsme1.kr/event01/",
+      "verification_status": "verified"
     },
     {
       "treatment_name": "필러",
       "category": "쁘띠",
-      "product_name": "쥬비덤; 레스틸렌",
+      "product_name": "쥬비덤 볼루마; 레스틸렌",
       "equipment_name": null,
       "price": null,
-      "price_display": null,
-      "unit": null,
-      "is_event_price": null,
-      "notes": "수입 HA 필러(쥬비덤·레스틸렌) 및 국산 필러(순수필/에피티크). 청담점 가격 없음",
-      "source_page": "http://itsme-clinic.kr/m/sub/page.php?code=filler"
+      "package": null,
+      "notes": "HA 필러(쥬비덤·레스틸렌). 부위별: 이중턱·턱선·팔자·앞광대·옆광대·심부볼·마리오네트·뒷목·부유방 등 부위 메뉴 보유",
+      "source_page": "http://itsme1.kr/filler/",
+      "verification_status": "verified"
     },
     {
-      "treatment_name": "보톡스",
+      "treatment_name": "보톡스 / 제오민",
       "category": "쁘띠",
-      "product_name": "보톡스",
+      "product_name": "보톡스; 제오민",
       "equipment_name": null,
       "price": null,
-      "price_display": null,
-      "unit": null,
-      "is_event_price": null,
-      "notes": "사각턱·주름·다한증·바디 보톡스. 국산 톡신 및 (미국)엘러간. 청담점 가격 없음",
-      "source_page": "http://itsme-clinic.kr/m/sub/page.php?code=botox"
-    },
-    {
-      "treatment_name": "실리프팅",
-      "category": "쁘띠",
-      "product_name": "민트실; 젬버실; 실루엣 소프트실; 모노실; 볼륨실",
-      "equipment_name": null,
-      "price": null,
-      "price_display": null,
-      "unit": null,
-      "is_event_price": null,
-      "notes": "녹는실 리프팅. 청담 nav는 '실리프팅'만 명시, 봉합사 세부명은 타 지점 이벤트(공유 사이트) 표기. 청담점 가격 없음",
-      "source_page": "http://itsme-clinic.kr/m/sub/page.php?code=threadlifting"
-    },
-    {
-      "treatment_name": "리쥬란힐러",
-      "category": "스킨부스터",
-      "product_name": "리쥬란 힐러",
-      "equipment_name": null,
-      "price": null,
-      "price_display": null,
-      "unit": null,
-      "is_event_price": null,
-      "notes": "PN 고밀도 피부재생 부스터. 타 지점 이벤트에 리쥬란 HB·아이힐러. 청담점 가격 없음",
-      "source_page": "http://itsme-clinic.kr/m/sub/page.php?code=rejuran"
+      "package": null,
+      "notes": "보툴리눔 톡신(엘러간 보톡스·멀츠 제오민)",
+      "source_page": "http://itsme1.kr/sub/page.php?code=botox",
+      "verification_status": "verified"
     },
     {
       "treatment_name": "스킨부스터",
       "category": "스킨부스터",
-      "product_name": null,
+      "product_name": "리쥬란 힐러; 리쥬란 HB; 스킨바이브; 벨로테로 리바이브 스킨부스터; 엘라비에 리투오; 레티젠",
       "equipment_name": null,
       "price": null,
-      "price_display": null,
-      "unit": null,
-      "is_event_price": null,
-      "notes": "물광주사·연어주사·꿀광주사·더마톡신·PDRN·엑소좀 등(브랜드 미표기). 청담점 가격 없음",
-      "source_page": "http://itsme-clinic.kr/m/sub/page.php?code=booster"
+      "package": null,
+      "notes": "스킨부스터 라인업: 리쥬란/리쥬란HB·스킨바이브·벨로테로 리바이브·리투오·레티젠",
+      "source_page": "http://itsme1.kr/",
+      "verification_status": "verified"
     },
     {
-      "treatment_name": "BS 라인주사",
-      "category": "바디",
-      "product_name": "BS 라인주사",
-      "equipment_name": null,
+      "treatment_name": "프리미엄 리프팅 (장비 리스트)",
+      "category": "리프팅",
+      "product_name": null,
+      "equipment_name": "울쎄라피 프라임; 써마지 FLX; 온다; 포텐자; 티타늄; 슈링크; 올리지오; 텐써마; 덴서티; 볼뉴머; 트리필프로",
       "price": null,
-      "price_display": null,
-      "unit": null,
-      "is_event_price": null,
-      "notes": "노스테로이드 지방파괴 주사(자체 명칭). 청담점 가격 없음",
-      "source_page": "http://itsme-clinic.kr/m/sub/page.php?code=bs_line"
+      "package": null,
+      "notes": "프리미엄리프팅센터 보유 장비. 매칭: 울쎄라피프라임·써마지FLX·온다·포텐자·티타늄(포트라)·슈링크·올리지오·텐써마. 미매칭: 덴서티·볼뉴머·트리필프로·더마샤인·리쥬메이트",
+      "source_page": "http://itsme1.kr/community/laser.php",
+      "verification_status": "verified"
     },
     {
-      "treatment_name": "트리플바디 / 바디슬리밍",
-      "category": "바디",
-      "product_name": null,
+      "treatment_name": "실리프팅",
+      "category": "리프팅",
+      "product_name": "실리프팅",
       "equipment_name": null,
       "price": null,
-      "price_display": null,
-      "unit": null,
-      "is_event_price": null,
-      "notes": "고주파 기반 바디 셀룰라이트·지방 감소·림프순환. 청담점 가격 없음",
-      "source_page": "http://itsme-clinic.kr/m/sub/page.php?code=triple_body"
-    },
-    {
-      "treatment_name": "두피클리닉",
-      "category": "두피/탈모",
-      "product_name": null,
-      "equipment_name": null,
-      "price": null,
-      "price_display": null,
-      "unit": null,
-      "is_event_price": null,
-      "notes": "자가혈 PRP 탈모주사+엑소좀+레이저 두피 탈모 케어. 청담점 가격 없음",
-      "source_page": "http://itsme-clinic.kr/m/sub/page.php?code=scalp_care"
-    },
-    {
-      "treatment_name": "맨즈제모",
-      "category": "제모",
-      "product_name": null,
-      "equipment_name": null,
-      "price": null,
-      "price_display": null,
-      "unit": null,
-      "is_event_price": null,
-      "notes": "맨즈 페이셜·바디 레이저 제모. 청담점 가격 없음",
-      "source_page": "http://itsme-clinic.kr/m/sub/page.php?code=homme_hair_removal"
-    },
-    {
-      "treatment_name": "눈성형",
-      "category": "성형",
-      "product_name": null,
-      "equipment_name": null,
-      "price": null,
-      "price_display": null,
-      "unit": null,
-      "is_event_price": null,
-      "notes": "쌍꺼풀·눈매교정·눈썹하거상 등. 청담점 가격 없음",
-      "source_page": "http://itsme-clinic.kr/m/sub/page.php?code=eyes"
-    },
-    {
-      "treatment_name": "코성형",
-      "category": "성형",
-      "product_name": null,
-      "equipment_name": null,
-      "price": null,
-      "price_display": null,
-      "unit": null,
-      "is_event_price": null,
-      "notes": "4D 코성형·비중격코성형 등. 청담점 가격 없음",
-      "source_page": "http://itsme-clinic.kr/m/sub/page.php?code=nose"
-    },
-    {
-      "treatment_name": "가슴성형",
-      "category": "성형",
-      "product_name": null,
-      "equipment_name": null,
-      "price": null,
-      "price_display": null,
-      "unit": null,
-      "is_event_price": null,
-      "notes": "HD내시경 가슴성형(멘토/유로실리콘 보형물). 청담점 가격 없음",
-      "source_page": "http://itsme-clinic.kr/m/sub/page.php?code=breast"
-    },
-    {
-      "treatment_name": "지방흡입",
-      "category": "성형",
-      "product_name": null,
-      "equipment_name": null,
-      "price": null,
-      "price_display": null,
-      "unit": null,
-      "is_event_price": null,
-      "notes": "바디 지방흡입. 상품/가격 텍스트 없음(상품이 없습니다)",
-      "source_page": "http://itsme-clinic.kr/m/sub/page.php?code=liposuction"
+      "package": null,
+      "notes": "실리프팅 봉합사(브랜드 미표기, 범위 밖)",
+      "source_page": "http://itsme1.kr/sub/page.php?code=threadlifting",
+      "verification_status": "verified"
     }
   ],
   "language_support": {
-    "supported_languages": ["ko"],
+    "supported_languages": [
+      "ko"
+    ],
     "has_language_switcher": false,
     "foreign_language_pages": {}
   },
   "crawl_metadata": {
-    "pages_crawled": 30,
+    "pages_crawled": 9,
     "pages_visited": [
-      "http://itsme-clinic.kr/m/ (홈/네비게이션·다국어 확인)",
-      "http://itsme-clinic.kr/m/branch/branch.php (지점안내 — 청담점 식별)",
-      "http://itsme-clinic.kr/m/branch/branch_info.php?idx=59 (청담점 운영정보·의료진·진료시간)",
-      "http://itsme-clinic.kr/m/network/network03.php (의료진 소개 — 청담 김한구 확인)",
-      "http://itsme-clinic.kr/m/community/community01.php (이벤트 — 청담 이벤트 없음 확인)",
-      "진료메뉴 24개: picosure, picoway, mirajet, skin_001, filler, juvederm, restylane, botox, threadlifting, shrink, ulthera, inmode, rejuran, booster, bs_line, triple_body, body_slim, scalp_care, homme_hair_removal, eyes, nose, breast, liposuction, signature_01(리다이렉트)"
+      "http://itsme1.kr/ (home·메뉴맵·푸터 신원정보)",
+      "http://itsme1.kr/doctor/ (대표원장 김한구 — 이미지, vision 판독)",
+      "http://itsme1.kr/community/laser.php (장비 리스트 13종 — 텍스트 설명)",
+      "http://itsme1.kr/event01/ (오픈특가 이벤트 — 825×10050 초장축 이미지, 8개 섹션 분할 vision 판독)",
+      "http://itsme1.kr/facilities/ (시설 — 이미지)",
+      "http://itsme1.kr/network/network01.php (잇츠미 메디컬 그룹)",
+      "http://itsme1.kr/branch/branch_info.php?idx=49 (청담 지점안내 — 진료시간 텍스트 + 이벤트 가격 텍스트 교차검증)",
+      "메뉴 전체(전체메뉴) 링크로 제품/장비/시술 카탈로그 파악",
+      "이벤트 이미지 분할 캡처 8장(ev_s0~s7)"
     ],
-    "crawl_method": "manual_agent (Claude가 Playwright MCP로 직접 방문). 운영정보·의료진은 청담점 branch_info(idx=59) DOM, 제품·장비·시술은 네트워크 공유 진료메뉴(sub/page.php?code=*)의 본문 텍스트+이미지 alt에서 추출. 동일 도메인 fetch로 24개 메뉴 일괄 수집",
+    "crawl_method": "manual_agent (Claude가 Playwright MCP로 직접 방문). 그누보드 기반 사이트. 메뉴·장비리스트·운영정보는 DOM 텍스트로 추출. 의료진은 이미지라 vision 판독. 가격은 오픈특가 이벤트 페이지의 825×10050 초장축 단일 이미지를 뷰포트 분할(이미지를 800px 폭 고정배치 후 top 오프셋 이동) 캡처해 8개 섹션을 순차 vision 판독. 지점안내 페이지의 텍스트 가격(48%/정상가)으로 핵심 항목 교차검증",
     "errors": [],
-    "notes": [
-      "URL/구조(중요): 청담잇츠미의원은 '잇츠미클리닉' 전국 네트워크(본사 itsme-clinic.kr)의 청담점(지점 idx=59)임. 청담점은 별도 도메인이 없고 네트워크 본사 사이트를 공식 홈페이지로 사용. 반면 타 지점 다수는 별도 도메인 보유(동탄 itsme-clinic-dt.kr, 안산 ans.its-me.co.kr, 대전 itsme-clinic-dj.kr, 세종 itsme-clinic-sj.co.kr, 안성 itsme-clinic-as.kr, 천안불당 itsme-clinic-bd.co.kr, 평택 itsme-clinic-pt.co.kr). homepage_url은 청담점 지점 페이지(branch_info?idx=59)로 지정.",
-      "네트워크 공유 메뉴(정책 결정 필요): 진료메뉴(피코슈어/피코웨이/미라젯/슈링크/울쎄라/인모드/필러/보톡스/실리프팅/리쥬란/스킨부스터/바디/성형 등)는 전 지점 공용 페이지로, 청담점만의 메뉴가 아니라 네트워크 표준 라인업이 청담 홈페이지에 노출되는 형태임. 제품·장비·시술은 이 공유 메뉴(청담 홈페이지가 보여주는 라인업)를 기준으로 추출함. 청담 전용 라인업 별도 페이지는 없음 → '네트워크 라인업=청담 라인업'으로 볼지 정책 결정 필요.",
-      "가격(중요): 청담점 전용 텍스트 가격 전무. 이벤트 페이지(community01)에서 청담점 필터 링크가 빈 값('')으로, 청담점은 이벤트/가격 상품이 등록돼 있지 않음. 진료메뉴에 노출되는 가격 상품들은 모두 타 지점(세종·천안불당·청주·대전·계룡·천안신부) 이벤트로, 청담 가격으로 귀속 불가 → 전 treatments price/price_display null, prices=false. (가격은 이미지가 아니라 '청담 데이터 자체가 없음'에 해당)",
-      "타 지점 전용 노출 항목: 리프테라2(대전 이벤트)·엑실리스(청주 이벤트)·실리프팅 봉합사 세부명(민트실/젬버실/실루엣 소프트실/모노실/볼륨실, 타 지점 이벤트)·쥬비덤 볼라이트(천안불당)·리쥬란 HB/아이힐러(세종·청주)·레스틸렌 키스(청주)는 청담 nav가 아닌 공유 사이트의 타 지점 이벤트에서만 확인됨. 무누락 원칙에 따라 unmatched/treatments notes에 출처를 명시해 기록하되 청담 확정 라인업으로 단정하지 않음.",
-      "장비 매칭: 매칭 5종 — 피코슈어(no.14)·피코웨이(no.15)·슈링크(no.2, '슈링크 유니버스'에서 수식어 제거)·울쎄라(no.1, Prime 표기 없는 기본형)·인모드 포마/FX(no.5, Forma·FX 모드 명시). 미등재 — 미라젯(니들프리 제트). 타 지점 이벤트 한정 — 리프테라2·엑실리스(unmatched에 기록).",
-      "제품 매칭: 쥬비덤(브랜드 단위, 세부 라인 미표기 → 브랜드 매칭, 엘러간, handled=1)·레스틸렌(기본형, 갈더마)·보톡스(국산/엘러간 병기 → 엘러간 매칭, 톡신)·리쥬란 힐러(파마리서치, 스킨부스터). 보류 — 스킨부스터 일반시술(물광/연어/꿀광/PDRN/엑소좀, 브랜드 미표기)·국산필러(순수필/에피티크)·쥬비덤 볼라이트(Volite 미등재)·BS라인주사(지방분해, 범위 밖)·실리프팅 봉합사(범위 밖).",
-      "운영정보: 대표원장 김한구(대표자), 사업자등록번호 534-57-00905, 전화 02-515-0555, 주소 서울 강남구 선릉로157길 14 한주빌딩 3~4층(CSV 일치, 압구정로데오역 5번출구 도보 2분). 진료시간 월·목 10:00-19:00 / 화·금 10:00-20:30(야간) / 토 10:00-16:30 / 수·일 정기휴무. 사이트의 수·일 시간 표기는 정기휴무 안내와 모순되는 플레이스홀더로 판단해 휴무(null) 처리. 주차 정보 미표기. 카카오채널은 본사 페이지에 전 지점 채널이 혼재해 청담 전용을 특정 불가 → null.",
-      "의료진: 청담점 의료진은 김한구 대표원장 1명(지점안내·network03 모두 일치). 약력·학회·프로필 이미지 확보. (network03의 강남점 김민정 등 타 지점 의료진은 제외)",
-      "다국어: html lang=ko, 언어 스위처/외국어 페이지 없음 → 한국어 전용.",
-      "미방문/보류: 시그니처(signature_01)는 접근 시 지점 페이지로 리다이렉트되어 콘텐츠 없음. 커뮤니티(공지·후기·온라인상담)는 제품·장비 정보 없어 미수집. facilities는 텍스트 시설 정보 없어 비움."
-    ],
     "completeness": {
       "operation_info": true,
       "doctors": true,
       "products": true,
       "equipments": true,
       "treatments": true,
-      "prices": false,
+      "prices": true,
       "language_support": true
-    }
-  }
+    },
+    "stage_costs": {},
+    "notes": [
+      "가격(중요·vision 분할 판독): 상시 가격표는 없고 '이달의 이벤트(오픈특가)' 페이지(event01)에 모든 가격이 825×10050 세로 초장축 이미지 1장으로만 게시됨. 한 번에 Read하면 다운스케일로 판독 불가하여, 이미지를 800px 폭으로 고정배치하고 top 오프셋을 1350px씩 이동시키며 8개 구간을 캡처해 순차 vision 판독함. 추출한 8개 섹션: 쁘띠 시술 특가(어깨필러·잇팅주사·에버코어·리투오플러스), 리프팅 1회 체험특가, 덴서티 이벤트, 온다레이저 도입기념, 포트라 이벤트, 볼뉴머 이벤트, 텐써마 이벤트, 올리지오키스 이벤트, 줄기세포(MCT) 치료. 이벤트 기간은 이미지에 명시 안 됨(event_period null).",
+      "교차검증(중요): 청담 지점안내 페이지(branch_info?idx=49)에 동일 이벤트 일부가 텍스트(48%/할인가/정상가)로도 게시되어 vision 판독값을 교차검증함 — 울쎄라피프라임 100샷 299,000(정상586,000)·리투오플러스 패키지 699,000(정상1,370,000)·온다 1만줄 75,000(정상147,000)·잇팅주사 바디 90,000(정상150,000)·에버코어 290,000. vision 판독 수치와 일치(에버코어 정상가만 이미지 39만 vs 지점 55만으로 표기 상이, 할인가 29만은 동일).",
+      "제품 매칭: 메뉴·페이지의 명시 브랜드로 직접 매칭 10종 — 보톡스(엘러간)·제오민(멀츠)·쥬비덤 볼루마(엘러간, 라인 미특정 대표)·레스틸렌(갈더마)·리쥬란 힐러/HB(파마리서치)·스킨바이브(엘러간, h=1)·벨로테로 리바이브 스킨부스터(멀츠)·엘라비에 리투오(휴메딕스, 이벤트 '리투오 플러스')·레티젠(한국파비스). 보류(unmatched): 잇팅주사(자체개발 윤곽/지방분해)·용량무제한 어깨필러(브랜드 미상)·실리프팅(봉합사, 범위 밖)·메타셀 MCT 자가엑소좀/줄기세포(범위 밖).",
+      "장비 매칭: 장비리스트(13종)+리프팅센터 메뉴+이벤트로 확인. 직접 매칭 8종 — 울쎄라피 프라임·써마지 FLX·온다·포텐자·티타늄(사이트 '포트라(티타늄)')·슈링크('슈링크 유니버스')·올리지오('올리지오 키스')·텐써마. 미매칭 — 덴서티(Density 듀얼RF)·볼뉴머(Volnewmer)·트리필프로·더마샤인(물광 인젝터)·리쥬메이트(인젝터)·에버코어리프팅(자체 시그니처).",
+      "의료진(vision 판독): 대표원장 김한구 1명. 연세대 의대 외래교수, 대한레이저피부모발학회 제3대 회장(현 명예회장), 한국피부비만성형학회 부회장, 대한비만미용학회(KOAT) 학술이사 등. 경력: 전 백설공주 피부·비만 네트워크 대표원장, 전 아이디 피부과, 전 리엔케이, 전 엔비유 센터장. 20년 경력. ※ 의료진 페이지 캡처 시 중앙 상담신청 폼 바가 일부 학회 줄(가톨릭대 성가병원 외래 등)을 가려 해당 줄은 추측하지 않고 제외함(확실히 판독된 항목만 기재).",
+      "운영정보: 대표 김한구, 사업자번호 534-57-00905. 진료시간(지점안내 텍스트) 월 10:00~19:00 / 화 10:00~20:30 / 목 10:00~19:00 / 금 10:00~20:30 / 토 10:00~16:30, 수·일 정기휴무. 대표 전화번호는 사이트에 텍스트로 미표기(카카오톡·네이버예약 버튼으로 유도)→phone null. 주차정보 미표기. 압구정로데오역 5번 출구 도보 2분. 주소 선릉로157길 14 한주빌딩 3·4층(신사동)=입력 CSV 일치.",
+      "지점 네트워크: '잇츠미 메디컬 그룹'의 청담점(itsme1.kr). 지점안내에 다수 지점(송도·부천·대전 등 별도 도메인 itsme-clinic-*) 존재하나 본 추출은 청담점 한정, 형제 지점 주소·정보는 미수집(sibling_branches 비움). type=branch.",
+      "채널: 인스타그램(itsme_clinic_official 계열)·페이스북·유튜브·카카오톡·네이버예약 운영. sns_url에 인스타 기록. 네이버블로그 링크는 확인되지 않음. 홈페이지-한정이라 외부 채널 콘텐츠는 미추출.",
+      "다국어: 언어 스위처/외국어 사이트 없음. 한국어 전용(supported_languages=['ko']).",
+      "미방문/보류: 제품·시술 개별 상세 페이지(sub/page.php 다수, /filler·/re2o 등)는 메뉴 라벨·장비리스트·이벤트로 핵심 정보가 확보되어 전수 방문 생략(이미지 기반 상세 다수). 시술후기·온라인상담 게시판은 제품/장비 신규 정보 없어 미수집. 모바일(/m/) 별도 경로는 동일 콘텐츠로 판단."
+    ]
+  },
+  "run_meta": null
 }
