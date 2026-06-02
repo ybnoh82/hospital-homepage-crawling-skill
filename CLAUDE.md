@@ -12,7 +12,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 `.claude/skills/hospital-homepage-crawl/` — `/hospital-homepage-crawl`로 호출하거나 자동 트리거된다.
 
-- `SKILL.md` — 운영 매뉴얼. 크롤링 관련 작업 전에 반드시 먼저 읽을 것. 시행착오로 다듬은 규칙이 담겨 있다(카탈로그 한↔영 교차 매칭, 이미지 전용 가격의 vision 판독, 가격 출처로서의 비급여진료비용 페이지, 실제 장비명을 가리는 자체 브랜드 시술명 등).
+- `SKILL.md` — 오케스트레이터. 크롤링 관련 작업 전에 반드시 먼저 읽을 것. 배경·목적, 입력/출력 계약, ①URL 확보·검증과 ②`collect.md`로의 핸드오프, 불변 규칙을 담는다.
+- `collect.md` — **홈페이지 데이터 수집 플레이북**(URL 확정 가정). 시행착오로 다듬은 규칙이 여기 담겨 있다(페이지 라우팅, 카탈로그 한↔영 교차 매칭, 이미지 전용 가격의 vision 판독, 가격 출처로서의 비급여진료비용 페이지, 실제 장비명을 가리는 자체 브랜드 시술명, 정규화·완전성·notes·마무리 등). SKILL.md §2가 URL 확정 후 이 파일을 읽어 따른다.
 - `reference/output_scheme.py` — **권위 있는 출력 스키마**(Pydantic). `HospitalResult`가 최상위 출력 모델.
 - `reference/input_scheme.py` — `HospitalInput`, 병원별 입력 계약.
 - `reference/aesthetic_products.json`(124개) / `aesthetic_equipments.json`(46개) — 사이트 텍스트를 대조하는 매칭 카탈로그.
