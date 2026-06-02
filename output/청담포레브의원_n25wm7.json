@@ -6,8 +6,7 @@
     "sido": "서울",
     "sigungu": "강남구",
     "eupmyeondong": "논현동",
-    "road": "도산대로 330",
-    "detail": "서림빌딩 3, 4층",
+    "road_address": "도산대로 330 서림빌딩 3, 4층",
     "latitude": 37.5224388,
     "longitude": 127.038116
   },
@@ -34,12 +33,42 @@
     "email": null,
     "kakao_channel": "@청담포레브의원",
     "operating_hours": {
-      "monday": { "open": "10:00", "close": "19:00", "break_start": "13:00", "break_end": "14:00" },
-      "tuesday": { "open": "10:00", "close": "19:00", "break_start": "13:00", "break_end": "14:00" },
-      "wednesday": { "open": "10:00", "close": "19:00", "break_start": "13:00", "break_end": "14:00" },
-      "thursday": { "open": "10:00", "close": "19:00", "break_start": "13:00", "break_end": "14:00" },
-      "friday": { "open": "10:00", "close": "21:00", "break_start": "13:00", "break_end": "14:00" },
-      "saturday": { "open": "10:00", "close": "16:00", "break_start": null, "break_end": null },
+      "monday": {
+        "open": "10:00",
+        "close": "19:00",
+        "break_start": "13:00",
+        "break_end": "14:00"
+      },
+      "tuesday": {
+        "open": "10:00",
+        "close": "19:00",
+        "break_start": "13:00",
+        "break_end": "14:00"
+      },
+      "wednesday": {
+        "open": "10:00",
+        "close": "19:00",
+        "break_start": "13:00",
+        "break_end": "14:00"
+      },
+      "thursday": {
+        "open": "10:00",
+        "close": "19:00",
+        "break_start": "13:00",
+        "break_end": "14:00"
+      },
+      "friday": {
+        "open": "10:00",
+        "close": "21:00",
+        "break_start": "13:00",
+        "break_end": "14:00"
+      },
+      "saturday": {
+        "open": "10:00",
+        "close": "16:00",
+        "break_start": null,
+        "break_end": null
+      },
       "sunday": null,
       "holiday": null
     },
@@ -53,7 +82,11 @@
       "name": "김유진",
       "is_representative": true,
       "role": "대표원장",
-      "specialty": ["피부과", "미용", "비만"],
+      "specialty": [
+        "피부과",
+        "미용",
+        "비만"
+      ],
       "education": [
         "의과대학 차석 졸업",
         "가톨릭중앙의료원 서울성모병원 수련"
@@ -79,7 +112,9 @@
       "name": "김민정",
       "is_representative": false,
       "role": "원장",
-      "specialty": ["가정의학과"],
+      "specialty": [
+        "가정의학과"
+      ],
       "education": [
         "고려대학교 의과대학 졸업",
         "서울아산병원 가정의학과 수련",
@@ -112,8 +147,16 @@
         "plandocs_featured": 0,
         "mention_count": 5,
         "sources": [
-          { "channel": "homepage", "url": "https://www.peaureve.co.kr/?idx=c619b1a7c138ac/c6864763bbd2a5", "evidence": "SKIN Booster '엘라비에 리투오' 메뉴" },
-          { "channel": "homepage", "url": "https://www.peaureve.co.kr/?idx=c615f24af2c296/c61adc709db3c1", "evidence": "6월 이벤트 '프리미엄 콜라겐센터 휴먼콜라겐 엘라비에 리투오 80만/210만', '리투오 파인 60만/160만'(이미지 vision)" }
+          {
+            "channel": "homepage",
+            "url": "https://www.peaureve.co.kr/?idx=c619b1a7c138ac/c6864763bbd2a5",
+            "evidence": "SKIN Booster '엘라비에 리투오' 메뉴"
+          },
+          {
+            "channel": "homepage",
+            "url": "https://www.peaureve.co.kr/?idx=c615f24af2c296/c61adc709db3c1",
+            "evidence": "6월 이벤트 '프리미엄 콜라겐센터 휴먼콜라겐 엘라비에 리투오 80만/210만', '리투오 파인 60만/160만'(이미지 vision)"
+          }
         ],
         "context": "휴메딕스 엘라비에 리투오. 직접 매칭. 이벤트에 리투오/리투오 파인 다수 등장",
         "verification_status": "verified"
@@ -127,8 +170,16 @@
         "plandocs_featured": 1,
         "mention_count": 2,
         "sources": [
-          { "channel": "homepage", "url": "https://www.peaureve.co.kr/?idx=c619b1a7c138ac/c69dde8bab1c26", "evidence": "SKIN Booster '힐로웨이브' 메뉴" },
-          { "channel": "homepage", "url": "https://www.peaureve.co.kr/?idx=c615f24af2c296/c61adc709db3c1", "evidence": "6월 이벤트 'NEW 힐로웨이브 2cc 1회 45만'(이미지 vision)" }
+          {
+            "channel": "homepage",
+            "url": "https://www.peaureve.co.kr/?idx=c619b1a7c138ac/c69dde8bab1c26",
+            "evidence": "SKIN Booster '힐로웨이브' 메뉴"
+          },
+          {
+            "channel": "homepage",
+            "url": "https://www.peaureve.co.kr/?idx=c615f24af2c296/c61adc709db3c1",
+            "evidence": "6월 이벤트 'NEW 힐로웨이브 2cc 1회 45만'(이미지 vision)"
+          }
         ],
         "context": "고분자·저분자 HA 듀얼 스킨부스터. 직접 매칭",
         "verification_status": "verified"
@@ -142,8 +193,16 @@
         "plandocs_featured": 1,
         "mention_count": 3,
         "sources": [
-          { "channel": "homepage", "url": "https://www.peaureve.co.kr/?idx=c619b1a7c138ac/c64265ae537d6d#pos3", "evidence": "SKIN Booster '쥬베룩' 메뉴" },
-          { "channel": "homepage", "url": "https://www.peaureve.co.kr/?idx=c615f24af2c296/c61adc709db3c1", "evidence": "6월 이벤트 '미라젯 포르테 쥬베룩 스킨 3cc 45만/190만', 써마지+쥬베룩스킨(이미지 vision)" }
+          {
+            "channel": "homepage",
+            "url": "https://www.peaureve.co.kr/?idx=c619b1a7c138ac/c64265ae537d6d#pos3",
+            "evidence": "SKIN Booster '쥬베룩' 메뉴"
+          },
+          {
+            "channel": "homepage",
+            "url": "https://www.peaureve.co.kr/?idx=c615f24af2c296/c61adc709db3c1",
+            "evidence": "6월 이벤트 '미라젯 포르테 쥬베룩 스킨 3cc 45만/190만', 써마지+쥬베룩스킨(이미지 vision)"
+          }
         ],
         "context": "PDLLA 콜라겐 부스터(쥬베룩 스킨). 카탈로그 기본형 '쥬베룩' 매칭",
         "verification_status": "verified"
@@ -157,7 +216,11 @@
         "plandocs_featured": 1,
         "mention_count": 3,
         "sources": [
-          { "channel": "homepage", "url": "https://www.peaureve.co.kr/?idx=c615f24af2c296/c61adc709db3c1", "evidence": "6월 이벤트 '쥬베룩 볼륨 신규 1cc당 13만', '쥬베룩 볼륨 풀페이스 6cc 55만/135만', 올타이트+쥬베룩 볼륨 4cc(이미지 vision)" }
+          {
+            "channel": "homepage",
+            "url": "https://www.peaureve.co.kr/?idx=c615f24af2c296/c61adc709db3c1",
+            "evidence": "6월 이벤트 '쥬베룩 볼륨 신규 1cc당 13만', '쥬베룩 볼륨 풀페이스 6cc 55만/135만', 올타이트+쥬베룩 볼륨 4cc(이미지 vision)"
+          }
         ],
         "context": "쥬베룩 볼륨(입자 큰 콜라겐 부스터). 직접 매칭",
         "verification_status": "verified"
@@ -171,8 +234,16 @@
         "plandocs_featured": 0,
         "mention_count": 3,
         "sources": [
-          { "channel": "homepage", "url": "https://www.peaureve.co.kr/?idx=c619b1a7c138ac/c64265ae537d6d#pos4", "evidence": "SKIN Booster '리쥬란/리쥬란I/리쥬란S' 메뉴" },
-          { "channel": "homepage", "url": "https://www.peaureve.co.kr/?idx=c615f24af2c296/c61adc709db3c1", "evidence": "6월 이벤트 '제로멍 리쥬란 2cc 30만', '제로멍 스페셜 리쥬란 3cc 45만/120만', 써마지+리쥬란(이미지 vision)" }
+          {
+            "channel": "homepage",
+            "url": "https://www.peaureve.co.kr/?idx=c619b1a7c138ac/c64265ae537d6d#pos4",
+            "evidence": "SKIN Booster '리쥬란/리쥬란I/리쥬란S' 메뉴"
+          },
+          {
+            "channel": "homepage",
+            "url": "https://www.peaureve.co.kr/?idx=c615f24af2c296/c61adc709db3c1",
+            "evidence": "6월 이벤트 '제로멍 리쥬란 2cc 30만', '제로멍 스페셜 리쥬란 3cc 45만/120만', 써마지+리쥬란(이미지 vision)"
+          }
         ],
         "context": "연어 PN 스킨부스터(기본 리쥬란). 직접 매칭",
         "verification_status": "verified"
@@ -186,8 +257,16 @@
         "plandocs_featured": 0,
         "mention_count": 2,
         "sources": [
-          { "channel": "homepage", "url": "https://www.peaureve.co.kr/?idx=c619b1a7c138ac/c64265ae537d6d#pos4", "evidence": "SKIN Booster '리쥬란I' 메뉴" },
-          { "channel": "homepage", "url": "https://www.peaureve.co.kr/?idx=c615f24af2c296/c61adc709db3c1", "evidence": "6월 이벤트 '아이리쥬란 1cc 25만', 아이써마지+아이리쥬란(이미지 vision)" }
+          {
+            "channel": "homepage",
+            "url": "https://www.peaureve.co.kr/?idx=c619b1a7c138ac/c64265ae537d6d#pos4",
+            "evidence": "SKIN Booster '리쥬란I' 메뉴"
+          },
+          {
+            "channel": "homepage",
+            "url": "https://www.peaureve.co.kr/?idx=c615f24af2c296/c61adc709db3c1",
+            "evidence": "6월 이벤트 '아이리쥬란 1cc 25만', 아이써마지+아이리쥬란(이미지 vision)"
+          }
         ],
         "context": "'리쥬란I'/'아이리쥬란' → 카탈로그 '리쥬란 아이' 매칭",
         "verification_status": "verified"
@@ -201,7 +280,11 @@
         "plandocs_featured": 0,
         "mention_count": 1,
         "sources": [
-          { "channel": "homepage", "url": "https://www.peaureve.co.kr/?idx=c619b1a7c138ac/c64265ae537d6d#pos4", "evidence": "SKIN Booster '리쥬란S' 메뉴" }
+          {
+            "channel": "homepage",
+            "url": "https://www.peaureve.co.kr/?idx=c619b1a7c138ac/c64265ae537d6d#pos4",
+            "evidence": "SKIN Booster '리쥬란S' 메뉴"
+          }
         ],
         "context": "'리쥬란S' → 카탈로그 '리쥬란 에스' 매칭",
         "verification_status": "verified"
@@ -215,8 +298,16 @@
         "plandocs_featured": 1,
         "mention_count": 2,
         "sources": [
-          { "channel": "homepage", "url": "https://www.peaureve.co.kr/?idx=c619b1a7c138ac/c64265ae537d6d#pos6", "evidence": "SKIN Booster '울트라콜' 메뉴" },
-          { "channel": "homepage", "url": "https://www.peaureve.co.kr/?idx=c615f24af2c296/c61adc709db3c1", "evidence": "6월 이벤트 '울트라콜200 눈밑전용 35만/90만'(이미지 vision)" }
+          {
+            "channel": "homepage",
+            "url": "https://www.peaureve.co.kr/?idx=c619b1a7c138ac/c64265ae537d6d#pos6",
+            "evidence": "SKIN Booster '울트라콜' 메뉴"
+          },
+          {
+            "channel": "homepage",
+            "url": "https://www.peaureve.co.kr/?idx=c615f24af2c296/c61adc709db3c1",
+            "evidence": "6월 이벤트 '울트라콜200 눈밑전용 35만/90만'(이미지 vision)"
+          }
         ],
         "context": "사이트 '울트라콜200' → 카탈로그 '울트라콜 200' 직접 매칭(라인 명시)",
         "verification_status": "verified"
@@ -230,7 +321,11 @@
         "plandocs_featured": 0,
         "mention_count": 1,
         "sources": [
-          { "channel": "homepage", "url": "https://www.peaureve.co.kr/?idx=c615f1cecb5794/c615f24182c28b", "evidence": "의료진소개 대표원장 '레디어스 공식 인증센터'" }
+          {
+            "channel": "homepage",
+            "url": "https://www.peaureve.co.kr/?idx=c615f1cecb5794/c615f24182c28b",
+            "evidence": "의료진소개 대표원장 '레디어스 공식 인증센터'"
+          }
         ],
         "context": "CaHA 콜라겐 부스터. 대표원장 레디어스 공식 인증센터 표기로 취급 확인. 카탈로그 '래디어스' 매칭",
         "verification_status": "verified"
@@ -244,7 +339,11 @@
         "plandocs_featured": 0,
         "mention_count": 1,
         "sources": [
-          { "channel": "homepage", "url": "https://www.peaureve.co.kr/?idx=c615f24af2c296/c61adc709db3c1", "evidence": "6월 이벤트 '제로멍 스킨보톡스 국산 30만 / 제오민 50만'(이미지 vision)" }
+          {
+            "channel": "homepage",
+            "url": "https://www.peaureve.co.kr/?idx=c615f24af2c296/c61adc709db3c1",
+            "evidence": "6월 이벤트 '제로멍 스킨보톡스 국산 30만 / 제오민 50만'(이미지 vision)"
+          }
         ],
         "context": "스킨보톡스 옵션으로 '제오민' 명시. 카탈로그 '제오민' 매칭(국산 옵션은 브랜드 미표기로 미포함)",
         "verification_status": "verified"
@@ -256,7 +355,11 @@
         "category_guess": "자체 시그니처 주사·스킨부스터",
         "mention_count": 4,
         "sources": [
-          { "channel": "homepage", "url": "https://www.peaureve.co.kr/?idx=c63873f1a5ce67", "evidence": "Signature 메뉴(뉴포어매직·글로시주사·셀피린솔루션) + SKIN Booster '청담포레브 스킨부스터'" }
+          {
+            "channel": "homepage",
+            "url": "https://www.peaureve.co.kr/?idx=c63873f1a5ce67",
+            "evidence": "Signature 메뉴(뉴포어매직·글로시주사·셀피린솔루션) + SKIN Booster '청담포레브 스킨부스터'"
+          }
         ],
         "context": "포레브 자체 브랜딩 주사/스킨부스터(성분·제품 브랜드 미표기). 카탈로그 매칭 불가",
         "verification_status": "verified"
@@ -266,7 +369,11 @@
         "category_guess": "엑소좀 스킨부스터",
         "mention_count": 1,
         "sources": [
-          { "channel": "homepage", "url": "https://www.peaureve.co.kr/?idx=c619b1a7c138ac/c64265ae537d6d#pos2", "evidence": "SKIN Booster '프리미엄 엑소좀' 메뉴" }
+          {
+            "channel": "homepage",
+            "url": "https://www.peaureve.co.kr/?idx=c619b1a7c138ac/c64265ae537d6d#pos2",
+            "evidence": "SKIN Booster '프리미엄 엑소좀' 메뉴"
+          }
         ],
         "context": "엑소좀 제품, 브랜드 미표기. 카탈로그 '큐티셀 엑소좀'과 동일 확신 없어 보류",
         "verification_status": "unverified"
@@ -276,7 +383,11 @@
         "category_guess": "필러·톡신(브랜드 미표기)",
         "mention_count": 3,
         "sources": [
-          { "channel": "homepage", "url": "https://www.peaureve.co.kr/?idx=c619b1a56138aa", "evidence": "VOLUME & SLIM 'Reve필러'·'Reve보톡스', Body '디자인보톡스' 메뉴" }
+          {
+            "channel": "homepage",
+            "url": "https://www.peaureve.co.kr/?idx=c619b1a56138aa",
+            "evidence": "VOLUME & SLIM 'Reve필러'·'Reve보톡스', Body '디자인보톡스' 메뉴"
+          }
         ],
         "context": "포레브 자체 브랜딩 필러/보톡스 시술. 제품 제조사 미표기로 특정 제품 확정 불가",
         "verification_status": "unverified"
@@ -286,8 +397,16 @@
         "category_guess": "실리프팅 봉합사",
         "mention_count": 5,
         "sources": [
-          { "channel": "homepage", "url": "https://www.peaureve.co.kr/?idx=c615f1cedb579a/c63d7342e34fed", "evidence": "Lifting '디자인실리프팅' 메뉴" },
-          { "channel": "homepage", "url": "https://www.peaureve.co.kr/?idx=c615f24af2c296/c61adc709db3c1", "evidence": "6월 이벤트 '잼버실 4줄65/6줄90만', 'D-잼버실 6줄120/8줄150만', 울쎄라+실루엣소프트/에피티콘/볼륨잼버실(이미지 vision)" }
+          {
+            "channel": "homepage",
+            "url": "https://www.peaureve.co.kr/?idx=c615f1cedb579a/c63d7342e34fed",
+            "evidence": "Lifting '디자인실리프팅' 메뉴"
+          },
+          {
+            "channel": "homepage",
+            "url": "https://www.peaureve.co.kr/?idx=c615f24af2c296/c61adc709db3c1",
+            "evidence": "6월 이벤트 '잼버실 4줄65/6줄90만', 'D-잼버실 6줄120/8줄150만', 울쎄라+실루엣소프트/에피티콘/볼륨잼버실(이미지 vision)"
+          }
         ],
         "context": "실리프팅 봉합사(잼버실·실루엣소프트·에피티콘 등). 봉합사는 카탈로그 범위 밖",
         "verification_status": "verified"
@@ -297,8 +416,16 @@
         "category_guess": "PRP·줄기세포·자체 시술",
         "mention_count": 3,
         "sources": [
-          { "channel": "homepage", "url": "https://www.peaureve.co.kr/?idx=c615f1cecb5798", "evidence": "셀레브 메뉴(혈장 셀레브·스킨 셀레브·탈모 셀레브)" },
-          { "channel": "homepage", "url": "https://www.peaureve.co.kr/?idx=c615f24af2c296/c61adc709db3c1", "evidence": "6월 이벤트 '탈모 줄기세포 셀레브', '목주름 넥레브 3회 90만'(이미지 vision)" }
+          {
+            "channel": "homepage",
+            "url": "https://www.peaureve.co.kr/?idx=c615f1cecb5798",
+            "evidence": "셀레브 메뉴(혈장 셀레브·스킨 셀레브·탈모 셀레브)"
+          },
+          {
+            "channel": "homepage",
+            "url": "https://www.peaureve.co.kr/?idx=c615f24af2c296/c61adc709db3c1",
+            "evidence": "6월 이벤트 '탈모 줄기세포 셀레브', '목주름 넥레브 3회 90만'(이미지 vision)"
+          }
         ],
         "context": "PRP(혈장)/줄기세포/자체 넥리프팅. 카탈로그(에스테틱 제품) 범위 밖",
         "verification_status": "verified"
@@ -313,8 +440,16 @@
         "category": "리프팅",
         "mention_count": 4,
         "sources": [
-          { "channel": "homepage", "url": "https://www.peaureve.co.kr/?idx=c615f1cedb579a/c619c83fc815e8", "evidence": "Lifting '울쎄라피 프라임' 메뉴" },
-          { "channel": "homepage", "url": "https://www.peaureve.co.kr/?idx=c615f24af2c296/c61adc709db3c1", "evidence": "6월 이벤트 '커스터마이징 울쎄라피 프라임 100샷당 39만 / 300샷 97만 / 400샷 220만', '넥스킨 울쎄라 200'(이미지 vision)" }
+          {
+            "channel": "homepage",
+            "url": "https://www.peaureve.co.kr/?idx=c615f1cedb579a/c619c83fc815e8",
+            "evidence": "Lifting '울쎄라피 프라임' 메뉴"
+          },
+          {
+            "channel": "homepage",
+            "url": "https://www.peaureve.co.kr/?idx=c615f24af2c296/c61adc709db3c1",
+            "evidence": "6월 이벤트 '커스터마이징 울쎄라피 프라임 100샷당 39만 / 300샷 97만 / 400샷 220만', '넥스킨 울쎄라 200'(이미지 vision)"
+          }
         ],
         "context": "HIFU 2세대. 대표원장 울쎄라 공식인증센터. 카탈로그 '울쎄라피 프라임' 직접 매칭",
         "verification_status": "verified"
@@ -325,8 +460,16 @@
         "category": "리프팅",
         "mention_count": 3,
         "sources": [
-          { "channel": "homepage", "url": "https://www.peaureve.co.kr/?idx=c615f1cedb579a/c619c83fc815ea", "evidence": "Lifting '써마지FLX' 메뉴" },
-          { "channel": "homepage", "url": "https://www.peaureve.co.kr/?idx=c615f24af2c296/c61adc709db3c1", "evidence": "6월 이벤트 '커스터마이징 써마지 FLX 아이225샷 130만 / 300샷 190만 / 600샷 250만 / 600샷+리투오6cc 270만'(이미지 vision)" }
+          {
+            "channel": "homepage",
+            "url": "https://www.peaureve.co.kr/?idx=c615f1cedb579a/c619c83fc815ea",
+            "evidence": "Lifting '써마지FLX' 메뉴"
+          },
+          {
+            "channel": "homepage",
+            "url": "https://www.peaureve.co.kr/?idx=c615f24af2c296/c61adc709db3c1",
+            "evidence": "6월 이벤트 '커스터마이징 써마지 FLX 아이225샷 130만 / 300샷 190만 / 600샷 250만 / 600샷+리투오6cc 270만'(이미지 vision)"
+          }
         ],
         "context": "고주파(RF) 리프팅. 대표원장 써마지 공식인증센터. 카탈로그 '써마지 FLX' 직접 매칭",
         "verification_status": "verified"
@@ -337,8 +480,16 @@
         "category": "리프팅",
         "mention_count": 4,
         "sources": [
-          { "channel": "homepage", "url": "https://www.peaureve.co.kr/?idx=c615f1cedb579a/c6351010262409", "evidence": "Lifting '더브이 티타늄 리프팅' 메뉴" },
-          { "channel": "homepage", "url": "https://www.peaureve.co.kr/?idx=c615f24af2c296/c61adc709db3c1", "evidence": "6월 이벤트 '더브이 티타늄리프팅 80kj 신규 80만 / 베이직 3회 200만 / 스탠다드 3회 250만'(이미지 vision)" }
+          {
+            "channel": "homepage",
+            "url": "https://www.peaureve.co.kr/?idx=c615f1cedb579a/c6351010262409",
+            "evidence": "Lifting '더브이 티타늄 리프팅' 메뉴"
+          },
+          {
+            "channel": "homepage",
+            "url": "https://www.peaureve.co.kr/?idx=c615f24af2c296/c61adc709db3c1",
+            "evidence": "6월 이벤트 '더브이 티타늄리프팅 80kj 신규 80만 / 베이직 3회 200만 / 스탠다드 3회 250만'(이미지 vision)"
+          }
         ],
         "context": "'더브이 티타늄'(다파장 다이오드 레이저 리프팅) → 카탈로그 '티타늄' 매칭. 대표원장 티타늄리프팅 공식인증센터",
         "verification_status": "verified"
@@ -349,8 +500,16 @@
         "category": "리프팅",
         "mention_count": 3,
         "sources": [
-          { "channel": "homepage", "url": "https://www.peaureve.co.kr/?idx=c615f1cedb579a/c6913ff8bfce55", "evidence": "Lifting '온다' 메뉴" },
-          { "channel": "homepage", "url": "https://www.peaureve.co.kr/?idx=c615f24af2c296/c61adc709db3c1", "evidence": "6월 이벤트 '바디 탱탱 온다 100KJ 90만', '온다 ONDA 리프팅 80kj 1회 65만 / 3+1회 195만'(이미지 vision)" }
+          {
+            "channel": "homepage",
+            "url": "https://www.peaureve.co.kr/?idx=c615f1cedb579a/c6913ff8bfce55",
+            "evidence": "Lifting '온다' 메뉴"
+          },
+          {
+            "channel": "homepage",
+            "url": "https://www.peaureve.co.kr/?idx=c615f24af2c296/c61adc709db3c1",
+            "evidence": "6월 이벤트 '바디 탱탱 온다 100KJ 90만', '온다 ONDA 리프팅 80kj 1회 65만 / 3+1회 195만'(이미지 vision)"
+          }
         ],
         "context": "마이크로웨이브 리프팅. 카탈로그 '온다(ONDA)' 직접 매칭",
         "verification_status": "verified"
@@ -361,8 +520,16 @@
         "category": "리프팅",
         "mention_count": 3,
         "sources": [
-          { "channel": "homepage", "url": "https://www.peaureve.co.kr/?idx=c615f1cedb579a/c690d860a6ffb9", "evidence": "Lifting '올타이트' 메뉴" },
-          { "channel": "homepage", "url": "https://www.peaureve.co.kr/?idx=c615f24af2c296/c61adc709db3c1", "evidence": "6월 이벤트 '올타이트 400샷 1회 60만 / 3회 150만 / +리투오6cc+쥬베룩볼륨4cc 170만'(이미지 vision)" }
+          {
+            "channel": "homepage",
+            "url": "https://www.peaureve.co.kr/?idx=c615f1cedb579a/c690d860a6ffb9",
+            "evidence": "Lifting '올타이트' 메뉴"
+          },
+          {
+            "channel": "homepage",
+            "url": "https://www.peaureve.co.kr/?idx=c615f24af2c296/c61adc709db3c1",
+            "evidence": "6월 이벤트 '올타이트 400샷 1회 60만 / 3회 150만 / +리투오6cc+쥬베룩볼륨4cc 170만'(이미지 vision)"
+          }
         ],
         "context": "차세대 HIFU 리프팅. 카탈로그 '올타이트' 직접 매칭",
         "verification_status": "verified"
@@ -374,7 +541,11 @@
         "category_guess": "고주파(RF) 리프팅",
         "mention_count": 2,
         "sources": [
-          { "channel": "homepage", "url": "https://www.peaureve.co.kr/?idx=c615f1cedb579a/c619c83fc815ec", "evidence": "Lifting '코레지2.0에그셀핏' 메뉴 + 대표원장 '코레지2.0 공식인증센터'" }
+          {
+            "channel": "homepage",
+            "url": "https://www.peaureve.co.kr/?idx=c615f1cedb579a/c619c83fc815ec",
+            "evidence": "Lifting '코레지2.0에그셀핏' 메뉴 + 대표원장 '코레지2.0 공식인증센터'"
+          }
         ],
         "context": "Coreze 2.0 고주파 리프팅. 카탈로그 미등재",
         "verification_status": "verified"
@@ -384,7 +555,11 @@
         "category_guess": "스킨부스터 인젝터(MTS)",
         "mention_count": 2,
         "sources": [
-          { "channel": "homepage", "url": "https://www.peaureve.co.kr/?idx=c619b1a7c138ac/c67f61075890d0", "evidence": "SKIN Booster '미라젯포르테' 메뉴 + 이벤트 '미라젯 포르테 쥬베룩 스킨 3cc'" }
+          {
+            "channel": "homepage",
+            "url": "https://www.peaureve.co.kr/?idx=c619b1a7c138ac/c67f61075890d0",
+            "evidence": "SKIN Booster '미라젯포르테' 메뉴 + 이벤트 '미라젯 포르테 쥬베룩 스킨 3cc'"
+          }
         ],
         "context": "Mirajet Forte 제트 인젝터(약물 무바늘 주입). 카탈로그 미등재",
         "verification_status": "verified"
@@ -394,7 +569,11 @@
         "category_guess": "두피·피부 관리 장비",
         "mention_count": 2,
         "sources": [
-          { "channel": "homepage", "url": "https://www.peaureve.co.kr/?idx=c63873f2e5ce69/c6911a13b1148d", "evidence": "Premium SKIN care '힐퓨전프로' 메뉴 + 이벤트 '힐퓨전 두피 케어'" }
+          {
+            "channel": "homepage",
+            "url": "https://www.peaureve.co.kr/?idx=c63873f2e5ce69/c6911a13b1148d",
+            "evidence": "Premium SKIN care '힐퓨전프로' 메뉴 + 이벤트 '힐퓨전 두피 케어'"
+          }
         ],
         "context": "힐퓨전프로 관리 장비. 카탈로그 미등재",
         "verification_status": "verified"
@@ -407,8 +586,19 @@
       "category": "패키지 이벤트",
       "product_name": "엘라비에 리투오",
       "equipment_name": "온다; 울쎄라피 프라임",
-      "price": { "text": "모발 200만 / 눈밑 135만 / 목 125만 / 바디 90만", "low": 900000, "high": 2000000, "unit": "패키지(부위)", "currency": "KRW", "is_event_price": true },
-      "package": { "sessions": null, "duration_months": null, "event_period": "2026-06-01 ~ 2026-06-30" },
+      "price": {
+        "text": "모발 200만 / 눈밑 135만 / 목 125만 / 바디 90만",
+        "low": 900000,
+        "high": 2000000,
+        "unit": "패키지(부위)",
+        "currency": "KRW",
+        "is_event_price": true
+      },
+      "package": {
+        "sessions": null,
+        "duration_months": null,
+        "event_period": "2026-06-01 ~ 2026-06-30"
+      },
       "notes": "모발(탈모 줄기세포 셀레브+힐퓨전 두피케어+성장인자+항산화) 200만 / 눈밑(잼버 6줄+리투오 파인) 135만 / 목(넥스킨 울쎄라200+넥레브+스킨보톡스) 125만 / 바디(온다 100KJ) 90만. VAT별도. 이미지 vision 판독",
       "source_page": "https://www.peaureve.co.kr/?idx=c615f24af2c296/c61adc709db3c1",
       "verification_status": "verified"
@@ -418,8 +608,19 @@
       "category": "리프팅 이벤트",
       "product_name": null,
       "equipment_name": "온다",
-      "price": { "text": "온다 80kj 1회 65만 / 3+1회 195만 / +풀페이스 REVE주사 3회 정상285만→245만", "low": 650000, "high": 2450000, "unit": "kj(회/패키지)", "currency": "KRW", "is_event_price": true },
-      "package": { "sessions": 3, "duration_months": null, "event_period": "2026-06-01 ~ 2026-06-30" },
+      "price": {
+        "text": "온다 80kj 1회 65만 / 3+1회 195만 / +풀페이스 REVE주사 3회 정상285만→245만",
+        "low": 650000,
+        "high": 2450000,
+        "unit": "kj(회/패키지)",
+        "currency": "KRW",
+        "is_event_price": true
+      },
+      "package": {
+        "sessions": 3,
+        "duration_months": null,
+        "event_period": "2026-06-01 ~ 2026-06-30"
+      },
       "notes": "VAT별도. 이미지 vision 판독",
       "source_page": "https://www.peaureve.co.kr/?idx=c615f24af2c296/c61adc709db3c1",
       "verification_status": "verified"
@@ -429,8 +630,19 @@
       "category": "리프팅 이벤트",
       "product_name": "엘라비에 리투오; 쥬베룩 볼륨",
       "equipment_name": "올타이트",
-      "price": { "text": "400샷 1회 60만 / 3회 150만 / 400샷+리투오6cc+쥬베룩볼륨4cc 170만", "low": 600000, "high": 1700000, "unit": "샷(회/패키지)", "currency": "KRW", "is_event_price": true },
-      "package": { "sessions": 3, "duration_months": null, "event_period": "2026-06-01 ~ 2026-06-30" },
+      "price": {
+        "text": "400샷 1회 60만 / 3회 150만 / 400샷+리투오6cc+쥬베룩볼륨4cc 170만",
+        "low": 600000,
+        "high": 1700000,
+        "unit": "샷(회/패키지)",
+        "currency": "KRW",
+        "is_event_price": true
+      },
+      "package": {
+        "sessions": 3,
+        "duration_months": null,
+        "event_period": "2026-06-01 ~ 2026-06-30"
+      },
       "notes": "VAT별도. 이미지 vision 판독",
       "source_page": "https://www.peaureve.co.kr/?idx=c615f24af2c296/c61adc709db3c1",
       "verification_status": "verified"
@@ -440,8 +652,19 @@
       "category": "리프팅 이벤트",
       "product_name": "엘라비에 리투오",
       "equipment_name": "울쎄라피 프라임",
-      "price": { "text": "100샷당 39만 / 300샷+리브윤곽주사 97만 / 400샷+실루엣소프트2줄(또는 에피티콘8줄/볼륨잼버실6줄) 220만", "low": 390000, "high": 2200000, "unit": "샷(패키지)", "currency": "KRW", "is_event_price": true },
-      "package": { "sessions": null, "duration_months": null, "event_period": "2026-06-01 ~ 2026-06-30" },
+      "price": {
+        "text": "100샷당 39만 / 300샷+리브윤곽주사 97만 / 400샷+실루엣소프트2줄(또는 에피티콘8줄/볼륨잼버실6줄) 220만",
+        "low": 390000,
+        "high": 2200000,
+        "unit": "샷(패키지)",
+        "currency": "KRW",
+        "is_event_price": true
+      },
+      "package": {
+        "sessions": null,
+        "duration_months": null,
+        "event_period": "2026-06-01 ~ 2026-06-30"
+      },
       "notes": "연고or수면마취 택1. VAT별도. 이미지 vision 판독",
       "source_page": "https://www.peaureve.co.kr/?idx=c615f24af2c296/c61adc709db3c1",
       "verification_status": "verified"
@@ -451,8 +674,19 @@
       "category": "리프팅 이벤트",
       "product_name": null,
       "equipment_name": "티타늄",
-      "price": { "text": "80kj 신규체험 1회 80만 / 베이직 3회 정상230만→200만 / 스탠다드 3회 정상280만→250만", "low": 800000, "high": 2500000, "unit": "kj(회/패키지)", "currency": "KRW", "is_event_price": true },
-      "package": { "sessions": 3, "duration_months": null, "event_period": "2026-06-01 ~ 2026-06-30" },
+      "price": {
+        "text": "80kj 신규체험 1회 80만 / 베이직 3회 정상230만→200만 / 스탠다드 3회 정상280만→250만",
+        "low": 800000,
+        "high": 2500000,
+        "unit": "kj(회/패키지)",
+        "currency": "KRW",
+        "is_event_price": true
+      },
+      "package": {
+        "sessions": 3,
+        "duration_months": null,
+        "event_period": "2026-06-01 ~ 2026-06-30"
+      },
       "notes": "Stacking+SHR 2가지 모드+HiLdm+콜라겐리프팅부스터. VAT별도. 이미지 vision 판독",
       "source_page": "https://www.peaureve.co.kr/?idx=c615f24af2c296/c61adc709db3c1",
       "verification_status": "verified"
@@ -462,8 +696,19 @@
       "category": "리프팅 이벤트",
       "product_name": "엘라비에 리투오; 리쥬란 힐러; 리쥬란 아이; 쥬베룩",
       "equipment_name": "써마지 FLX",
-      "price": { "text": "아이225샷+코레지글러브+아이리쥬란+눈가보톡스 130만 / 300샷+리쥬란2cc+스킨보톡스 190만 / 600샷+리쥬란 or 쥬베룩스킨 250만 / 600샷+리투오6cc 270만", "low": 1300000, "high": 2700000, "unit": "샷(패키지)", "currency": "KRW", "is_event_price": true },
-      "package": { "sessions": null, "duration_months": null, "event_period": "2026-06-01 ~ 2026-06-30" },
+      "price": {
+        "text": "아이225샷+코레지글러브+아이리쥬란+눈가보톡스 130만 / 300샷+리쥬란2cc+스킨보톡스 190만 / 600샷+리쥬란 or 쥬베룩스킨 250만 / 600샷+리투오6cc 270만",
+        "low": 1300000,
+        "high": 2700000,
+        "unit": "샷(패키지)",
+        "currency": "KRW",
+        "is_event_price": true
+      },
+      "package": {
+        "sessions": null,
+        "duration_months": null,
+        "event_period": "2026-06-01 ~ 2026-06-30"
+      },
       "notes": "연고or수면마취 택1. VAT별도. 이미지 vision 판독",
       "source_page": "https://www.peaureve.co.kr/?idx=c615f24af2c296/c61adc709db3c1",
       "verification_status": "verified"
@@ -473,8 +718,19 @@
       "category": "스킨부스터 이벤트",
       "product_name": "리쥬란 힐러; 제오민",
       "equipment_name": null,
-      "price": { "text": "제로멍 리쥬란 2cc 30만 / 제로멍 스킨보톡스 국산 30만·제오민 50만 / 제로멍 스페셜 리쥬란 3cc 1회 45만·3회 120만", "low": 300000, "high": 1200000, "unit": "cc(회/패키지)", "currency": "KRW", "is_event_price": true },
-      "package": { "sessions": 3, "duration_months": null, "event_period": "2026-06-01 ~ 2026-06-30" },
+      "price": {
+        "text": "제로멍 리쥬란 2cc 30만 / 제로멍 스킨보톡스 국산 30만·제오민 50만 / 제로멍 스페셜 리쥬란 3cc 1회 45만·3회 120만",
+        "low": 300000,
+        "high": 1200000,
+        "unit": "cc(회/패키지)",
+        "currency": "KRW",
+        "is_event_price": true
+      },
+      "package": {
+        "sessions": 3,
+        "duration_months": null,
+        "event_period": "2026-06-01 ~ 2026-06-30"
+      },
       "notes": "포레브 단독 마이크로니들 제로멍. VAT별도. 이미지 vision 판독",
       "source_page": "https://www.peaureve.co.kr/?idx=c615f24af2c296/c61adc709db3c1",
       "verification_status": "verified"
@@ -484,8 +740,19 @@
       "category": "스킨부스터 이벤트",
       "product_name": "엘라비에 리투오; 힐로웨이브; 쥬베룩; 쥬베룩 볼륨; 울트라콜 200; 리쥬란 아이",
       "equipment_name": "미라젯 포르테",
-      "price": { "text": "엘라비에 리투오 80만/210만 · 리투오 파인 60만/160만 · 힐로웨이브 2cc 45만 · 미라젯 쥬베룩스킨 3cc 45만/190만 · 쥬베룩 볼륨 1cc당 13만 · 쥬베룩 볼륨 풀페이스 6cc 55만/135만 · 울트라콜200 눈밑 35만/90만 · 아이리쥬란 1cc 25만", "low": 130000, "high": 2100000, "unit": "cc/회(품목별)", "currency": "KRW", "is_event_price": true },
-      "package": { "sessions": null, "duration_months": null, "event_period": "2026-06-01 ~ 2026-06-30" },
+      "price": {
+        "text": "엘라비에 리투오 80만/210만 · 리투오 파인 60만/160만 · 힐로웨이브 2cc 45만 · 미라젯 쥬베룩스킨 3cc 45만/190만 · 쥬베룩 볼륨 1cc당 13만 · 쥬베룩 볼륨 풀페이스 6cc 55만/135만 · 울트라콜200 눈밑 35만/90만 · 아이리쥬란 1cc 25만",
+        "low": 130000,
+        "high": 2100000,
+        "unit": "cc/회(품목별)",
+        "currency": "KRW",
+        "is_event_price": true
+      },
+      "package": {
+        "sessions": null,
+        "duration_months": null,
+        "event_period": "2026-06-01 ~ 2026-06-30"
+      },
       "notes": "콜라겐센터 스킨부스터 다수. VAT별도. 이미지 vision 판독(쥬베룩 볼륨 1cc당 13만은 신규체험가)",
       "source_page": "https://www.peaureve.co.kr/?idx=c615f24af2c296/c61adc709db3c1",
       "verification_status": "verified"
@@ -495,8 +762,19 @@
       "category": "리프팅 이벤트",
       "product_name": "잼버실 / D-잼버실 / 실루엣소프트 / 에피티콘 / 디자인실리프팅",
       "equipment_name": null,
-      "price": { "text": "잼버실 4줄 65만/6줄 90만 / D-잼버실 6줄 120만/8줄 150만", "low": 650000, "high": 1500000, "unit": "줄", "currency": "KRW", "is_event_price": true },
-      "package": { "sessions": null, "duration_months": null, "event_period": "2026-06-01 ~ 2026-06-30" },
+      "price": {
+        "text": "잼버실 4줄 65만/6줄 90만 / D-잼버실 6줄 120만/8줄 150만",
+        "low": 650000,
+        "high": 1500000,
+        "unit": "줄",
+        "currency": "KRW",
+        "is_event_price": true
+      },
+      "package": {
+        "sessions": null,
+        "duration_months": null,
+        "event_period": "2026-06-01 ~ 2026-06-30"
+      },
       "notes": "실리프팅 봉합사(잼버실 앞광대/팔자/눈밑, D-잼버실 심부볼/입가/턱라인). VAT별도. 이미지 vision 판독",
       "source_page": "https://www.peaureve.co.kr/?idx=c615f24af2c296/c61adc709db3c1",
       "verification_status": "verified"
@@ -547,7 +825,12 @@
     }
   ],
   "language_support": {
-    "supported_languages": ["ko", "en", "ja", "zh"],
+    "supported_languages": [
+      "ko",
+      "en",
+      "ja",
+      "zh"
+    ],
     "has_language_switcher": true,
     "foreign_language_pages": {
       "en": "https://www.cheongdamskinclinic.com/",
@@ -576,7 +859,6 @@
       "prices": true,
       "language_support": true
     },
-    "stage_costs": {},
     "notes": [
       "가격(중요·vision 분할 판독): 상시 가격표는 없고 '이달의 이벤트'의 6월 Event 상세가 812×5328 세로 초장축 이미지 1장으로만 가격을 게시함. 통째 Read 시 다운스케일로 판독 불가하여 이미지 원본 URL을 열고 폭 800px·position:fixed로 고정한 뒤 top을 1350px씩 이동시키며 4구간을 순차 vision 판독함. 추출: 탱탱 패키지(모발200/눈밑135/목125/바디90만), 온다·올타이트·울쎄라피프라임·더브이티타늄·써마지FLX 커스텀 리프팅, 제로멍 스킨부스터, 잼버실, 프리미엄 콜라겐센터 스킨부스터 다수. 이벤트 기간 2026.06.01~06.30, 모든 시술 VAT 별도.",
       "제품 매칭: 메뉴·이벤트의 명시 브랜드로 직접 매칭 10종 — 엘라비에 리투오(휴메딕스)·힐로웨이브(h/f=1)·쥬베룩·쥬베룩 볼륨(h/f=1)·리쥬란 힐러/아이/에스(파마리서치)·울트라콜 200(울트라브이, h/f=1, 사이트 '울트라콜200' 라인 명시)·래디어스(대표원장 인증센터)·제오민(이벤트 스킨보톡스 옵션). 보류(unmatched): 청담포레브 스킨부스터/글로시주사/셀피린(자체)·프리미엄 엑소좀(브랜드 미표기)·Reve필러/Reve보톡스(자체 브랜딩, 제조사 미표기)·잼버실/실루엣소프트/에피티콘(봉합사, 범위 밖)·줄기세포 셀레브/넥레브(범위 밖).",
@@ -588,6 +870,5 @@
       "채널: 유튜브(메인 임베드)·카카오톡채널·인스타그램·블로그 아이콘 존재. 명시 URL은 카카오(@청담포레브의원) 외 텍스트로 확보 안 됨(blog_url/sns_url null). 홈페이지-한정이라 외부 채널 콘텐츠 미추출.",
       "미방문/보류: SKIN Booster·VOLUME&SLIM·Signature·셀레브·SKIN Laser 등 개별 상세 페이지는 메뉴 라벨+이벤트 이미지로 핵심 제품/장비/가격이 확보되어 전수 방문 생략. SKIN Laser(색소/여드름/모공) 페이지는 구체 장비 모델명이 텍스트로 없어 장비 미상(가격도 미게시). before&after·카카오상담 게시판은 신규 정보 없어 미수집. 종료된 과거 이벤트(1~5월)는 미판독(현행 6월만 반영)."
     ]
-  },
-  "run_meta": null
+  }
 }

@@ -1,79 +1,12 @@
 from __future__ import annotations
 
-from typing import Any, Literal
+from typing import Literal
 
 from pydantic import BaseModel
 
 
 # ---------------------------------------------------------------------------
-# 입력 모델
-# ---------------------------------------------------------------------------
-
-class HospitalInput(BaseModel):
-    id: str
-    hospital_name: str
-    sido: str
-    sggu: str
-    emdong: str
-    address: str
-    longitude: float | None = None
-    latitude: float | None = None
-
-
-# ---------------------------------------------------------------------------
-# Stage 1: URL 탐색 결과
-# ---------------------------------------------------------------------------
-
-class Stage1Result(BaseModel):
-    hospital_id: str
-    homepage_url: str | None = None
-    url_source: str | None = None  # "web_search", "naver_map", "kakao_map"
-    url_confidence: Literal["high", "medium", "low"] | None = None
-    blog_url: str | None = None
-    sns_url: str | None = None
-    alternative_urls: list[str] = []
-    error: str | None = None
-
-
-# ---------------------------------------------------------------------------
-# Stage 2: 사이트맵 분석 결과
-# ---------------------------------------------------------------------------
-
-class CrawlTarget(BaseModel):
-    url: str
-    page_type: str  # "about", "doctors", "treatments", "prices", "equipment", "language"
-    expected_data: list[str] = []
-    priority: int = 1
-
-
-class Stage2Result(BaseModel):
-    hospital_id: str
-    homepage_url: str
-    crawl_targets: list[CrawlTarget] = []
-    has_language_switcher: bool = False
-    detected_languages: list[str] = []
-    error: str | None = None
-
-
-# ---------------------------------------------------------------------------
-# Stage 3: 페이지 크롤링 결과
-# ---------------------------------------------------------------------------
-
-class RawPageData(BaseModel):
-    url: str
-    page_type: str
-    raw_data: dict[str, Any] = {}
-
-
-class Stage3Result(BaseModel):
-    hospital_id: str
-    pages_crawled: int = 0
-    raw_pages: list[RawPageData] = []
-    error: str | None = None
-
-
-# ---------------------------------------------------------------------------
-# Stage 4: 최종 정규화 결과 (병원별 출력 JSON)
+# 최종 정규화 결과 (병원별 출력 JSON)
 # ---------------------------------------------------------------------------
 
 class OperatingHours(BaseModel):
@@ -212,8 +145,7 @@ class Address(BaseModel):
     sido: str | None = None
     sigungu: str | None = None
     eupmyeondong: str | None = None
-    road: str | None = None
-    detail: str | None = None
+    road_address: str | None = None  # 도로명 주소 전체(건물명·층 등 상세 포함)
     latitude: float | None = None
     longitude: float | None = None
 
@@ -232,19 +164,6 @@ class Branches(BaseModel):
     sibling_branches: list[SiblingBranch] = []
 
 
-class RunMeta(BaseModel):
-    """모델 호출 메타(비용·시간·토큰). runner 가 SDK 응답에서 주입."""
-    model: str | None = None
-    turns: int | None = None
-    total_cost_usd: float | None = None
-    input_tokens: int | None = None
-    output_tokens: int | None = None
-    cache_read_tokens: int | None = None
-    cache_write_tokens: int | None = None
-    elapsed_seconds: int | None = None
-    stream_error: str | None = None
-
-
 class CrawlCompleteness(BaseModel):
     operation_info: bool = False
     doctors: bool = False
@@ -259,10 +178,8 @@ class CrawlMetadata(BaseModel):
     pages_crawled: int = 0
     pages_visited: list[str] = []  # 실제 방문 URL 목록(sample_output 와 정합)
     crawl_method: str | None = None  # 추출 방식 설명(서버데이터/DOM/이미지 등)
-    crawl_duration_seconds: int = 0
     errors: list[str] = []
     completeness: CrawlCompleteness = CrawlCompleteness()
-    stage_costs: dict[str, float] = {}
     # 크롤링 판단 근거(가격 출처, 매칭/보류 사유, 별도 도메인·다국어 정책, 미방문 영역 등).
     # SKILL.md가 'crawl_metadata.notes는 비워두지 말 것'으로 필수 기재를 요구하므로 추가됨.
     notes: list[str] = []
@@ -290,4 +207,3 @@ class HospitalResult(BaseModel):
     treatments: list[TreatmentInfo] = []
     language_support: LanguageSupport = LanguageSupport()
     crawl_metadata: CrawlMetadata = CrawlMetadata()
-    run_meta: RunMeta | None = None
